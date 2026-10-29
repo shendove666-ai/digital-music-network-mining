@@ -1,0 +1,261 @@
+Source,Target,Weight,Relation_Type
+Ryuichi Sakamoto,Alva Noto,6,Cross-Genre Collab
+Ryuichi Sakamoto,Fennesz,4,Cross-Genre Collab
+Ryuichi Sakamoto,Yo-Yo Ma,3,Intra-Genre Collab
+Ryuichi Sakamoto,SUGA,3,Cross-Genre Collab
+Ryuichi Sakamoto,Brian Eno,4,Cross-Genre Collab
+Ryuichi Sakamoto,David Bowie,3,Cross-Genre Collab
+Ryuichi Sakamoto,Jóhann Jóhannsson,3,Intra-Genre Collab
+Ryuichi Sakamoto,Max Richter,2,Intra-Genre Collab
+Ryuichi Sakamoto,Oneohtrix Point Never,2,Cross-Genre Collab
+Ryuichi Sakamoto,William Basinski,2,Cross-Genre Collab
+Ryuichi Sakamoto,Hildur Guðnadóttir,2,Intra-Genre Collab
+Ryuichi Sakamoto,Joe Hisaishi,2,Intra-Genre Collab
+Ryuichi Sakamoto,Tan Dun,2,Intra-Genre Collab
+Yo-Yo Ma,John Williams,6,Intra-Genre Collab
+Yo-Yo Ma,Itzhak Perlman,5,Intra-Genre Collab
+Yo-Yo Ma,Ennio Morricone,4,Intra-Genre Collab
+Yo-Yo Ma,Herbie Hancock,4,Cross-Genre Collab
+Yo-Yo Ma,Chris Botti,4,Cross-Genre Collab
+Yo-Yo Ma,Sting,3,Cross-Genre Collab
+Yo-Yo Ma,Diana Krall,3,Cross-Genre Collab
+Yo-Yo Ma,Quincy Jones,3,Cross-Genre Collab
+Yo-Yo Ma,Lang Lang,3,Intra-Genre Collab
+Yo-Yo Ma,Gustavo Dudamel,4,Intra-Genre Collab
+Yo-Yo Ma,Yuja Wang,2,Intra-Genre Collab
+Yo-Yo Ma,Gautier Capuçon,3,Intra-Genre Collab
+Yo-Yo Ma,Philip Glass,3,Intra-Genre Collab
+Yo-Yo Ma,Kronos Quartet,2,Intra-Genre Collab
+Yo-Yo Ma,Jacob Collier,2,Cross-Genre Collab
+Hans Zimmer,Pharrell Williams,5,Cross-Genre Collab
+Hans Zimmer,HAUSER,3,Cross-Genre Collab
+Hans Zimmer,Billie Eilish,4,Cross-Genre Collab
+Hans Zimmer,FINNEAS,3,Cross-Genre Collab
+Hans Zimmer,Alicia Keys,3,Cross-Genre Collab
+Hans Zimmer,Kendrick Lamar,2,Cross-Genre Collab
+Hans Zimmer,Ben Frost,2,Intra-Genre Collab
+Lang Lang,John Legend,4,Cross-Genre Collab
+Lang Lang,Coldplay,3,Cross-Genre Collab
+Lang Lang,PSY,3,Cross-Genre Collab
+Max Richter,Hilary Hahn,5,Intra-Genre Collab
+Max Richter,Mari Samuelsen,6,Intra-Genre Collab
+Max Richter,Bonobo,2,Cross-Genre Collab
+Max Richter,Ólafur Arnalds,4,Intra-Genre Collab
+Max Richter,Nils Frahm,3,Intra-Genre Collab
+Max Richter,Steve Reich,2,Intra-Genre Collab
+Max Richter,Peter Gregson,4,Intra-Genre Collab
+Max Richter,Dustin O'Halloran,3,Intra-Genre Collab
+Max Richter,Ludovico Einaudi,3,Intra-Genre Collab
+Max Richter,Víkingur Ólafsson,3,Intra-Genre Collab
+Ólafur Arnalds,Alice Sara Ott,5,Intra-Genre Collab
+Ólafur Arnalds,Kiasmos,6,Cross-Genre Collab
+Ólafur Arnalds,Hania Rani,4,Intra-Genre Collab
+Ólafur Arnalds,Rival Consoles,4,Cross-Genre Collab
+Ólafur Arnalds,Christian Löffler,3,Cross-Genre Collab
+Ólafur Arnalds,Jon Hopkins,3,Cross-Genre Collab
+Nils Frahm,Four Tet,3,Cross-Genre Collab
+Nils Frahm,Hausckha,3,Intra-Genre Collab
+Philip Glass,Aphex Twin,4,Cross-Genre Collab
+Philip Glass,Thom Yorke,3,Cross-Genre Collab
+Steve Reich,Jonny Greenwood,4,Cross-Genre Collab
+Steve Reich,Radiohead,3,Cross-Genre Collab
+Steve Reich,Pat Metheny,4,Cross-Genre Collab
+Hildur Guðnadóttir,Tim Hecker,3,Cross-Genre Collab
+Khatia Buniatishvili,Coldplay,4,Cross-Genre Collab
+Brian Eno,U2,6,Cross-Genre Collab
+Brian Eno,Peter Gabriel,4,Cross-Genre Collab
+Brian Eno,Nils Petter Molvær,3,Cross-Genre Collab
+Jon Hopkins,Floating Points,4,Intra-Genre Collab
+Jon Hopkins,Moderat,3,Intra-Genre Collab
+Four Tet,Caribou,5,Intra-Genre Collab
+Four Tet,Jamie xx,5,Intra-Genre Collab
+Four Tet,Bicep,3,Intra-Genre Collab
+Floating Points,Pharoah Sanders,6,Cross-Genre Collab
+Floating Points,Shabaka Hutchings,3,Cross-Genre Collab
+Floating Points,Kamasi Washington,2,Cross-Genre Collab
+Alva Noto,Autechre,3,Intra-Genre Collab
+Aphex Twin,Squarepusher,5,Intra-Genre Collab
+Aphex Twin,Boards of Canada,4,Intra-Genre Collab
+Oneohtrix Point Never,The Weeknd,6,Cross-Genre Collab
+Oneohtrix Point Never,Arca,3,Intra-Genre Collab
+Oneohtrix Point Never,Nicolas Jaar,3,Intra-Genre Collab
+Arca,Björk,6,Cross-Genre Collab
+Arca,Rosalía,5,Cross-Genre Collab
+Bonobo,Tom Misch,3,Cross-Genre Collab
+Moderat,Apparat,6,Intra-Genre Collab
+Bicep,Disclosure,4,Intra-Genre Collab
+Jamie xx,Flume,3,Intra-Genre Collab
+Disclosure,Anderson .Paak,4,Cross-Genre Collab
+Disclosure,Kaytranada,5,Intra-Genre Collab
+Kaytranada,Robert Glasper,5,Cross-Genre Collab
+Kaytranada,Thundercat,4,Cross-Genre Collab
+Kaytranada,BADBADNOTGOOD,5,Cross-Genre Collab
+Kaytranada,Beyoncé,4,Cross-Genre Collab
+Kaytranada,Flying Lotus,4,Intra-Genre Collab
+Herbie Hancock,Wayne Shorter,6,Intra-Genre Collab
+Herbie Hancock,Chick Corea,6,Intra-Genre Collab
+Herbie Hancock,Norah Jones,4,Intra-Genre Collab
+Herbie Hancock,Esperanza Spalding,4,Intra-Genre Collab
+Herbie Hancock,Wynton Marsalis,4,Intra-Genre Collab
+Quincy Jones,Ibrahim Maalouf,4,Intra-Genre Collab
+Robert Glasper,Christian Scott aTunde Adjuah,5,Intra-Genre Collab
+Robert Glasper,Cory Henry,4,Intra-Genre Collab
+Robert Glasper,Yussef Dayes,3,Intra-Genre Collab
+Jacob Collier,BTS,4,Cross-Genre Collab
+Jacob Collier,Snarky Puppy,6,Intra-Genre Collab
+Chick Corea,Hiromi,5,Intra-Genre Collab
+Chick Corea,Brad Mehldau,4,Intra-Genre Collab
+Brad Mehldau,Tigran Hamasyan,4,Intra-Genre Collab
+Wynton Marsalis,Gregory Porter,3,Intra-Genre Collab
+Ibrahim Maalouf,Erik Truffaz,4,Intra-Genre Collab
+Yussef Dayes,Alfa Mist,5,Intra-Genre Collab
+BTS,RM,6,Intra-Genre Collab
+BTS,Jungkook,6,Intra-Genre Collab
+SUGA,IU,6,Intra-Genre Collab
+SUGA,Epik High,5,Intra-Genre Collab
+BLACKPINK,Lady Gaga,5,Intra-Genre Collab
+Beyoncé,Bruno Mars,4,Intra-Genre Collab
+The Weeknd,Daft Punk,6,Intra-Genre Collab
+Yo-Yo Ma,Tan Dun,4,Intra-Genre Collab
+Hans Zimmer,Jóhann Jóhannsson,3,Cross-Genre Collab
+Hans Zimmer,John Williams,3,Cross-Genre Collab
+Hans Zimmer,Gustavo Dudamel,3,Cross-Genre Collab
+Lang Lang,Pharrell Williams,4,Cross-Genre Collab
+Lang Lang,Alicia Keys,3,Cross-Genre Collab
+Lang Lang,Itzhak Perlman,3,Intra-Genre Collab
+Lang Lang,Joe Hisaishi,3,Intra-Genre Collab
+Lang Lang,HAUSER,2,Intra-Genre Collab
+Lang Lang,Yuja Wang,2,Intra-Genre Collab
+Lang Lang,Gautier Capuçon,3,Intra-Genre Collab
+Ólafur Arnalds,Mari Samuelsen,3,Intra-Genre Collab
+Ólafur Arnalds,Víkingur Ólafsson,3,Intra-Genre Collab
+Nils Frahm,Fennesz,3,Cross-Genre Collab
+Nils Frahm,Rival Consoles,5,Cross-Genre Collab
+Nils Frahm,Kiasmos,4,Cross-Genre Collab
+Nils Frahm,Hania Rani,4,Intra-Genre Collab
+Nils Frahm,Dustin O'Halloran,3,Intra-Genre Collab
+Nils Frahm,Peter Gregson,3,Intra-Genre Collab
+Ludovico Einaudi,Alva Noto,3,Cross-Genre Collab
+Philip Glass,Kronos Quartet,6,Intra-Genre Collab
+Philip Glass,David Bowie,4,Cross-Genre Collab
+Kronos Quartet,Pat Metheny,3,Cross-Genre Collab
+Hildur Guðnadóttir,Hausckha,4,Intra-Genre Collab
+Hildur Guðnadóttir,Ben Frost,4,Cross-Genre Collab
+Hilary Hahn,Hausckha,4,Intra-Genre Collab
+Yuja Wang,Alice Sara Ott,3,Intra-Genre Collab
+Khatia Buniatishvili,Gustavo Dudamel,3,Intra-Genre Collab
+John Williams,Ennio Morricone,3,Intra-Genre Collab
+Hania Rani,Christian Löffler,3,Cross-Genre Collab
+Brian Eno,William Basinski,3,Intra-Genre Collab
+Brian Eno,Tim Hecker,2,Intra-Genre Collab
+Four Tet,Thom Yorke,4,Cross-Genre Collab
+Floating Points,Caribou,4,Intra-Genre Collab
+Aphex Twin,Autechre,5,Intra-Genre Collab
+Boards of Canada,Autechre,4,Intra-Genre Collab
+Moderat,Nicolas Jaar,3,Intra-Genre Collab
+Apparat,Christian Löffler,3,Intra-Genre Collab
+Disclosure,Flume,4,Intra-Genre Collab
+Kaytranada,Anderson .Paak,6,Cross-Genre Collab
+Flying Lotus,Thundercat,6,Cross-Genre Collab
+Flying Lotus,Kendrick Lamar,6,Cross-Genre Collab
+Flying Lotus,Kamasi Washington,6,Cross-Genre Collab
+Flying Lotus,Squarepusher,3,Intra-Genre Collab
+Flying Lotus,BADBADNOTGOOD,4,Cross-Genre Collab
+Herbie Hancock,John Legend,4,Cross-Genre Collab
+Herbie Hancock,Sting,4,Cross-Genre Collab
+Herbie Hancock,Chris Botti,3,Intra-Genre Collab
+Quincy Jones,Diana Krall,3,Intra-Genre Collab
+Robert Glasper,Norah Jones,4,Intra-Genre Collab
+Robert Glasper,Esperanza Spalding,4,Intra-Genre Collab
+Kamasi Washington,Shabaka Hutchings,4,Intra-Genre Collab
+Kamasi Washington,Pharoah Sanders,4,Intra-Genre Collab
+Kamasi Washington,Christian Scott aTunde Adjuah,4,Intra-Genre Collab
+Jacob Collier,Cory Henry,5,Intra-Genre Collab
+Jacob Collier,FINNEAS,3,Cross-Genre Collab
+Chick Corea,Wayne Shorter,5,Intra-Genre Collab
+Diana Krall,Gregory Porter,3,Intra-Genre Collab
+Snarky Puppy,Cory Henry,6,Intra-Genre Collab
+Snarky Puppy,Hiromi,3,Intra-Genre Collab
+Hiromi,Tigran Hamasyan,3,Intra-Genre Collab
+Ibrahim Maalouf,Nils Petter Molvær,3,Intra-Genre Collab
+Erik Truffaz,Nils Petter Molvær,5,Intra-Genre Collab
+Yussef Dayes,Tom Misch,6,Intra-Genre Collab
+Tom Misch,Alfa Mist,5,Intra-Genre Collab
+SUGA,PSY,5,Intra-Genre Collab
+SUGA,RM,5,Intra-Genre Collab
+SUGA,Jungkook,5,Intra-Genre Collab
+RM,Epik High,5,Intra-Genre Collab
+RM,IU,4,Intra-Genre Collab
+BLACKPINK,Rosalía,4,Intra-Genre Collab
+Coldplay,U2,4,Intra-Genre Collab
+Coldplay,Radiohead,3,Intra-Genre Collab
+Beyoncé,Lady Gaga,5,Intra-Genre Collab
+Pharrell Williams,Daft Punk,6,Intra-Genre Collab
+Pharrell Williams,Bruno Mars,4,Intra-Genre Collab
+Björk,Thom Yorke,5,Intra-Genre Collab
+Radiohead,Jonny Greenwood,6,Intra-Genre Collab
+David Bowie,Peter Gabriel,4,Intra-Genre Collab
+Billie Eilish,FINNEAS,6,Intra-Genre Collab
+Lang Lang,Tan Dun,4,Intra-Genre Collab
+Max Richter,Jóhann Jóhannsson,4,Intra-Genre Collab
+Ólafur Arnalds,Bonobo,4,Cross-Genre Collab
+Ludovico Einaudi,Brian Eno,3,Cross-Genre Collab
+Ludovico Einaudi,HAUSER,3,Intra-Genre Collab
+Ludovico Einaudi,Gautier Capuçon,3,Intra-Genre Collab
+Ludovico Einaudi,Mari Samuelsen,3,Intra-Genre Collab
+Ludovico Einaudi,Dustin O'Halloran,3,Intra-Genre Collab
+Ludovico Einaudi,Peter Gregson,2,Intra-Genre Collab
+Philip Glass,Víkingur Ólafsson,4,Intra-Genre Collab
+Jóhann Jóhannsson,Ben Frost,4,Cross-Genre Collab
+Hilary Hahn,Gustavo Dudamel,4,Intra-Genre Collab
+Khatia Buniatishvili,Gautier Capuçon,3,Intra-Genre Collab
+John Williams,Itzhak Perlman,6,Intra-Genre Collab
+Ennio Morricone,HAUSER,3,Intra-Genre Collab
+Joe Hisaishi,John Williams,2,Intra-Genre Collab
+Alice Sara Ott,Víkingur Ólafsson,3,Intra-Genre Collab
+Brian Eno,Fennesz,3,Intra-Genre Collab
+Jon Hopkins,Rival Consoles,3,Intra-Genre Collab
+Alva Noto,William Basinski,3,Intra-Genre Collab
+Boards of Canada,Tim Hecker,3,Intra-Genre Collab
+Arca,The Weeknd,3,Cross-Genre Collab
+Bonobo,Kiasmos,4,Intra-Genre Collab
+Bonobo,Caribou,4,Intra-Genre Collab
+Bicep,Jamie xx,4,Intra-Genre Collab
+Herbie Hancock,Pat Metheny,5,Intra-Genre Collab
+Herbie Hancock,Thundercat,5,Intra-Genre Collab
+Herbie Hancock,Kendrick Lamar,4,Cross-Genre Collab
+Quincy Jones,Wynton Marsalis,4,Intra-Genre Collab
+Robert Glasper,Anderson .Paak,5,Cross-Genre Collab
+Robert Glasper,John Legend,4,Cross-Genre Collab
+Thundercat,BADBADNOTGOOD,4,Intra-Genre Collab
+Jacob Collier,Alicia Keys,4,Cross-Genre Collab
+Chick Corea,Esperanza Spalding,3,Intra-Genre Collab
+Pat Metheny,Brad Mehldau,5,Intra-Genre Collab
+Wayne Shorter,Esperanza Spalding,6,Intra-Genre Collab
+Wayne Shorter,Norah Jones,4,Intra-Genre Collab
+Chris Botti,Sting,6,Cross-Genre Collab
+Gregory Porter,Disclosure,5,Cross-Genre Collab
+Erik Truffaz,Apparat,3,Cross-Genre Collab
+Pharoah Sanders,Shabaka Hutchings,4,Intra-Genre Collab
+Jungkook,The Weeknd,3,Intra-Genre Collab
+IU,Epik High,5,Intra-Genre Collab
+IU,PSY,4,Intra-Genre Collab
+BLACKPINK,Pharrell Williams,3,Intra-Genre Collab
+Kendrick Lamar,U2,4,Intra-Genre Collab
+The Weeknd,Rosalía,5,Intra-Genre Collab
+The Weeknd,Nicolas Jaar,4,Cross-Genre Collab
+Daft Punk,Herbie Hancock,3,Cross-Genre Collab
+Björk,Rosalía,5,Intra-Genre Collab
+Thom Yorke,Jonny Greenwood,6,Intra-Genre Collab
+U2,Peter Gabriel,4,Intra-Genre Collab
+Anderson .Paak,Bruno Mars,6,Intra-Genre Collab
+Billie Eilish,Rosalía,5,Intra-Genre Collab
+Brian Eno,David Bowie,6,Cross-Genre Collab
+Robert Glasper,Kendrick Lamar,6,Cross-Genre Collab
+Kamasi Washington,Kendrick Lamar,6,Cross-Genre Collab
+Thundercat,Kendrick Lamar,6,Cross-Genre Collab
+Jacob Collier,Coldplay,6,Cross-Genre Collab
+Lang Lang,Herbie Hancock,5,Cross-Genre Collab
+Brian Eno,Coldplay,5,Cross-Genre Collab
+Jon Hopkins,Coldplay,5,Cross-Genre Collab
+Flying Lotus,Herbie Hancock,5,Cross-Genre Collab

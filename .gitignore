@@ -1,0 +1,74 @@
+# ==============================================================================
+# Enterprise .gitignore for Complex Network Mining & Computational Social Science
+# ==============================================================================
+
+# 1. Byte-compiled / optimized / DLL files & Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 2. Virtual Environments & Packaging
+venv/
+.venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 3. IDE, Editor & OS Workspace Artifacts (Strictly Excluded)
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# 4. Jupyter Notebook Checkpoints & Scratchpads
+.ipynb_checkpoints
+*.ipynb
+scratch/
+tmp/
+temp/
+
+# 5. Gephi Binary Project Workspaces & Lock Files
+# Note: Track clean .gexf topology exports and final high-res .png/.jpg/.svg figures,
+# but exclude proprietary binary .gephi workspace states and autosave backups.
+*.gephi
+*.gephi~
+*.gephi.bak
+*.lock
+
+# 6. Legacy Prototype & Unversioned Intermediate Outputs
+music_network.gexf
+music_network_metrics.csv
+*.log
+
+# 7. Environment Variables & API Credentials (Spotify / MusicBrainz / Last.fm APIs)
+.env
+.env.local
+*.pem
+*.key
+secrets.yaml
+credentials.json
