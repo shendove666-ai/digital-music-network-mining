@@ -24,7 +24,7 @@ Description:
          hand-curated links without album citations).
     2. Computational Social Science & Complex Network Metrics:
        - Classical Centralities: Degree, Normalized Degree Centrality,
-         Weighted Betweenness Centrality, and Closeness Centrality.
+         Betweenness centrality with distance = 1/intensity, and unweighted closeness centrality.
        - Local Transitivity: Unweighted and Weighted Clustering Coefficients.
        - Community Structure: Blondel et al.'s Louvain Modularity Optimization
          (`Modularity_Class` assignment and global Modularity Q evaluation).
@@ -338,13 +338,18 @@ def compute_closeness_centrality(G: Any) -> Dict[str, float]:
 
 def compute_betweenness_centrality(G: Any, weight: str = "weight") -> Dict[str, float]:
     """
-    Computes normalized weighted betweenness centrality using Brandes' (2001)
-    shortest-path dependency accumulation algorithm. Follow NetworkX convention
-    where the 'weight' attribute is interpreted as path distance cost unless
-    inverted, matching standard `nx.betweenness_centrality(G, weight='weight')`.
+    Normalized betweenness using Brandes' algorithm.
+
+    The stored edge attribute is collaboration intensity, so a larger value is a
+    stronger tie. Shortest paths use distance = 1 / intensity. Constraint,
+    effective size, and Louvain modularity still read the original intensity.
     """
     if HAS_NETWORKX and isinstance(G, nx.Graph):
-        return nx.betweenness_centrality(G, weight=weight, normalized=True)
+        distance_graph = G.copy()
+        for u, v, data in distance_graph.edges(data=True):
+            strength = float(data.get(weight, 1.0))
+            data["distance"] = 1.0 / strength if strength > 0.0 else 1.0
+        return nx.betweenness_centrality(distance_graph, weight="distance", normalized=True)
 
     nodes = G.nodes()
     n = len(nodes)
@@ -372,7 +377,8 @@ def compute_betweenness_centrality(G: Any, weight: str = "weight") -> Dict[str, 
             stack.append(v)
             dist[v] = d
             for w in G.neighbors(v):
-                ew = float(G.get_edge_data(v, w).get(weight, 1.0))
+                strength = float(G.get_edge_data(v, w).get(weight, 1.0))
+                ew = 1.0 / strength if strength > 0.0 else 1.0
                 vw_dist = d + ew
                 if w not in dist and (w not in seen or vw_dist < seen[w] - 1e-12):
                     seen[w] = vw_dist

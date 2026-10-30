@@ -1,0 +1,3832 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-10-30">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="10" title="relation" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="genre" type="string" />
+      <attribute id="1" title="role" type="string" />
+      <attribute id="2" title="Degree" type="long" />
+      <attribute id="3" title="Degree_Centrality" type="double" />
+      <attribute id="4" title="Betweenness_Centrality" type="double" />
+      <attribute id="5" title="Closeness_Centrality" type="double" />
+      <attribute id="6" title="Clustering_Coefficient" type="double" />
+      <attribute id="7" title="Modularity_Class" type="long" />
+      <attribute id="8" title="Constraint" type="double" />
+      <attribute id="9" title="Effective_Size" type="double" />
+    </attributes>
+    <nodes>
+      <node id="CLS_Artist_01" label="CLS_Artist_01">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Genre Hub" />
+          <attvalue for="2" value="17" />
+          <attvalue for="3" value="0.1429" />
+          <attvalue for="4" value="0.0915" />
+          <attvalue for="5" value="0.3802" />
+          <attvalue for="6" value="0.1765" />
+          <attvalue for="7" value="1" />
+          <attvalue for="8" value="0.1124" />
+          <attvalue for="9" value="15.8241" />
+        </attvalues>
+      </node>
+      <node id="CLS_Artist_02" label="CLS_Artist_02">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Genre Hub" />
+          <attvalue for="2" value="15" />
+          <attvalue for="3" value="0.1261" />
+          <attvalue for="4" value="0.0832" />
+          <attvalue for="5" value="0.3449" />
+          <attvalue for="6" value="0.1619" />
+          <attvalue for="7" value="1" />
+          <attvalue for="8" value="0.1127" />
+          <attvalue for="9" value="14.081" />
+        </attvalues>
+      </node>
+      <node id="CLS_Artist_03" label="CLS_Artist_03">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="0.042" />
+          <attvalue for="4" value="0.0001" />
+          <attvalue for="5" value="0.3296" />
+          <attvalue for="6" value="0.4" />
+          <attvalue for="7" value="1" />
+          <attvalue for="8" value="0.417" />
+          <attvalue for="9" value="3.5641" />
+        </attvalues>
+      </node>
+      <node id="CLS_Artist_04" label="CLS_Artist_04">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="0.0336" />
+          <attvalue for="4" value="0.0018" />
+          <attvalue for="5" value="0.2968" />
+          <attvalue for="6" value="0.3333" />
+          <attvalue for="7" value="1" />
+          <attvalue for="8" value="0.3287" />
+          <attvalue for="9" value="3.3944" />
+        </attvalues>
+      </node>
+      <node id="CLS_Artist_05" label="CLS_Artist_05">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="9" />
+          <attvalue for="3" value="0.0756" />
+          <attvalue for="4" value="0.0055" />
+          <attvalue for="5" value="0.3617" />
+          <attvalue for="6" value="0.2778" />
+          <attvalue for="7" value="1" />
+          <attvalue for="8" value="0.2033" />
+          <attvalue for="9" value="7.2917" />
+        </attvalues>
+      </node>
+      <node id="CLS_Artist_06" label="CLS_Artist_06">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="7" />
+          <attvalue for="3" value="0.0588" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.339" />
+          <attvalue for="6" value="0.3333" />
+          <attvalue for="7" value="1" />
+          <attvalue for="8" value="0.3387" />
+          <attvalue for="9" value="5.5062" />
+        </attvalues>
+      </node>
+      <node id="CLS_Artist_07" label="CLS_Artist_07">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="6" />
+          <attvalue for="3" value="0.0504" />
+          <attvalue for="4" value="0.0001" />
+          <attvalue for="5" value="0.3287" />
+          <attvalue for="6" value="0.3333" />
+          <attvalue for="7" value="1" />
+          <attvalue for="8" value="0.2827" />
+          <attvalue for="9" value="4.881" />
+        </attvalues>
+      </node>
+      <node id="CLS_Artist_08" label="CLS_Artist_08">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="6" />
+          <attvalue for="3" value="0.0504" />
+          <attvalue for="4" value="0.047" />
+          <attvalue for="5" value="0.342" />
+          <attvalue for="6" value="0.2667" />
+          <attvalue for="7" value="1" />
+          <attvalue for="8" value="0.2291" />
+          <attvalue for="9" value="5.2778" />
+        </attvalues>
+      </node>
+      <node id="CLS_Artist_09" label="CLS_Artist_09">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="6" />
+          <attvalue for="3" value="0.0504" />
+          <attvalue for="4" value="0.0002" />
+          <attvalue for="5" value="0.341" />
+          <attvalue for="6" value="0.2667" />
+          <attvalue for="7" value="1" />
+          <attvalue for="8" value="0.2571" />
+          <attvalue for="9" value="5.2583" />
+        </attvalues>
+      </node>
+      <node id="CLS_Artist_10" label="CLS_Artist_10">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="0.042" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.3362" />
+          <attvalue for="6" value="0.4" />
+          <attvalue for="7" value="1" />
+          <attvalue for="8" value="0.339" />
+          <attvalue for="9" value="3.4722" />
+        </attvalues>
+      </node>
+      <node id="CLS_Artist_11" label="CLS_Artist_11">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="9" />
+          <attvalue for="3" value="0.0756" />
+          <attvalue for="4" value="0.0908" />
+          <attvalue for="5" value="0.3864" />
+          <attvalue for="6" value="0.25" />
+          <attvalue for="7" value="1" />
+          <attvalue for="8" value="0.197" />
+          <attvalue for="9" value="7.6303" />
+        </attvalues>
+      </node>
+      <node id="CLS_Artist_12" label="CLS_Artist_12">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="0.0168" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.28" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="1" />
+          <attvalue for="8" value="0.625" />
+          <attvalue for="9" value="2.0" />
+        </attvalues>
+      </node>
+      <node id="CLS_Artist_13" label="CLS_Artist_13">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="9" />
+          <attvalue for="3" value="0.0756" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.3324" />
+          <attvalue for="6" value="0.3611" />
+          <attvalue for="7" value="1" />
+          <attvalue for="8" value="0.2903" />
+          <attvalue for="9" value="6.7033" />
+        </attvalues>
+      </node>
+      <node id="CLS_Artist_14" label="CLS_Artist_14">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="6" />
+          <attvalue for="3" value="0.0504" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.3099" />
+          <attvalue for="6" value="0.1333" />
+          <attvalue for="7" value="1" />
+          <attvalue for="8" value="0.217" />
+          <attvalue for="9" value="5.7692" />
+        </attvalues>
+      </node>
+      <node id="CLS_Artist_15" label="CLS_Artist_15">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="0.0336" />
+          <attvalue for="4" value="0.0009" />
+          <attvalue for="5" value="0.3574" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="5" />
+          <attvalue for="8" value="0.2917" />
+          <attvalue for="9" value="4.0" />
+        </attvalues>
+      </node>
+      <node id="CLS_Artist_16" label="CLS_Artist_16">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="7" />
+          <attvalue for="3" value="0.0588" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.3662" />
+          <attvalue for="6" value="0.2381" />
+          <attvalue for="7" value="1" />
+          <attvalue for="8" value="0.2248" />
+          <attvalue for="9" value="6.3833" />
+        </attvalues>
+      </node>
+      <node id="CLS_Artist_17" label="CLS_Artist_17">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="10" />
+          <attvalue for="3" value="0.084" />
+          <attvalue for="4" value="0.0197" />
+          <attvalue for="5" value="0.3953" />
+          <attvalue for="6" value="0.1111" />
+          <attvalue for="7" value="1" />
+          <attvalue for="8" value="0.1565" />
+          <attvalue for="9" value="9.1487" />
+        </attvalues>
+      </node>
+      <node id="CLS_Artist_18" label="CLS_Artist_18">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="6" />
+          <attvalue for="3" value="0.0504" />
+          <attvalue for="4" value="0.0076" />
+          <attvalue for="5" value="0.3542" />
+          <attvalue for="6" value="0.0667" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.2388" />
+          <attvalue for="9" value="5.7333" />
+        </attvalues>
+      </node>
+      <node id="CLS_Artist_19" label="CLS_Artist_19">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="0.042" />
+          <attvalue for="4" value="0.0017" />
+          <attvalue for="5" value="0.3362" />
+          <attvalue for="6" value="0.1" />
+          <attvalue for="7" value="1" />
+          <attvalue for="8" value="0.2281" />
+          <attvalue for="9" value="4.7308" />
+        </attvalues>
+      </node>
+      <node id="CLS_Artist_20" label="CLS_Artist_20">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="0.042" />
+          <attvalue for="4" value="0.0016" />
+          <attvalue for="5" value="0.3165" />
+          <attvalue for="6" value="0.4" />
+          <attvalue for="7" value="1" />
+          <attvalue for="8" value="0.2935" />
+          <attvalue for="9" value="4.2452" />
+        </attvalues>
+      </node>
+      <node id="CLS_Artist_21" label="CLS_Artist_21">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="6" />
+          <attvalue for="3" value="0.0504" />
+          <attvalue for="4" value="0.0186" />
+          <attvalue for="5" value="0.3531" />
+          <attvalue for="6" value="0.2" />
+          <attvalue for="7" value="1" />
+          <attvalue for="8" value="0.2777" />
+          <attvalue for="9" value="5.0877" />
+        </attvalues>
+      </node>
+      <node id="CLS_Artist_22" label="CLS_Artist_22">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="0.0336" />
+          <attvalue for="4" value="0.0035" />
+          <attvalue for="5" value="0.3315" />
+          <attvalue for="6" value="0.1667" />
+          <attvalue for="7" value="5" />
+          <attvalue for="8" value="0.3626" />
+          <attvalue for="9" value="3.9633" />
+        </attvalues>
+      </node>
+      <node id="CLS_Artist_23" label="CLS_Artist_23">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="0.042" />
+          <attvalue for="4" value="0.0001" />
+          <attvalue for="5" value="0.3067" />
+          <attvalue for="6" value="0.4" />
+          <attvalue for="7" value="1" />
+          <attvalue for="8" value="0.32" />
+          <attvalue for="9" value="3.8106" />
+        </attvalues>
+      </node>
+      <node id="CLS_Artist_24" label="CLS_Artist_24">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="13" />
+          <attvalue for="3" value="0.1092" />
+          <attvalue for="4" value="0.0324" />
+          <attvalue for="5" value="0.419" />
+          <attvalue for="6" value="0.2051" />
+          <attvalue for="7" value="1" />
+          <attvalue for="8" value="0.1677" />
+          <attvalue for="9" value="11.1032" />
+        </attvalues>
+      </node>
+      <node id="CLS_Artist_25" label="CLS_Artist_25">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="0.042" />
+          <attvalue for="4" value="0.0007" />
+          <attvalue for="5" value="0.341" />
+          <attvalue for="6" value="0.4" />
+          <attvalue for="7" value="1" />
+          <attvalue for="8" value="0.3438" />
+          <attvalue for="9" value="4.0744" />
+        </attvalues>
+      </node>
+      <node id="CLS_Artist_26" label="CLS_Artist_26">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="8" />
+          <attvalue for="3" value="0.0672" />
+          <attvalue for="4" value="0.0364" />
+          <attvalue for="5" value="0.365" />
+          <attvalue for="6" value="0.2143" />
+          <attvalue for="7" value="1" />
+          <attvalue for="8" value="0.2251" />
+          <attvalue for="9" value="6.7762" />
+        </attvalues>
+      </node>
+      <node id="CLS_Artist_27" label="CLS_Artist_27">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="0.042" />
+          <attvalue for="4" value="0.0001" />
+          <attvalue for="5" value="0.3067" />
+          <attvalue for="6" value="0.4" />
+          <attvalue for="7" value="1" />
+          <attvalue for="8" value="0.3194" />
+          <attvalue for="9" value="4.1208" />
+        </attvalues>
+      </node>
+      <node id="CLS_Artist_28" label="CLS_Artist_28">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="0.0168" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.3083" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="1" />
+          <attvalue for="8" value="0.625" />
+          <attvalue for="9" value="2.0" />
+        </attvalues>
+      </node>
+      <node id="POP_Artist_01" label="POP_Artist_01">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Genre Hub" />
+          <attvalue for="2" value="18" />
+          <attvalue for="3" value="0.1513" />
+          <attvalue for="4" value="0.1236" />
+          <attvalue for="5" value="0.3851" />
+          <attvalue for="6" value="0.1242" />
+          <attvalue for="7" value="2" />
+          <attvalue for="8" value="0.094" />
+          <attvalue for="9" value="17.1859" />
+        </attvalues>
+      </node>
+      <node id="POP_Artist_02" label="POP_Artist_02">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Genre Hub" />
+          <attvalue for="2" value="17" />
+          <attvalue for="3" value="0.1429" />
+          <attvalue for="4" value="0.1007" />
+          <attvalue for="5" value="0.394" />
+          <attvalue for="6" value="0.1029" />
+          <attvalue for="7" value="2" />
+          <attvalue for="8" value="0.0846" />
+          <attvalue for="9" value="16.5316" />
+        </attvalues>
+      </node>
+      <node id="POP_Artist_03" label="POP_Artist_03">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="11" />
+          <attvalue for="3" value="0.0924" />
+          <attvalue for="4" value="0.0112" />
+          <attvalue for="5" value="0.4089" />
+          <attvalue for="6" value="0.1636" />
+          <attvalue for="7" value="2" />
+          <attvalue for="8" value="0.1734" />
+          <attvalue for="9" value="9.6131" />
+        </attvalues>
+      </node>
+      <node id="POP_Artist_04" label="POP_Artist_04">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="0.042" />
+          <attvalue for="4" value="0.0474" />
+          <attvalue for="5" value="0.3839" />
+          <attvalue for="6" value="0.1" />
+          <attvalue for="7" value="5" />
+          <attvalue for="8" value="0.2234" />
+          <attvalue for="9" value="4.8095" />
+        </attvalues>
+      </node>
+      <node id="POP_Artist_05" label="POP_Artist_05">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="0.042" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.3352" />
+          <attvalue for="6" value="0.2" />
+          <attvalue for="7" value="2" />
+          <attvalue for="8" value="0.3624" />
+          <attvalue for="9" value="3.9231" />
+        </attvalues>
+      </node>
+      <node id="POP_Artist_06" label="POP_Artist_06">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="6" />
+          <attvalue for="3" value="0.0504" />
+          <attvalue for="4" value="0.0009" />
+          <attvalue for="5" value="0.339" />
+          <attvalue for="6" value="0.0667" />
+          <attvalue for="7" value="2" />
+          <attvalue for="8" value="0.2668" />
+          <attvalue for="9" value="5.5" />
+        </attvalues>
+      </node>
+      <node id="POP_Artist_07" label="POP_Artist_07">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="7" />
+          <attvalue for="3" value="0.0588" />
+          <attvalue for="4" value="0.0027" />
+          <attvalue for="5" value="0.3617" />
+          <attvalue for="6" value="0.2857" />
+          <attvalue for="7" value="2" />
+          <attvalue for="8" value="0.2714" />
+          <attvalue for="9" value="5.5789" />
+        </attvalues>
+      </node>
+      <node id="POP_Artist_08" label="POP_Artist_08">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="9" />
+          <attvalue for="3" value="0.0756" />
+          <attvalue for="4" value="0.002" />
+          <attvalue for="5" value="0.3628" />
+          <attvalue for="6" value="0.1389" />
+          <attvalue for="7" value="2" />
+          <attvalue for="8" value="0.2199" />
+          <attvalue for="9" value="7.7087" />
+        </attvalues>
+      </node>
+      <node id="POP_Artist_09" label="POP_Artist_09">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="0.0336" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.3563" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="4" />
+          <attvalue for="8" value="0.3" />
+          <attvalue for="9" value="4.0" />
+        </attvalues>
+      </node>
+      <node id="POP_Artist_10" label="POP_Artist_10">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="0.042" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.3156" />
+          <attvalue for="6" value="0.3" />
+          <attvalue for="7" value="2" />
+          <attvalue for="8" value="0.3406" />
+          <attvalue for="9" value="4.0897" />
+        </attvalues>
+      </node>
+      <node id="POP_Artist_11" label="POP_Artist_11">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="7" />
+          <attvalue for="3" value="0.0588" />
+          <attvalue for="4" value="0.0023" />
+          <attvalue for="5" value="0.3606" />
+          <attvalue for="6" value="0.0952" />
+          <attvalue for="7" value="2" />
+          <attvalue for="8" value="0.1969" />
+          <attvalue for="9" value="6.7722" />
+        </attvalues>
+      </node>
+      <node id="POP_Artist_12" label="POP_Artist_12">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="0.0336" />
+          <attvalue for="4" value="0.0074" />
+          <attvalue for="5" value="0.3352" />
+          <attvalue for="6" value="0.1667" />
+          <attvalue for="7" value="4" />
+          <attvalue for="8" value="0.3131" />
+          <attvalue for="9" value="3.7111" />
+        </attvalues>
+      </node>
+      <node id="POP_Artist_13" label="POP_Artist_13">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="0.042" />
+          <attvalue for="4" value="0.0023" />
+          <attvalue for="5" value="0.339" />
+          <attvalue for="6" value="0.1" />
+          <attvalue for="7" value="4" />
+          <attvalue for="8" value="0.2897" />
+          <attvalue for="9" value="4.4545" />
+        </attvalues>
+      </node>
+      <node id="POP_Artist_14" label="POP_Artist_14">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="0.0252" />
+          <attvalue for="4" value="0.005" />
+          <attvalue for="5" value="0.348" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="4" />
+          <attvalue for="8" value="0.3438" />
+          <attvalue for="9" value="3.0" />
+        </attvalues>
+      </node>
+      <node id="POP_Artist_15" label="POP_Artist_15">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="0.0336" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.3148" />
+          <attvalue for="6" value="0.1667" />
+          <attvalue for="7" value="2" />
+          <attvalue for="8" value="0.4049" />
+          <attvalue for="9" value="3.375" />
+        </attvalues>
+      </node>
+      <node id="POP_Artist_16" label="POP_Artist_16">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="9" />
+          <attvalue for="3" value="0.0756" />
+          <attvalue for="4" value="0.0463" />
+          <attvalue for="5" value="0.4007" />
+          <attvalue for="6" value="0.0833" />
+          <attvalue for="7" value="2" />
+          <attvalue for="8" value="0.1785" />
+          <attvalue for="9" value="8.3185" />
+        </attvalues>
+      </node>
+      <node id="POP_Artist_17" label="POP_Artist_17">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="7" />
+          <attvalue for="3" value="0.0588" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.3542" />
+          <attvalue for="6" value="0.2857" />
+          <attvalue for="7" value="2" />
+          <attvalue for="8" value="0.3023" />
+          <attvalue for="9" value="5.3922" />
+        </attvalues>
+      </node>
+      <node id="POP_Artist_18" label="POP_Artist_18">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="6" />
+          <attvalue for="3" value="0.0504" />
+          <attvalue for="4" value="0.0105" />
+          <attvalue for="5" value="0.3696" />
+          <attvalue for="6" value="0.0667" />
+          <attvalue for="7" value="2" />
+          <attvalue for="8" value="0.2318" />
+          <attvalue for="9" value="5.8125" />
+        </attvalues>
+      </node>
+      <node id="POP_Artist_19" label="POP_Artist_19">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="7" />
+          <attvalue for="3" value="0.0588" />
+          <attvalue for="4" value="0.001" />
+          <attvalue for="5" value="0.3439" />
+          <attvalue for="6" value="0.2381" />
+          <attvalue for="7" value="2" />
+          <attvalue for="8" value="0.2863" />
+          <attvalue for="9" value="5.3333" />
+        </attvalues>
+      </node>
+      <node id="POP_Artist_20" label="POP_Artist_20">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="0.0252" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.3005" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="2" />
+          <attvalue for="8" value="0.375" />
+          <attvalue for="9" value="3.0" />
+        </attvalues>
+      </node>
+      <node id="POP_Artist_21" label="POP_Artist_21">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="6" />
+          <attvalue for="3" value="0.0504" />
+          <attvalue for="4" value="0.0047" />
+          <attvalue for="5" value="0.3864" />
+          <attvalue for="6" value="0.2" />
+          <attvalue for="7" value="2" />
+          <attvalue for="8" value="0.3069" />
+          <attvalue for="9" value="5.219" />
+        </attvalues>
+      </node>
+      <node id="POP_Artist_22" label="POP_Artist_22">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="0.042" />
+          <attvalue for="4" value="0.0168" />
+          <attvalue for="5" value="0.373" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.2551" />
+          <attvalue for="9" value="5.0" />
+        </attvalues>
+      </node>
+      <node id="POP_Artist_23" label="POP_Artist_23">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="9" />
+          <attvalue for="3" value="0.0756" />
+          <attvalue for="4" value="0.0163" />
+          <attvalue for="5" value="0.3864" />
+          <attvalue for="6" value="0.25" />
+          <attvalue for="7" value="2" />
+          <attvalue for="8" value="0.2433" />
+          <attvalue for="9" value="7.1246" />
+        </attvalues>
+      </node>
+      <node id="POP_Artist_24" label="POP_Artist_24">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="7" />
+          <attvalue for="3" value="0.0588" />
+          <attvalue for="4" value="0.0143" />
+          <attvalue for="5" value="0.3563" />
+          <attvalue for="6" value="0.2857" />
+          <attvalue for="7" value="2" />
+          <attvalue for="8" value="0.2794" />
+          <attvalue for="9" value="5.6095" />
+        </attvalues>
+      </node>
+      <node id="POP_Artist_25" label="POP_Artist_25">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="0.0252" />
+          <attvalue for="4" value="0.0011" />
+          <attvalue for="5" value="0.3091" />
+          <attvalue for="6" value="0.3333" />
+          <attvalue for="7" value="2" />
+          <attvalue for="8" value="0.5221" />
+          <attvalue for="9" value="2.68" />
+        </attvalues>
+      </node>
+      <node id="POP_Artist_26" label="POP_Artist_26">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="7" />
+          <attvalue for="3" value="0.0588" />
+          <attvalue for="4" value="0.0018" />
+          <attvalue for="5" value="0.3563" />
+          <attvalue for="6" value="0.1429" />
+          <attvalue for="7" value="2" />
+          <attvalue for="8" value="0.2605" />
+          <attvalue for="9" value="6.0417" />
+        </attvalues>
+      </node>
+      <node id="POP_Artist_27" label="POP_Artist_27">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="0.0336" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.3352" />
+          <attvalue for="6" value="0.5" />
+          <attvalue for="7" value="2" />
+          <attvalue for="8" value="0.4454" />
+          <attvalue for="9" value="3.1063" />
+        </attvalues>
+      </node>
+      <node id="POP_Artist_28" label="POP_Artist_28">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="9" />
+          <attvalue for="3" value="0.0756" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.3628" />
+          <attvalue for="6" value="0.1389" />
+          <attvalue for="7" value="2" />
+          <attvalue for="8" value="0.2026" />
+          <attvalue for="9" value="7.88" />
+        </attvalues>
+      </node>
+      <node id="POP_Artist_29" label="POP_Artist_29">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="0.042" />
+          <attvalue for="4" value="0.0029" />
+          <attvalue for="5" value="0.365" />
+          <attvalue for="6" value="0.2" />
+          <attvalue for="7" value="2" />
+          <attvalue for="8" value="0.3596" />
+          <attvalue for="9" value="4.0833" />
+        </attvalues>
+      </node>
+      <node id="POP_Artist_30" label="POP_Artist_30">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="0.042" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.365" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="2" />
+          <attvalue for="8" value="0.24" />
+          <attvalue for="9" value="5.0" />
+        </attvalues>
+      </node>
+      <node id="POP_Artist_31" label="POP_Artist_31">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="0.042" />
+          <attvalue for="4" value="0.0452" />
+          <attvalue for="5" value="0.3531" />
+          <attvalue for="6" value="0.3" />
+          <attvalue for="7" value="2" />
+          <attvalue for="8" value="0.3235" />
+          <attvalue for="9" value="3.9688" />
+        </attvalues>
+      </node>
+      <node id="POP_Artist_32" label="POP_Artist_32">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="0.0336" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.3343" />
+          <attvalue for="6" value="0.3333" />
+          <attvalue for="7" value="4" />
+          <attvalue for="8" value="0.41" />
+          <attvalue for="9" value="3.4333" />
+        </attvalues>
+      </node>
+      <node id="JAZ_Artist_01" label="JAZ_Artist_01">
+        <attvalues>
+          <attvalue for="0" value="Jazz &amp; Fusion" />
+          <attvalue for="1" value="Genre Hub" />
+          <attvalue for="2" value="13" />
+          <attvalue for="3" value="0.1092" />
+          <attvalue for="4" value="0.0915" />
+          <attvalue for="5" value="0.3381" />
+          <attvalue for="6" value="0.1154" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.1131" />
+          <attvalue for="9" value="12.4201" />
+        </attvalues>
+      </node>
+      <node id="JAZ_Artist_02" label="JAZ_Artist_02">
+        <attvalues>
+          <attvalue for="0" value="Jazz &amp; Fusion" />
+          <attvalue for="1" value="Genre Hub" />
+          <attvalue for="2" value="16" />
+          <attvalue for="3" value="0.1345" />
+          <attvalue for="4" value="0.04" />
+          <attvalue for="5" value="0.3606" />
+          <attvalue for="6" value="0.15" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.1117" />
+          <attvalue for="9" value="14.9907" />
+        </attvalues>
+      </node>
+      <node id="JAZ_Artist_03" label="JAZ_Artist_03">
+        <attvalues>
+          <attvalue for="0" value="Jazz &amp; Fusion" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="7" />
+          <attvalue for="3" value="0.0588" />
+          <attvalue for="4" value="0.0008" />
+          <attvalue for="5" value="0.3182" />
+          <attvalue for="6" value="0.1905" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.2094" />
+          <attvalue for="9" value="6.426" />
+        </attvalues>
+      </node>
+      <node id="JAZ_Artist_04" label="JAZ_Artist_04">
+        <attvalues>
+          <attvalue for="0" value="Jazz &amp; Fusion" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="0.042" />
+          <attvalue for="4" value="0.0162" />
+          <attvalue for="5" value="0.2946" />
+          <attvalue for="6" value="0.3" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.3764" />
+          <attvalue for="9" value="3.8444" />
+        </attvalues>
+      </node>
+      <node id="JAZ_Artist_05" label="JAZ_Artist_05">
+        <attvalues>
+          <attvalue for="0" value="Jazz &amp; Fusion" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="10" />
+          <attvalue for="3" value="0.084" />
+          <attvalue for="4" value="0.0483" />
+          <attvalue for="5" value="0.3914" />
+          <attvalue for="6" value="0.1111" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.1668" />
+          <attvalue for="9" value="9.1" />
+        </attvalues>
+      </node>
+      <node id="JAZ_Artist_06" label="JAZ_Artist_06">
+        <attvalues>
+          <attvalue for="0" value="Jazz &amp; Fusion" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="0.042" />
+          <attvalue for="4" value="0.008" />
+          <attvalue for="5" value="0.3199" />
+          <attvalue for="6" value="0.2" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.3119" />
+          <attvalue for="9" value="4.3667" />
+        </attvalues>
+      </node>
+      <node id="JAZ_Artist_07" label="JAZ_Artist_07">
+        <attvalues>
+          <attvalue for="0" value="Jazz &amp; Fusion" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="0.042" />
+          <attvalue for="4" value="0.008" />
+          <attvalue for="5" value="0.3459" />
+          <attvalue for="6" value="0.3" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.298" />
+          <attvalue for="9" value="4.3615" />
+        </attvalues>
+      </node>
+      <node id="JAZ_Artist_08" label="JAZ_Artist_08">
+        <attvalues>
+          <attvalue for="0" value="Jazz &amp; Fusion" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="10" />
+          <attvalue for="3" value="0.084" />
+          <attvalue for="4" value="0.0208" />
+          <attvalue for="5" value="0.3839" />
+          <attvalue for="6" value="0.2" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.1816" />
+          <attvalue for="9" value="8.8551" />
+        </attvalues>
+      </node>
+      <node id="JAZ_Artist_09" label="JAZ_Artist_09">
+        <attvalues>
+          <attvalue for="0" value="Jazz &amp; Fusion" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="8" />
+          <attvalue for="3" value="0.0672" />
+          <attvalue for="4" value="0.0001" />
+          <attvalue for="5" value="0.339" />
+          <attvalue for="6" value="0.1429" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.2282" />
+          <attvalue for="9" value="7.151" />
+        </attvalues>
+      </node>
+      <node id="JAZ_Artist_10" label="JAZ_Artist_10">
+        <attvalues>
+          <attvalue for="0" value="Jazz &amp; Fusion" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="10" />
+          <attvalue for="3" value="0.084" />
+          <attvalue for="4" value="0.0863" />
+          <attvalue for="5" value="0.3864" />
+          <attvalue for="6" value="0.1778" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.1868" />
+          <attvalue for="9" value="8.7339" />
+        </attvalues>
+      </node>
+      <node id="JAZ_Artist_11" label="JAZ_Artist_11">
+        <attvalues>
+          <attvalue for="0" value="Jazz &amp; Fusion" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="6" />
+          <attvalue for="3" value="0.0504" />
+          <attvalue for="4" value="0.0016" />
+          <attvalue for="5" value="0.3278" />
+          <attvalue for="6" value="0.2" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.2579" />
+          <attvalue for="9" value="5.1898" />
+        </attvalues>
+      </node>
+      <node id="JAZ_Artist_12" label="JAZ_Artist_12">
+        <attvalues>
+          <attvalue for="0" value="Jazz &amp; Fusion" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="7" />
+          <attvalue for="3" value="0.0588" />
+          <attvalue for="4" value="0.0178" />
+          <attvalue for="5" value="0.3606" />
+          <attvalue for="6" value="0.3333" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.2865" />
+          <attvalue for="9" value="5.6574" />
+        </attvalues>
+      </node>
+      <node id="JAZ_Artist_13" label="JAZ_Artist_13">
+        <attvalues>
+          <attvalue for="0" value="Jazz &amp; Fusion" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="0.0336" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.3123" />
+          <attvalue for="6" value="0.5" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.4023" />
+          <attvalue for="9" value="3.0267" />
+        </attvalues>
+      </node>
+      <node id="JAZ_Artist_14" label="JAZ_Artist_14">
+        <attvalues>
+          <attvalue for="0" value="Jazz &amp; Fusion" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="0.042" />
+          <attvalue for="4" value="0.0006" />
+          <attvalue for="5" value="0.3173" />
+          <attvalue for="6" value="0.2" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.2684" />
+          <attvalue for="9" value="4.5722" />
+        </attvalues>
+      </node>
+      <node id="JAZ_Artist_15" label="JAZ_Artist_15">
+        <attvalues>
+          <attvalue for="0" value="Jazz &amp; Fusion" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="0.0336" />
+          <attvalue for="4" value="0.0019" />
+          <attvalue for="5" value="0.3287" />
+          <attvalue for="6" value="0.1667" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.3561" />
+          <attvalue for="9" value="3.75" />
+        </attvalues>
+      </node>
+      <node id="JAZ_Artist_16" label="JAZ_Artist_16">
+        <attvalues>
+          <attvalue for="0" value="Jazz &amp; Fusion" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="0.042" />
+          <attvalue for="4" value="0.0096" />
+          <attvalue for="5" value="0.3148" />
+          <attvalue for="6" value="0.1" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.2506" />
+          <attvalue for="9" value="4.7467" />
+        </attvalues>
+      </node>
+      <node id="JAZ_Artist_17" label="JAZ_Artist_17">
+        <attvalues>
+          <attvalue for="0" value="Jazz &amp; Fusion" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="0.0252" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.2975" />
+          <attvalue for="6" value="0.3333" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.516" />
+          <attvalue for="9" value="2.8056" />
+        </attvalues>
+      </node>
+      <node id="JAZ_Artist_18" label="JAZ_Artist_18">
+        <attvalues>
+          <attvalue for="0" value="Jazz &amp; Fusion" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="0.0252" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.282" />
+          <attvalue for="6" value="0.3333" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.4341" />
+          <attvalue for="9" value="2.375" />
+        </attvalues>
+      </node>
+      <node id="JAZ_Artist_19" label="JAZ_Artist_19">
+        <attvalues>
+          <attvalue for="0" value="Jazz &amp; Fusion" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="0.042" />
+          <attvalue for="4" value="0.005" />
+          <attvalue for="5" value="0.3243" />
+          <attvalue for="6" value="0.2" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.2773" />
+          <attvalue for="9" value="4.6643" />
+        </attvalues>
+      </node>
+      <node id="JAZ_Artist_20" label="JAZ_Artist_20">
+        <attvalues>
+          <attvalue for="0" value="Jazz &amp; Fusion" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="0.0252" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.2975" />
+          <attvalue for="6" value="0.3333" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.3779" />
+          <attvalue for="9" value="2.5833" />
+        </attvalues>
+      </node>
+      <node id="JAZ_Artist_21" label="JAZ_Artist_21">
+        <attvalues>
+          <attvalue for="0" value="Jazz &amp; Fusion" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="6" />
+          <attvalue for="3" value="0.0504" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.3005" />
+          <attvalue for="6" value="0.2" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.2328" />
+          <attvalue for="9" value="5.4262" />
+        </attvalues>
+      </node>
+      <node id="JAZ_Artist_22" label="JAZ_Artist_22">
+        <attvalues>
+          <attvalue for="0" value="Jazz &amp; Fusion" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="6" />
+          <attvalue for="3" value="0.0504" />
+          <attvalue for="4" value="0.003" />
+          <attvalue for="5" value="0.3552" />
+          <attvalue for="6" value="0.3333" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.2586" />
+          <attvalue for="9" value="4.8187" />
+        </attvalues>
+      </node>
+      <node id="JAZ_Artist_23" label="JAZ_Artist_23">
+        <attvalues>
+          <attvalue for="0" value="Jazz &amp; Fusion" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="7" />
+          <attvalue for="3" value="0.0588" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.365" />
+          <attvalue for="6" value="0.1429" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.2524" />
+          <attvalue for="9" value="6.3021" />
+        </attvalues>
+      </node>
+      <node id="JAZ_Artist_24" label="JAZ_Artist_24">
+        <attvalues>
+          <attvalue for="0" value="Jazz &amp; Fusion" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="0.0252" />
+          <attvalue for="4" value="0.0011" />
+          <attvalue for="5" value="0.299" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.4321" />
+          <attvalue for="9" value="3.0" />
+        </attvalues>
+      </node>
+      <node id="JAZ_Artist_25" label="JAZ_Artist_25">
+        <attvalues>
+          <attvalue for="0" value="Jazz &amp; Fusion" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="6" />
+          <attvalue for="3" value="0.0504" />
+          <attvalue for="4" value="0.0328" />
+          <attvalue for="5" value="0.4007" />
+          <attvalue for="6" value="0.1333" />
+          <attvalue for="7" value="4" />
+          <attvalue for="8" value="0.2233" />
+          <attvalue for="9" value="5.7722" />
+        </attvalues>
+      </node>
+      <node id="JAZ_Artist_26" label="JAZ_Artist_26">
+        <attvalues>
+          <attvalue for="0" value="Jazz &amp; Fusion" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="7" />
+          <attvalue for="3" value="0.0588" />
+          <attvalue for="4" value="0.0044" />
+          <attvalue for="5" value="0.3574" />
+          <attvalue for="6" value="0.2857" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.2313" />
+          <attvalue for="9" value="5.8967" />
+        </attvalues>
+      </node>
+      <node id="ELC_Artist_01" label="ELC_Artist_01">
+        <attvalues>
+          <attvalue for="0" value="Electronic &amp; Ambient" />
+          <attvalue for="1" value="Genre Hub" />
+          <attvalue for="2" value="15" />
+          <attvalue for="3" value="0.1261" />
+          <attvalue for="4" value="0.0743" />
+          <attvalue for="5" value="0.3531" />
+          <attvalue for="6" value="0.1143" />
+          <attvalue for="7" value="3" />
+          <attvalue for="8" value="0.1097" />
+          <attvalue for="9" value="14.2961" />
+        </attvalues>
+      </node>
+      <node id="ELC_Artist_02" label="ELC_Artist_02">
+        <attvalues>
+          <attvalue for="0" value="Electronic &amp; Ambient" />
+          <attvalue for="1" value="Genre Hub" />
+          <attvalue for="2" value="19" />
+          <attvalue for="3" value="0.1597" />
+          <attvalue for="4" value="0.0413" />
+          <attvalue for="5" value="0.398" />
+          <attvalue for="6" value="0.1287" />
+          <attvalue for="7" value="3" />
+          <attvalue for="8" value="0.104" />
+          <attvalue for="9" value="17.6956" />
+        </attvalues>
+      </node>
+      <node id="ELC_Artist_03" label="ELC_Artist_03">
+        <attvalues>
+          <attvalue for="0" value="Electronic &amp; Ambient" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="8" />
+          <attvalue for="3" value="0.0672" />
+          <attvalue for="4" value="0.0011" />
+          <attvalue for="5" value="0.3287" />
+          <attvalue for="6" value="0.25" />
+          <attvalue for="7" value="3" />
+          <attvalue for="8" value="0.2089" />
+          <attvalue for="9" value="6.8314" />
+        </attvalues>
+      </node>
+      <node id="ELC_Artist_04" label="ELC_Artist_04">
+        <attvalues>
+          <attvalue for="0" value="Electronic &amp; Ambient" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="6" />
+          <attvalue for="3" value="0.0504" />
+          <attvalue for="4" value="0.0053" />
+          <attvalue for="5" value="0.3563" />
+          <attvalue for="6" value="0.4" />
+          <attvalue for="7" value="3" />
+          <attvalue for="8" value="0.2888" />
+          <attvalue for="9" value="4.5711" />
+        </attvalues>
+      </node>
+      <node id="ELC_Artist_05" label="ELC_Artist_05">
+        <attvalues>
+          <attvalue for="0" value="Electronic &amp; Ambient" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="8" />
+          <attvalue for="3" value="0.0672" />
+          <attvalue for="4" value="0.0086" />
+          <attvalue for="5" value="0.35" />
+          <attvalue for="6" value="0.3214" />
+          <attvalue for="7" value="3" />
+          <attvalue for="8" value="0.2216" />
+          <attvalue for="9" value="6.6528" />
+        </attvalues>
+      </node>
+      <node id="ELC_Artist_06" label="ELC_Artist_06">
+        <attvalues>
+          <attvalue for="0" value="Electronic &amp; Ambient" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="0.0336" />
+          <attvalue for="4" value="0.0001" />
+          <attvalue for="5" value="0.3107" />
+          <attvalue for="6" value="0.1667" />
+          <attvalue for="7" value="3" />
+          <attvalue for="8" value="0.3842" />
+          <attvalue for="9" value="3.3333" />
+        </attvalues>
+      </node>
+      <node id="ELC_Artist_07" label="ELC_Artist_07">
+        <attvalues>
+          <attvalue for="0" value="Electronic &amp; Ambient" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="7" />
+          <attvalue for="3" value="0.0588" />
+          <attvalue for="4" value="0.0001" />
+          <attvalue for="5" value="0.342" />
+          <attvalue for="6" value="0.2857" />
+          <attvalue for="7" value="3" />
+          <attvalue for="8" value="0.2727" />
+          <attvalue for="9" value="5.575" />
+        </attvalues>
+      </node>
+      <node id="ELC_Artist_08" label="ELC_Artist_08">
+        <attvalues>
+          <attvalue for="0" value="Electronic &amp; Ambient" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="6" />
+          <attvalue for="3" value="0.0504" />
+          <attvalue for="4" value="0.0013" />
+          <attvalue for="5" value="0.3902" />
+          <attvalue for="6" value="0.1333" />
+          <attvalue for="7" value="3" />
+          <attvalue for="8" value="0.2772" />
+          <attvalue for="9" value="5.3818" />
+        </attvalues>
+      </node>
+      <node id="ELC_Artist_09" label="ELC_Artist_09">
+        <attvalues>
+          <attvalue for="0" value="Electronic &amp; Ambient" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="0.042" />
+          <attvalue for="4" value="0.0001" />
+          <attvalue for="5" value="0.3123" />
+          <attvalue for="6" value="0.4" />
+          <attvalue for="7" value="3" />
+          <attvalue for="8" value="0.3194" />
+          <attvalue for="9" value="3.859" />
+        </attvalues>
+      </node>
+      <node id="ELC_Artist_10" label="ELC_Artist_10">
+        <attvalues>
+          <attvalue for="0" value="Electronic &amp; Ambient" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="7" />
+          <attvalue for="3" value="0.0588" />
+          <attvalue for="4" value="0.0055" />
+          <attvalue for="5" value="0.349" />
+          <attvalue for="6" value="0.2381" />
+          <attvalue for="7" value="3" />
+          <attvalue for="8" value="0.2163" />
+          <attvalue for="9" value="6.0222" />
+        </attvalues>
+      </node>
+      <node id="ELC_Artist_11" label="ELC_Artist_11">
+        <attvalues>
+          <attvalue for="0" value="Electronic &amp; Ambient" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="6" />
+          <attvalue for="3" value="0.0504" />
+          <attvalue for="4" value="0.0001" />
+          <attvalue for="5" value="0.3251" />
+          <attvalue for="6" value="0.2" />
+          <attvalue for="7" value="3" />
+          <attvalue for="8" value="0.2483" />
+          <attvalue for="9" value="5.375" />
+        </attvalues>
+      </node>
+      <node id="ELC_Artist_12" label="ELC_Artist_12">
+        <attvalues>
+          <attvalue for="0" value="Electronic &amp; Ambient" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="0.0252" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.3216" />
+          <attvalue for="6" value="0.3333" />
+          <attvalue for="7" value="4" />
+          <attvalue for="8" value="0.465" />
+          <attvalue for="9" value="2.6667" />
+        </attvalues>
+      </node>
+      <node id="ELC_Artist_13" label="ELC_Artist_13">
+        <attvalues>
+          <attvalue for="0" value="Electronic &amp; Ambient" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="6" />
+          <attvalue for="3" value="0.0504" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.3719" />
+          <attvalue for="6" value="0.0667" />
+          <attvalue for="7" value="3" />
+          <attvalue for="8" value="0.2231" />
+          <attvalue for="9" value="5.8296" />
+        </attvalues>
+      </node>
+      <node id="ELC_Artist_14" label="ELC_Artist_14">
+        <attvalues>
+          <attvalue for="0" value="Electronic &amp; Ambient" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="6" />
+          <attvalue for="3" value="0.0504" />
+          <attvalue for="4" value="0.0239" />
+          <attvalue for="5" value="0.3449" />
+          <attvalue for="6" value="0.2" />
+          <attvalue for="7" value="3" />
+          <attvalue for="8" value="0.2281" />
+          <attvalue for="9" value="5.549" />
+        </attvalues>
+      </node>
+      <node id="ELC_Artist_15" label="ELC_Artist_15">
+        <attvalues>
+          <attvalue for="0" value="Electronic &amp; Ambient" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="7" />
+          <attvalue for="3" value="0.0588" />
+          <attvalue for="4" value="0.0188" />
+          <attvalue for="5" value="0.35" />
+          <attvalue for="6" value="0.1429" />
+          <attvalue for="7" value="3" />
+          <attvalue for="8" value="0.2378" />
+          <attvalue for="9" value="6.4476" />
+        </attvalues>
+      </node>
+      <node id="ELC_Artist_16" label="ELC_Artist_16">
+        <attvalues>
+          <attvalue for="0" value="Electronic &amp; Ambient" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="6" />
+          <attvalue for="3" value="0.0504" />
+          <attvalue for="4" value="0.0024" />
+          <attvalue for="5" value="0.3552" />
+          <attvalue for="6" value="0.4" />
+          <attvalue for="7" value="4" />
+          <attvalue for="8" value="0.2877" />
+          <attvalue for="9" value="4.6048" />
+        </attvalues>
+      </node>
+      <node id="ELC_Artist_17" label="ELC_Artist_17">
+        <attvalues>
+          <attvalue for="0" value="Electronic &amp; Ambient" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="0.042" />
+          <attvalue for="4" value="0.0022" />
+          <attvalue for="5" value="0.351" />
+          <attvalue for="6" value="0.2" />
+          <attvalue for="7" value="3" />
+          <attvalue for="8" value="0.2628" />
+          <attvalue for="9" value="4.5321" />
+        </attvalues>
+      </node>
+      <node id="ELC_Artist_18" label="ELC_Artist_18">
+        <attvalues>
+          <attvalue for="0" value="Electronic &amp; Ambient" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="0.042" />
+          <attvalue for="4" value="0.0016" />
+          <attvalue for="5" value="0.3123" />
+          <attvalue for="6" value="0.4" />
+          <attvalue for="7" value="3" />
+          <attvalue for="8" value="0.2799" />
+          <attvalue for="9" value="4.0889" />
+        </attvalues>
+      </node>
+      <node id="ELC_Artist_19" label="ELC_Artist_19">
+        <attvalues>
+          <attvalue for="0" value="Electronic &amp; Ambient" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="0.042" />
+          <attvalue for="4" value="0.0019" />
+          <attvalue for="5" value="0.34" />
+          <attvalue for="6" value="0.4" />
+          <attvalue for="7" value="3" />
+          <attvalue for="8" value="0.3202" />
+          <attvalue for="9" value="4.0556" />
+        </attvalues>
+      </node>
+      <node id="ELC_Artist_20" label="ELC_Artist_20">
+        <attvalues>
+          <attvalue for="0" value="Electronic &amp; Ambient" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="0.042" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.3156" />
+          <attvalue for="6" value="0.5" />
+          <attvalue for="7" value="3" />
+          <attvalue for="8" value="0.3948" />
+          <attvalue for="9" value="3.6528" />
+        </attvalues>
+      </node>
+      <node id="ELC_Artist_21" label="ELC_Artist_21">
+        <attvalues>
+          <attvalue for="0" value="Electronic &amp; Ambient" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="6" />
+          <attvalue for="3" value="0.0504" />
+          <attvalue for="4" value="0.0115" />
+          <attvalue for="5" value="0.4034" />
+          <attvalue for="6" value="0.2" />
+          <attvalue for="7" value="4" />
+          <attvalue for="8" value="0.2414" />
+          <attvalue for="9" value="5.463" />
+        </attvalues>
+      </node>
+      <node id="ELC_Artist_22" label="ELC_Artist_22">
+        <attvalues>
+          <attvalue for="0" value="Electronic &amp; Ambient" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="9" />
+          <attvalue for="3" value="0.0756" />
+          <attvalue for="4" value="0.1289" />
+          <attvalue for="5" value="0.3914" />
+          <attvalue for="6" value="0.1667" />
+          <attvalue for="7" value="3" />
+          <attvalue for="8" value="0.1792" />
+          <attvalue for="9" value="8.105" />
+        </attvalues>
+      </node>
+      <node id="ELC_Artist_23" label="ELC_Artist_23">
+        <attvalues>
+          <attvalue for="0" value="Electronic &amp; Ambient" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="6" />
+          <attvalue for="3" value="0.0504" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.3148" />
+          <attvalue for="6" value="0.4" />
+          <attvalue for="7" value="3" />
+          <attvalue for="8" value="0.3102" />
+          <attvalue for="9" value="4.575" />
+        </attvalues>
+      </node>
+      <node id="ELC_Artist_24" label="ELC_Artist_24">
+        <attvalues>
+          <attvalue for="0" value="Electronic &amp; Ambient" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="0.042" />
+          <attvalue for="4" value="0.0105" />
+          <attvalue for="5" value="0.3278" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="3" />
+          <attvalue for="8" value="0.2222" />
+          <attvalue for="9" value="5.0" />
+        </attvalues>
+      </node>
+      <node id="ELC_Artist_25" label="ELC_Artist_25">
+        <attvalues>
+          <attvalue for="0" value="Electronic &amp; Ambient" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="0.042" />
+          <attvalue for="4" value="0.0047" />
+          <attvalue for="5" value="0.3521" />
+          <attvalue for="6" value="0.2" />
+          <attvalue for="7" value="4" />
+          <attvalue for="8" value="0.279" />
+          <attvalue for="9" value="4.38" />
+        </attvalues>
+      </node>
+      <node id="ELC_Artist_26" label="ELC_Artist_26">
+        <attvalues>
+          <attvalue for="0" value="Electronic &amp; Ambient" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="6" />
+          <attvalue for="3" value="0.0504" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.3531" />
+          <attvalue for="6" value="0.2667" />
+          <attvalue for="7" value="3" />
+          <attvalue for="8" value="0.2659" />
+          <attvalue for="9" value="5.1389" />
+        </attvalues>
+      </node>
+      <node id="BRIDGE_Producer_01" label="BRIDGE_Producer_01">
+        <attvalues>
+          <attvalue for="0" value="Cross-Genre Producer" />
+          <attvalue for="1" value="Bridge Producer" />
+          <attvalue for="2" value="14" />
+          <attvalue for="3" value="0.1176" />
+          <attvalue for="4" value="0.1592" />
+          <attvalue for="5" value="0.4118" />
+          <attvalue for="6" value="0.0549" />
+          <attvalue for="7" value="1" />
+          <attvalue for="8" value="0.0874" />
+          <attvalue for="9" value="13.6982" />
+        </attvalues>
+      </node>
+      <node id="BRIDGE_Producer_02" label="BRIDGE_Producer_02">
+        <attvalues>
+          <attvalue for="0" value="Cross-Genre Producer" />
+          <attvalue for="1" value="Bridge Producer" />
+          <attvalue for="2" value="15" />
+          <attvalue for="3" value="0.1261" />
+          <attvalue for="4" value="0.2321" />
+          <attvalue for="5" value="0.4312" />
+          <attvalue for="6" value="0.0095" />
+          <attvalue for="7" value="4" />
+          <attvalue for="8" value="0.0704" />
+          <attvalue for="9" value="14.9355" />
+        </attvalues>
+      </node>
+      <node id="BRIDGE_Producer_03" label="BRIDGE_Producer_03">
+        <attvalues>
+          <attvalue for="0" value="Cross-Genre Producer" />
+          <attvalue for="1" value="Bridge Producer" />
+          <attvalue for="2" value="13" />
+          <attvalue for="3" value="0.1092" />
+          <attvalue for="4" value="0.0617" />
+          <attvalue for="5" value="0.4132" />
+          <attvalue for="6" value="0.0513" />
+          <attvalue for="7" value="5" />
+          <attvalue for="8" value="0.0961" />
+          <attvalue for="9" value="12.7381" />
+        </attvalues>
+      </node>
+      <node id="BRIDGE_Producer_04" label="BRIDGE_Producer_04">
+        <attvalues>
+          <attvalue for="0" value="Cross-Genre Producer" />
+          <attvalue for="1" value="Bridge Producer" />
+          <attvalue for="2" value="13" />
+          <attvalue for="3" value="0.1092" />
+          <attvalue for="4" value="0.0599" />
+          <attvalue for="5" value="0.4048" />
+          <attvalue for="6" value="0.0641" />
+          <attvalue for="7" value="4" />
+          <attvalue for="8" value="0.0965" />
+          <attvalue for="9" value="12.7683" />
+        </attvalues>
+      </node>
+      <node id="BRIDGE_Producer_05" label="BRIDGE_Producer_05">
+        <attvalues>
+          <attvalue for="0" value="Cross-Genre Producer" />
+          <attvalue for="1" value="Bridge Producer" />
+          <attvalue for="2" value="12" />
+          <attvalue for="3" value="0.1008" />
+          <attvalue for="4" value="0.0847" />
+          <attvalue for="5" value="0.3967" />
+          <attvalue for="6" value="0.0303" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.0993" />
+          <attvalue for="9" value="11.7955" />
+        </attvalues>
+      </node>
+      <node id="BRIDGE_Producer_06" label="BRIDGE_Producer_06">
+        <attvalues>
+          <attvalue for="0" value="Cross-Genre Producer" />
+          <attvalue for="1" value="Bridge Producer" />
+          <attvalue for="2" value="12" />
+          <attvalue for="3" value="0.1008" />
+          <attvalue for="4" value="0.0993" />
+          <attvalue for="5" value="0.4034" />
+          <attvalue for="6" value="0.0758" />
+          <attvalue for="7" value="3" />
+          <attvalue for="8" value="0.1054" />
+          <attvalue for="9" value="11.6472" />
+        </attvalues>
+      </node>
+      <node id="BRIDGE_Producer_07" label="BRIDGE_Producer_07">
+        <attvalues>
+          <attvalue for="0" value="Cross-Genre Producer" />
+          <attvalue for="1" value="Bridge Producer" />
+          <attvalue for="2" value="11" />
+          <attvalue for="3" value="0.0924" />
+          <attvalue for="4" value="0.0728" />
+          <attvalue for="5" value="0.394" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.1034" />
+          <attvalue for="9" value="11.0" />
+        </attvalues>
+      </node>
+      <node id="BRIDGE_Producer_08" label="BRIDGE_Producer_08">
+        <attvalues>
+          <attvalue for="0" value="Cross-Genre Producer" />
+          <attvalue for="1" value="Bridge Producer" />
+          <attvalue for="2" value="13" />
+          <attvalue for="3" value="0.1092" />
+          <attvalue for="4" value="0.08" />
+          <attvalue for="5" value="0.4118" />
+          <attvalue for="6" value="0.0385" />
+          <attvalue for="7" value="5" />
+          <attvalue for="8" value="0.0971" />
+          <attvalue for="9" value="12.7572" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="CLS_Artist_01" target="CLS_Artist_23" id="0" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_01" target="CLS_Artist_06" id="1" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_01" target="CLS_Artist_03" id="2" weight="6">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_01" target="CLS_Artist_11" id="3" weight="6">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_01" target="CLS_Artist_10" id="4" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_01" target="CLS_Artist_24" id="5" weight="6">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_01" target="CLS_Artist_07" id="6" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_01" target="CLS_Artist_27" id="7" weight="6">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_01" target="CLS_Artist_20" id="8" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_01" target="CLS_Artist_05" id="9" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_01" target="CLS_Artist_16" id="10" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_01" target="CLS_Artist_26" id="11" weight="6">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_01" target="CLS_Artist_17" id="12" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_01" target="CLS_Artist_04" id="13" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_01" target="CLS_Artist_08" id="14" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_01" target="CLS_Artist_13" id="15" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_01" target="ELC_Artist_21" id="16" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_02" target="CLS_Artist_27" id="17" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_02" target="CLS_Artist_08" id="18" weight="6">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_02" target="CLS_Artist_25" id="19" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_02" target="CLS_Artist_16" id="20" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_02" target="CLS_Artist_13" id="21" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_02" target="CLS_Artist_11" id="22" weight="6">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_02" target="CLS_Artist_07" id="23" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_02" target="CLS_Artist_09" id="24" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_02" target="CLS_Artist_24" id="25" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_02" target="CLS_Artist_06" id="26" weight="6">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_02" target="CLS_Artist_05" id="27" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_02" target="CLS_Artist_21" id="28" weight="6">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_02" target="CLS_Artist_04" id="29" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_02" target="CLS_Artist_28" id="30" weight="6">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_02" target="CLS_Artist_10" id="31" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_03" target="CLS_Artist_05" id="32" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_03" target="CLS_Artist_07" id="33" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_03" target="CLS_Artist_24" id="34" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_03" target="ELC_Artist_11" id="35" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_04" target="CLS_Artist_13" id="36" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_04" target="CLS_Artist_19" id="37" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_05" target="CLS_Artist_11" id="38" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_05" target="CLS_Artist_13" id="39" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_05" target="CLS_Artist_17" id="40" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_05" target="CLS_Artist_19" id="41" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_05" target="CLS_Artist_23" id="42" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_05" target="BRIDGE_Producer_06" id="43" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_06" target="CLS_Artist_16" id="44" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_06" target="CLS_Artist_17" id="45" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_06" target="CLS_Artist_21" id="46" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_06" target="CLS_Artist_22" id="47" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_06" target="CLS_Artist_25" id="48" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_07" target="CLS_Artist_14" id="49" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_07" target="CLS_Artist_21" id="50" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_07" target="CLS_Artist_24" id="51" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_08" target="CLS_Artist_14" id="52" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_08" target="CLS_Artist_23" id="53" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_08" target="CLS_Artist_24" id="54" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_08" target="BRIDGE_Producer_01" id="55" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_09" target="CLS_Artist_20" id="56" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_09" target="CLS_Artist_24" id="57" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_09" target="CLS_Artist_25" id="58" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_09" target="CLS_Artist_26" id="59" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_09" target="BRIDGE_Producer_03" id="60" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_10" target="CLS_Artist_11" id="61" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_10" target="CLS_Artist_27" id="62" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_10" target="BRIDGE_Producer_08" id="63" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_11" target="CLS_Artist_13" id="64" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_11" target="CLS_Artist_26" id="65" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_11" target="BRIDGE_Producer_06" id="66" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_11" target="BRIDGE_Producer_07" id="67" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_11" target="POP_Artist_21" id="68" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_12" target="CLS_Artist_14" id="69" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_12" target="CLS_Artist_26" id="70" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_13" target="CLS_Artist_14" id="71" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_13" target="CLS_Artist_20" id="72" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_13" target="CLS_Artist_24" id="73" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_13" target="CLS_Artist_27" id="74" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_14" target="CLS_Artist_17" id="75" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_14" target="CLS_Artist_20" id="76" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_15" target="CLS_Artist_17" id="77" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_15" target="CLS_Artist_27" id="78" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_15" target="BRIDGE_Producer_03" id="79" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_15" target="BRIDGE_Producer_08" id="80" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_16" target="CLS_Artist_22" id="81" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_16" target="CLS_Artist_25" id="82" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_16" target="BRIDGE_Producer_05" id="83" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_16" target="BRIDGE_Producer_06" id="84" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_17" target="CLS_Artist_20" id="85" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_17" target="CLS_Artist_24" id="86" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_17" target="BRIDGE_Producer_05" id="87" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_17" target="BRIDGE_Producer_07" id="88" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_17" target="JAZ_Artist_08" id="89" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_18" target="CLS_Artist_19" id="90" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_18" target="CLS_Artist_21" id="91" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_18" target="CLS_Artist_22" id="92" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_18" target="BRIDGE_Producer_05" id="93" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_18" target="ELC_Artist_13" id="94" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_18" target="JAZ_Artist_24" id="95" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_19" target="CLS_Artist_23" id="96" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_19" target="BRIDGE_Producer_01" id="97" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_21" target="BRIDGE_Producer_03" id="98" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_21" target="BRIDGE_Producer_05" id="99" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_22" target="BRIDGE_Producer_08" id="100" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_23" target="CLS_Artist_26" id="101" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_24" target="CLS_Artist_26" id="102" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_24" target="BRIDGE_Producer_01" id="103" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_24" target="BRIDGE_Producer_03" id="104" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_24" target="BRIDGE_Producer_08" id="105" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_24" target="ELC_Artist_13" id="106" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_25" target="BRIDGE_Producer_01" id="107" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_26" target="BRIDGE_Producer_01" id="108" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_26" target="BRIDGE_Producer_08" id="109" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="CLS_Artist_28" target="BRIDGE_Producer_07" id="110" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_01" target="POP_Artist_15" id="111" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_01" target="POP_Artist_10" id="112" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_01" target="POP_Artist_07" id="113" weight="6">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_01" target="POP_Artist_23" id="114" weight="6">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_01" target="POP_Artist_25" id="115" weight="6">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_01" target="POP_Artist_03" id="116" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_01" target="POP_Artist_06" id="117" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_01" target="POP_Artist_16" id="118" weight="6">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_01" target="POP_Artist_31" id="119" weight="6">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_01" target="POP_Artist_08" id="120" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_01" target="POP_Artist_19" id="121" weight="6">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_01" target="POP_Artist_17" id="122" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_01" target="POP_Artist_04" id="123" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_01" target="POP_Artist_24" id="124" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_01" target="POP_Artist_26" id="125" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_01" target="POP_Artist_22" id="126" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_01" target="POP_Artist_21" id="127" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_01" target="ELC_Artist_08" id="128" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_02" target="POP_Artist_27" id="129" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_02" target="POP_Artist_10" id="130" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_02" target="POP_Artist_29" id="131" weight="6">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_02" target="POP_Artist_23" id="132" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_02" target="POP_Artist_11" id="133" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_02" target="POP_Artist_32" id="134" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_02" target="POP_Artist_19" id="135" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_02" target="POP_Artist_18" id="136" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_02" target="POP_Artist_30" id="137" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_02" target="POP_Artist_31" id="138" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_02" target="POP_Artist_28" id="139" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_02" target="POP_Artist_17" id="140" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_02" target="POP_Artist_05" id="141" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_02" target="POP_Artist_12" id="142" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_02" target="POP_Artist_24" id="143" weight="6">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_02" target="POP_Artist_07" id="144" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_02" target="BRIDGE_Producer_01" id="145" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_03" target="POP_Artist_07" id="146" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_03" target="POP_Artist_08" id="147" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_03" target="POP_Artist_21" id="148" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_03" target="POP_Artist_23" id="149" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_03" target="POP_Artist_24" id="150" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_03" target="POP_Artist_27" id="151" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_03" target="POP_Artist_30" id="152" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_03" target="BRIDGE_Producer_01" id="153" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_03" target="BRIDGE_Producer_04" id="154" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_03" target="BRIDGE_Producer_08" id="155" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_04" target="POP_Artist_28" id="156" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_04" target="BRIDGE_Producer_02" id="157" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_04" target="BRIDGE_Producer_03" id="158" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_04" target="BRIDGE_Producer_08" id="159" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_05" target="POP_Artist_08" id="160" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_05" target="POP_Artist_24" id="161" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_05" target="POP_Artist_29" id="162" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_05" target="BRIDGE_Producer_08" id="163" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_06" target="POP_Artist_11" id="164" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_06" target="POP_Artist_12" id="165" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_06" target="POP_Artist_19" id="166" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_06" target="POP_Artist_32" id="167" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_06" target="BRIDGE_Producer_07" id="168" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_07" target="POP_Artist_24" id="169" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_07" target="POP_Artist_28" id="170" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_07" target="POP_Artist_29" id="171" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_07" target="BRIDGE_Producer_03" id="172" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_08" target="POP_Artist_10" id="173" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_08" target="POP_Artist_11" id="174" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_08" target="POP_Artist_13" id="175" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_08" target="POP_Artist_18" id="176" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_08" target="POP_Artist_19" id="177" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_08" target="BRIDGE_Producer_01" id="178" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_09" target="POP_Artist_15" id="179" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_09" target="POP_Artist_19" id="180" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_09" target="BRIDGE_Producer_02" id="181" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_09" target="BRIDGE_Producer_03" id="182" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_10" target="POP_Artist_12" id="183" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_10" target="POP_Artist_28" id="184" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_11" target="POP_Artist_15" id="185" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_11" target="POP_Artist_23" id="186" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_11" target="POP_Artist_26" id="187" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_11" target="BRIDGE_Producer_05" id="188" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_12" target="BRIDGE_Producer_04" id="189" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_13" target="POP_Artist_14" id="190" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_13" target="POP_Artist_20" id="191" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_13" target="POP_Artist_22" id="192" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_13" target="BRIDGE_Producer_01" id="193" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_14" target="BRIDGE_Producer_02" id="194" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_14" target="BRIDGE_Producer_07" id="195" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_15" target="POP_Artist_24" id="196" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_16" target="POP_Artist_17" id="197" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_16" target="POP_Artist_19" id="198" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_16" target="POP_Artist_20" id="199" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_16" target="POP_Artist_21" id="200" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_16" target="BRIDGE_Producer_01" id="201" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_16" target="BRIDGE_Producer_03" id="202" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_16" target="BRIDGE_Producer_06" id="203" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_16" target="BRIDGE_Producer_07" id="204" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_17" target="POP_Artist_23" id="205" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_17" target="POP_Artist_28" id="206" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_17" target="POP_Artist_31" id="207" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_17" target="ELC_Artist_25" id="208" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_18" target="POP_Artist_20" id="209" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_18" target="POP_Artist_28" id="210" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_18" target="BRIDGE_Producer_03" id="211" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_18" target="BRIDGE_Producer_06" id="212" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_19" target="POP_Artist_23" id="213" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_21" target="POP_Artist_25" id="214" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_21" target="BRIDGE_Producer_02" id="215" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_22" target="POP_Artist_28" id="216" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_22" target="BRIDGE_Producer_05" id="217" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_22" target="BRIDGE_Producer_06" id="218" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_23" target="POP_Artist_26" id="219" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_23" target="BRIDGE_Producer_08" id="220" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_23" target="JAZ_Artist_09" id="221" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_24" target="BRIDGE_Producer_07" id="222" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_25" target="POP_Artist_28" id="223" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_26" target="POP_Artist_30" id="224" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_26" target="POP_Artist_31" id="225" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_26" target="BRIDGE_Producer_04" id="226" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_26" target="JAZ_Artist_23" id="227" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_27" target="POP_Artist_32" id="228" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_27" target="BRIDGE_Producer_04" id="229" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_28" target="BRIDGE_Producer_08" id="230" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_29" target="BRIDGE_Producer_06" id="231" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_29" target="BRIDGE_Producer_07" id="232" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_30" target="BRIDGE_Producer_05" id="233" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_30" target="ELC_Artist_26" id="234" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_31" target="BRIDGE_Producer_02" id="235" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="POP_Artist_32" target="BRIDGE_Producer_04" id="236" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_01" target="JAZ_Artist_06" id="237" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_01" target="JAZ_Artist_07" id="238" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_01" target="JAZ_Artist_04" id="239" weight="6">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_01" target="JAZ_Artist_24" id="240" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_01" target="JAZ_Artist_12" id="241" weight="6">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_01" target="JAZ_Artist_18" id="242" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_01" target="JAZ_Artist_26" id="243" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_01" target="JAZ_Artist_20" id="244" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_01" target="JAZ_Artist_10" id="245" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_01" target="JAZ_Artist_17" id="246" weight="6">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_01" target="JAZ_Artist_11" id="247" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_01" target="JAZ_Artist_05" id="248" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_01" target="JAZ_Artist_09" id="249" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_02" target="JAZ_Artist_25" id="250" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_02" target="JAZ_Artist_14" id="251" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_02" target="JAZ_Artist_09" id="252" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_02" target="JAZ_Artist_17" id="253" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_02" target="JAZ_Artist_23" id="254" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_02" target="JAZ_Artist_10" id="255" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_02" target="JAZ_Artist_26" id="256" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_02" target="JAZ_Artist_06" id="257" weight="6">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_02" target="JAZ_Artist_20" id="258" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_02" target="JAZ_Artist_11" id="259" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_02" target="JAZ_Artist_13" id="260" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_02" target="JAZ_Artist_08" id="261" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_02" target="JAZ_Artist_03" id="262" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_02" target="JAZ_Artist_12" id="263" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_02" target="JAZ_Artist_15" id="264" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_02" target="JAZ_Artist_22" id="265" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_03" target="JAZ_Artist_04" id="266" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_03" target="JAZ_Artist_08" id="267" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_03" target="JAZ_Artist_16" id="268" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_03" target="JAZ_Artist_19" id="269" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_03" target="JAZ_Artist_21" id="270" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_03" target="JAZ_Artist_24" id="271" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_04" target="JAZ_Artist_10" id="272" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_04" target="JAZ_Artist_11" id="273" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_04" target="JAZ_Artist_21" id="274" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_05" target="JAZ_Artist_06" id="275" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_05" target="JAZ_Artist_07" id="276" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_05" target="JAZ_Artist_10" id="277" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_05" target="JAZ_Artist_14" id="278" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_05" target="JAZ_Artist_19" id="279" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_05" target="JAZ_Artist_26" id="280" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_05" target="BRIDGE_Producer_03" id="281" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_05" target="BRIDGE_Producer_04" id="282" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_05" target="BRIDGE_Producer_07" id="283" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_06" target="JAZ_Artist_16" id="284" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_06" target="JAZ_Artist_23" id="285" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_07" target="JAZ_Artist_09" id="286" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_07" target="JAZ_Artist_21" id="287" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_07" target="BRIDGE_Producer_02" id="288" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_08" target="JAZ_Artist_10" id="289" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_08" target="JAZ_Artist_11" id="290" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_08" target="JAZ_Artist_15" id="291" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_08" target="JAZ_Artist_17" id="292" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_08" target="JAZ_Artist_20" id="293" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_08" target="JAZ_Artist_22" id="294" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_08" target="BRIDGE_Producer_02" id="295" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_09" target="JAZ_Artist_13" id="296" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_09" target="JAZ_Artist_14" id="297" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_09" target="JAZ_Artist_16" id="298" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_09" target="JAZ_Artist_21" id="299" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_10" target="JAZ_Artist_13" id="300" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_10" target="JAZ_Artist_22" id="301" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_10" target="BRIDGE_Producer_02" id="302" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_10" target="BRIDGE_Producer_05" id="303" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_10" target="ELC_Artist_26" id="304" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_11" target="JAZ_Artist_14" id="305" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_11" target="BRIDGE_Producer_05" id="306" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_12" target="JAZ_Artist_18" id="307" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_12" target="JAZ_Artist_23" id="308" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_12" target="JAZ_Artist_25" id="309" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_12" target="JAZ_Artist_26" id="310" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_12" target="BRIDGE_Producer_03" id="311" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_13" target="JAZ_Artist_26" id="312" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_14" target="JAZ_Artist_18" id="313" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_15" target="JAZ_Artist_21" id="314" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_15" target="BRIDGE_Producer_07" id="315" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_16" target="JAZ_Artist_19" id="316" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_16" target="BRIDGE_Producer_07" id="317" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_19" target="JAZ_Artist_21" id="318" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_19" target="BRIDGE_Producer_05" id="319" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_22" target="JAZ_Artist_23" id="320" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_22" target="BRIDGE_Producer_04" id="321" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_22" target="BRIDGE_Producer_05" id="322" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_23" target="BRIDGE_Producer_02" id="323" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_23" target="ELC_Artist_08" id="324" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_25" target="BRIDGE_Producer_02" id="325" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_25" target="BRIDGE_Producer_03" id="326" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_25" target="BRIDGE_Producer_04" id="327" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_25" target="ELC_Artist_02" id="328" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_26" target="BRIDGE_Producer_03" id="329" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="JAZ_Artist_26" target="BRIDGE_Producer_05" id="330" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_01" target="ELC_Artist_18" id="331" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_01" target="ELC_Artist_09" id="332" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_01" target="ELC_Artist_14" id="333" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_01" target="ELC_Artist_21" id="334" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_01" target="ELC_Artist_17" id="335" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_01" target="ELC_Artist_22" id="336" weight="6">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_01" target="ELC_Artist_12" id="337" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_01" target="ELC_Artist_15" id="338" weight="6">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_01" target="ELC_Artist_16" id="339" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_01" target="ELC_Artist_05" id="340" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_01" target="ELC_Artist_26" id="341" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_01" target="ELC_Artist_06" id="342" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_01" target="ELC_Artist_20" id="343" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_01" target="ELC_Artist_07" id="344" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_01" target="ELC_Artist_13" id="345" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_02" target="ELC_Artist_17" id="346" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_02" target="ELC_Artist_19" id="347" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_02" target="ELC_Artist_07" id="348" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_02" target="ELC_Artist_16" id="349" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_02" target="ELC_Artist_05" id="350" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_02" target="ELC_Artist_10" id="351" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_02" target="ELC_Artist_26" id="352" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_02" target="ELC_Artist_14" id="353" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_02" target="ELC_Artist_03" id="354" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_02" target="ELC_Artist_09" id="355" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_02" target="ELC_Artist_18" id="356" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_02" target="ELC_Artist_20" id="357" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_02" target="ELC_Artist_11" id="358" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_02" target="ELC_Artist_04" id="359" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_02" target="ELC_Artist_08" id="360" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_02" target="ELC_Artist_21" id="361" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_02" target="ELC_Artist_23" id="362" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_02" target="BRIDGE_Producer_06" id="363" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_03" target="ELC_Artist_05" id="364" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_03" target="ELC_Artist_09" id="365" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_03" target="ELC_Artist_10" id="366" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_03" target="ELC_Artist_14" id="367" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_03" target="ELC_Artist_15" id="368" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_03" target="ELC_Artist_18" id="369" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_03" target="ELC_Artist_25" id="370" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_04" target="ELC_Artist_11" id="371" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_04" target="ELC_Artist_15" id="372" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_04" target="ELC_Artist_22" id="373" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_04" target="BRIDGE_Producer_01" id="374" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_04" target="BRIDGE_Producer_06" id="375" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_05" target="ELC_Artist_07" id="376" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_05" target="ELC_Artist_18" id="377" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_05" target="ELC_Artist_19" id="378" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_05" target="ELC_Artist_23" id="379" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_05" target="BRIDGE_Producer_08" id="380" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_06" target="ELC_Artist_10" id="381" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_06" target="ELC_Artist_15" id="382" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_06" target="ELC_Artist_24" id="383" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_07" target="ELC_Artist_10" id="384" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_07" target="ELC_Artist_20" id="385" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_07" target="ELC_Artist_24" id="386" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_07" target="BRIDGE_Producer_04" id="387" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_08" target="ELC_Artist_13" id="388" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_08" target="ELC_Artist_17" id="389" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_08" target="BRIDGE_Producer_06" id="390" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_09" target="ELC_Artist_22" id="391" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_09" target="ELC_Artist_23" id="392" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_10" target="ELC_Artist_13" id="393" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_10" target="ELC_Artist_25" id="394" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_10" target="BRIDGE_Producer_04" id="395" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_11" target="ELC_Artist_19" id="396" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_11" target="ELC_Artist_22" id="397" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_11" target="ELC_Artist_24" id="398" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_12" target="ELC_Artist_20" id="399" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_12" target="BRIDGE_Producer_02" id="400" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_13" target="ELC_Artist_14" id="401" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_14" target="ELC_Artist_23" id="402" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_14" target="BRIDGE_Producer_01" id="403" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_15" target="ELC_Artist_16" id="404" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_15" target="BRIDGE_Producer_06" id="405" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_15" target="BRIDGE_Producer_08" id="406" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_16" target="ELC_Artist_21" id="407" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_16" target="ELC_Artist_26" id="408" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_16" target="BRIDGE_Producer_04" id="409" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_17" target="ELC_Artist_22" id="410" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_17" target="BRIDGE_Producer_08" id="411" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_18" target="ELC_Artist_24" id="412" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_19" target="ELC_Artist_23" id="413" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_19" target="BRIDGE_Producer_01" id="414" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_20" target="ELC_Artist_26" id="415" weight="1">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_21" target="BRIDGE_Producer_02" id="416" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_21" target="BRIDGE_Producer_04" id="417" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_22" target="ELC_Artist_23" id="418" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Intra-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_22" target="BRIDGE_Producer_01" id="419" weight="4">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_22" target="BRIDGE_Producer_02" id="420" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_22" target="BRIDGE_Producer_06" id="421" weight="5">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_24" target="BRIDGE_Producer_02" id="422" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_25" target="BRIDGE_Producer_02" id="423" weight="3">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+      <edge source="ELC_Artist_25" target="BRIDGE_Producer_04" id="424" weight="2">
+        <attvalues>
+          <attvalue for="10" value="Cross-Genre Collab" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
