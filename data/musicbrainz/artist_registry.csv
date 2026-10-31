@@ -1,41 +1,41 @@
-﻿legacy_name,legacy_degree,artist_mbid,canonical_name,disambiguation,confirmation_status,review_note
-Yo-Yo Ma,17,,,,,
-Herbie Hancock,15,,,,,
-Lang Lang,13,,,,,
-Ryuichi Sakamoto,13,,,,,
-Max Richter,12,,,,,
-Brian Eno,10,,,,,
-Hans Zimmer,10,,,,,
-Ólafur Arnalds,10,,,,,
-Nils Frahm,9,,,,,
-Robert Glasper,9,,,,,
-Ludovico Einaudi,8,,,,,
-Coldplay,7,,,,,
-Flying Lotus,7,,,,,
-Jacob Collier,7,,,,,
-Kaytranada,7,,,,,
-Kendrick Lamar,7,,,,,
-Kamasi Washington,6,,,,,
-Philip Glass,6,,,,,
-SUGA,6,,,,,
-The Weeknd,6,,,,,
-Bonobo,5,,,,,
-Chick Corea,5,,,,,
-Disclosure,5,,,,,
-Floating Points,5,,,,,
-Four Tet,5,,,,,
-John Williams,5,,,,,
-Jon Hopkins,5,,,,,
-Pharrell Williams,5,,,,,
-Rosalía,5,,,,,
-Thundercat,5,,,,,
-Alva Noto,4,,,,,
-Anderson .Paak,4,,,,,
-Aphex Twin,4,,,,,
-Arca,4,,,,,
-David Bowie,4,,,,,
-Esperanza Spalding,4,,,,,
-Gautier Capuçon,4,,,,,
-Gustavo Dudamel,4,,,,,
-HAUSER,4,,,,,
-Hildur Guðnadóttir,4,,,,,
+legacy_name,legacy_degree,artist_mbid,canonical_name,disambiguation,confirmation_status,review_note
+Yo-Yo Ma,17,62fe877d-b7a5-43e8-952e-2610d7614bff,Yo‐Yo Ma,cellist,confirmed,Exact MusicBrainz artist entry reviewed
+Herbie Hancock,15,27613b78-1b9d-4ec3-9db5-fa0743465fdd,Herbie Hancock,"US jazz pianist, keyboardist, bandleader and composer",confirmed,Exact MusicBrainz artist entry reviewed
+Lang Lang,13,43e1570a-1a0d-479f-9c95-fba971aec91a,Lang Lang,Chinese pianist,confirmed,Exact MusicBrainz artist entry reviewed
+Ryuichi Sakamoto,13,a7f7df4a-77d8-4f12-8acd-5c60c93f4de8,坂本龍一,"Ryūichi Sakamoto; Japanese composer and pianist",confirmed,Solo person entry checked; collaboration-group search result rejected
+Max Richter,12,509f20b2-5df3-4aec-9bbc-002131fb3f99,Max Richter,German pianist and score composer,confirmed,Exact MusicBrainz artist entry reviewed
+Brian Eno,10,ff95eb47-41c4-4f7f-a104-cdc30f02e872,Brian Eno,,confirmed,Exact MusicBrainz artist entry reviewed
+Hans Zimmer,10,e6de1f3b-6484-491c-88dd-6d619f142abc,Hans Zimmer,German score composer,confirmed,Exact MusicBrainz artist entry reviewed
+Ólafur Arnalds,10,6655955b-1c1e-4bcb-84e4-81bcd9efab30,Ólafur Arnalds,Icelandic multi‐instrumentalist and producer,confirmed,Exact MusicBrainz artist entry reviewed
+Nils Frahm,9,d03a54bc-6e07-4c04-a8d4-7fbf2bd07a01,Nils Frahm,German pianist and score composer,confirmed,Exact MusicBrainz artist entry reviewed
+Robert Glasper,9,6e8f82ea-9e6d-4fdd-9b32-32feef13186b,Robert Glasper,piano,confirmed,Exact MusicBrainz artist entry reviewed
+Ludovico Einaudi,8,fa34b363-79df-434f-a5b8-be4e6898543f,Ludovico Einaudi,Italian composer and pianist,confirmed,Exact MusicBrainz artist entry reviewed
+Coldplay,7,cc197bad-dc9c-440d-a5b5-d52ba2e14234,Coldplay,,confirmed,Exact MusicBrainz group entry reviewed
+Flying Lotus,7,fc7376fe-1a6f-4414-b4a7-83f50ed59c92,Flying Lotus,,confirmed,Exact MusicBrainz artist entry reviewed
+Jacob Collier,7,1df15ee0-b52b-4315-9cb9-bc5a27a685e9,Jacob Collier,,confirmed,Exact MusicBrainz artist entry reviewed
+Kaytranada,7,e56aee57-d90e-40cf-a70d-beb70f6f3c69,KAYTRANADA,,confirmed,Exact MusicBrainz artist entry reviewed
+Kendrick Lamar,7,381086ea-f511-4aba-bdf9-71c753dc5077,Kendrick Lamar,,confirmed,Exact MusicBrainz artist entry reviewed
+Kamasi Washington,6,c7a3e868-c6d8-4512-a5ef-f6cbe42899b0,Kamasi Washington,US jazz saxophonist,confirmed,Exact MusicBrainz artist entry reviewed
+Philip Glass,6,5ae54dee-4dba-49c0-802a-a3b3b3adfe9b,Philip Glass,US composer and pianist,confirmed,Exact MusicBrainz artist entry reviewed
+SUGA,6,b629da42-c668-49d2-be67-498605ee2a13,SUGA,BTS,confirmed,BTS member entry checked; Suga Free search result rejected
+The Weeknd,6,c8b03190-306c-4120-bb0b-6f2ebfc06ea9,The Weeknd,Canadian R&B singer,confirmed,Exact MusicBrainz artist entry reviewed
+Bonobo,5,9a709693-b4f8-4da9-8cc1-038c911a61be,Bonobo,UK electronic artist Simon Green,confirmed,Exact MusicBrainz artist entry reviewed
+Chick Corea,5,8446fcca-109e-4c6d-a2ff-5a269b32b4c2,Chick Corea,jazz pianist,confirmed,Exact MusicBrainz artist entry reviewed
+Disclosure,5,ae65c507-d9a0-4d42-9a6c-2b1f82158b9f,Disclosure,UK electronic duo Guy and Howard Lawrence,confirmed,Exact MusicBrainz group entry reviewed
+Floating Points,5,69d9c5ba-7bba-4cb7-ab32-8ccc48ad4f97,Floating Points,,confirmed,Exact MusicBrainz artist entry reviewed
+Four Tet,5,3bcff06f-675a-451f-9075-99e8657047e8,Four Tet,,confirmed,Exact MusicBrainz artist entry reviewed
+John Williams,5,53b106e7-0cc6-42cc-ac95-ed8d30a3a98e,John Williams,American score composer and conductor,confirmed,Composer entry checked against same-name candidates
+Jon Hopkins,5,0b0c25f4-f31c-46a5-a4fb-ccbf53d663bd,Jon Hopkins,,confirmed,Exact MusicBrainz artist entry reviewed
+Pharrell Williams,5,149f91ef-1287-46da-9a8e-87fee02f1471,Pharrell Williams,,confirmed,Exact MusicBrainz artist entry reviewed
+Rosalía,5,25f3abd9-63b5-471a-bd25-feb9672dfa11,ROSALÍA,Spanish singer,confirmed,Exact MusicBrainz artist entry reviewed
+Thundercat,5,044fd265-79dd-43eb-afc4-8b20becf7e17,Thundercat,US singer-songwriter and bassist,confirmed,Exact MusicBrainz artist entry reviewed
+Alva Noto,4,48ec4bb6-47a6-4e2c-8287-7617464eb193,Alva Noto,,confirmed,Exact MusicBrainz artist entry reviewed
+Anderson .Paak,4,d02dd67e-f655-4600-bc47-f789f59e7367,Anderson .Paak,American rapper and producer,confirmed,Exact MusicBrainz artist entry reviewed
+Aphex Twin,4,f22942a1-6f70-4f48-866e-238cb2308fbd,Aphex Twin,,confirmed,Exact MusicBrainz artist entry reviewed
+Arca,4,f7625f34-1799-42a4-a1c6-22b5377c767b,Arca,Venezuelan producer and composer,confirmed,Exact MusicBrainz artist entry reviewed
+David Bowie,4,5441c29d-3602-4898-b1a1-b77fa23b8e50,David Bowie,English singer-songwriter,confirmed,Exact MusicBrainz artist entry reviewed
+Esperanza Spalding,4,5c12b265-5e59-44e0-b657-5cf4169f7316,Esperanza Spalding,,confirmed,Exact MusicBrainz artist entry reviewed
+Gautier Capuçon,4,03ebaa38-5d45-4347-93a5-1b31e9e7a44c,Gautier Capuçon,cellist,confirmed,Exact MusicBrainz artist entry reviewed
+Gustavo Dudamel,4,4c8702d6-86f9-4ef0-a9ee-08042481c542,Gustavo Dudamel,conductor and violinist,confirmed,Exact MusicBrainz artist entry reviewed
+HAUSER,4,92b280eb-b466-4db4-a0b7-30a5dc5f1bd0,HAUSER,cellist persona,confirmed,Official HAUSER page and cello recordings reviewed
+Hildur Guðnadóttir,4,8a399a51-6b93-448e-82c0-f86c83602605,Hildur Guðnadóttir,Icelandic musician and score composer,confirmed,Exact MusicBrainz artist entry reviewed
