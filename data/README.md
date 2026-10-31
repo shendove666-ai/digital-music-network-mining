@@ -27,3 +27,10 @@ Before this dataset is used for research claims, every row should add:
 If a reproducible weight cannot be derived, the defensible alternative is to
 analyse the network as unweighted. Empty evidence fields must never be filled
 with guessed or generated citations.
+
+## Rebuild workflow
+
+`musicbrainz_provenance.py` provides a stricter replacement workflow based on
+recording-level MusicBrainz artist credits. Identity matching is deliberately a
+human review step; the script never treats the highest-scoring name search as
+automatic confirmation. See `docs/MUSICBRAINZ_GUIDE_CN.md`.

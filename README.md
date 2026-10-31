@@ -8,6 +8,14 @@
 > [`data/README.md`](data/README.md) for the provenance fields required before
 > making broader empirical claims.
 
+### Rebuilding the data with verifiable sources
+
+`musicbrainz_provenance.py` implements a cautious replacement workflow: select
+a manageable artist roster, review MusicBrainz identity candidates, collect
+recording-level co-credit evidence, and define edge weight as the count of
+distinct co-credited recording MBIDs. Identity confirmation is intentionally a
+human step. See the [Chinese step-by-step guide](docs/MUSICBRAINZ_GUIDE_CN.md).
+
 ---
 
 ## Network Topology Visual Analytics

@@ -4,6 +4,7 @@ import csv
 import math
 import unittest
 from pathlib import Path
+from tempfile import TemporaryDirectory
 
 import networkx as nx
 
@@ -12,6 +13,7 @@ from music_network_mining import (
     load_empirical_artist_network,
 )
 from null_model_analysis import randomised_copy, run_null_model
+from musicbrainz_provenance import prepare_registry, read_csv
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -67,6 +69,17 @@ class ArtistDataTests(unittest.TestCase):
         for row in summary:
             self.assertTrue(math.isfinite(row["observed"]))
             self.assertTrue(math.isfinite(row["null_mean"]))
+
+    def test_prepare_registry_selects_unique_high_degree_artists(self) -> None:
+        with TemporaryDirectory() as directory:
+            output = Path(directory) / "registry.csv"
+            prepare_registry(EDGE_FILE, output, top=40, force=False)
+            rows = read_csv(output)
+        self.assertEqual(len(rows), 40)
+        self.assertEqual(len({row["legacy_name"] for row in rows}), 40)
+        degrees = [int(row["legacy_degree"]) for row in rows]
+        self.assertEqual(degrees, sorted(degrees, reverse=True))
+        self.assertTrue(all(not row["artist_mbid"] for row in rows))
 
 
 if __name__ == "__main__":

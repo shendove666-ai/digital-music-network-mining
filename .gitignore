@@ -72,3 +72,6 @@ music_network_metrics.csv
 *.key
 secrets.yaml
 credentials.json
+
+# Regenerable MusicBrainz API response cache
+data/musicbrainz/cache/
