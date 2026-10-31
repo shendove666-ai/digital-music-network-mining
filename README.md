@@ -1,6 +1,12 @@
-# Digital Music Community & Cross-Genre Artist Collaboration Network Mining via Complex Network Theory
+# Network measures on a curated recording-artist collaboration sample
 
-**Graph measures on a hand-curated sample of 120 recording artists: genre cohesion, Louvain modularity, and Burt's structural holes. This is not a map of global music collaboration.**
+**An exploratory NetworkX study of brokerage, clustering, and community structure in a hand-curated sample of 120 recording artists. This is not a map of global music collaboration.**
+
+> **Data limitation:** the current edge list does not yet contain release-level
+> source citations or a reproducible definition of collaboration weight. The
+> numerical results therefore describe this curated sample only. See
+> [`data/README.md`](data/README.md) for the provenance fields required before
+> making broader empirical claims.
 
 ---
 
@@ -13,22 +19,29 @@
 
 ## 1. Project Overview & Theoretical Background
 
-In contemporary digital music ecosystems, artistic innovation increasingly emerges at the intersection of distinct stylistic traditions. While traditional musicological analysis examines stylistic fusion through harmonic or timbral frameworks, **Computational Social Science (CSS)** and **Complex Network Theory** offer a rigorous mathematical lens to quantify how creative influence propagates across genre boundaries.
+Collaborations across musical styles can be represented as a network, allowing
+questions about brokerage, local clustering, and community structure to be
+stated explicitly and examined computationally.
 
-This research project models a hand-curated sample of 120 recording artists as one undirected, weighted collaboration graph $G = (V, E, W)$, where vertices $v_i \in V$ represent recording artists or producers, edges $e_{ij} \in E$ denote hand-curated collaboration links, not a complete discography, and edge weights $w_{ij} \in W$ capture collaboration intensity. By integrating **parametric generative network benchmarking** with **network measures on that curated sample**, this study addresses two foundational research questions in cultural sociology and network science:
+This project models a hand-curated sample of 120 recording artists as one
+undirected, weighted graph $G = (V, E, W)$. Vertices represent artists or
+producers, and edges represent manually recorded collaboration links rather
+than a complete discography. The project asks two exploratory questions:
 
 1. **Community Homophily vs. Cross-Boundary Brokerage**: How strongly do stylistic norms partition recording artists into insular genre clusters (measured via **Blondel et al.'s Louvain Modularity $Q$** and **Watts–Strogatz local transitivity**), and which structural actors bridge these divides?
 2. **Structural Holes and Creative Arbitrage**: Drawing upon **Ronald S. Burt's (1992, 2004) Theory of Structural Holes**, how do cross-genre producers and boundary-spanning instrumentalists (e.g., *Yo-Yo Ma*, *Ryuichi Sakamoto*, *Hans Zimmer*, *Brian Eno*, *Herbie Hancock*, *Lang Lang*) leverage **low network constraint ($C_i$)** and **high non-redundant effective size ($ES_i$)** to broker musical diffusion across Classical, Electronic/Ambient, Jazz/Fusion, and Popular Music communities?
 
 ---
 
-## 2. Methodological framework: simulation benchmark vs. hand-curated sample
+## 2. Methodological framework
 
-A frequent limitation in exploratory network studies is evaluating network metrics on one sample without a baseline without a controlled baseline. To establish methodological rigor, `music_network_mining.py` implements a **Dual-Pipeline Architecture** controllable via a unified CLI and programmatic interface (`main(mode='simulation')` vs. `main(mode='real')`):
+`music_network_mining.py` implements two pipelines through a shared interface.
+They serve different purposes and should not be treated as statistically
+matched samples:
 
 | Analytical Dimension | Pipeline A: Generative simulation benchmark (`mode='simulation'`) | Pipeline B: Hand-curated sample (`mode='real'`) |
 | :--- | :--- | :--- |
-| **Epistemological Role** | Null/Synthetic Structural Baseline (Controlled Small-World + Scale-Free Topology) | Metrics computed on a hand-curated 120-artist sample |
+| **Role** | Demonstration graph with deliberately planted hubs and bridges | Metrics computed on a hand-curated 120-artist sample |
 | **Network Scale** | $|V| = 120$ synthetic nodes, $|E| = 425$ weighted edges | $|V| = 120$ hand-curated recording artists, $|E| = 260$ weighted edges |
 | **Genre Architecture** | 4 canonical macro-genres (`CLS`, `POP`, `JAZ`, `ELC`) + 8 dedicated `BRIDGE_Producer` nodes | 4 macro-genres spanning 30 Classical/Neo-Classical, 30 Electronic/Ambient, 30 Jazz/Fusion, and 30 Popular Music artists |
 | **Graph Density ($\rho$)** | $0.0595$ | $0.0364$ |
@@ -45,9 +58,39 @@ A frequent limitation in exploratory network studies is evaluating network metri
   <em>Figure 2: Left: the same hand-curated 120-artist sample (|V|=120, |E|=260). Right: a synthetic benchmark drawn separately (|V|=120, |E|=425). The two pictures use different layouts and should not be read as the same algorithm.</em>
 </p>
 
-### Why compare the simulation with the hand-curated sample?
-1. **Algorithmic Verification**: The synthetic benchmark (`mode='simulation'`) plants 8 explicit `BRIDGE_Producer` nodes with known cross-community attachment probabilities and 8 intra-genre `Genre Hub` nodes. Confirming that Burt's Constraint ($C_i$) and Effective Size ($ES_i$) accurately separate `BRIDGE_Producer` brokers from insular hubs validates the mathematical pipeline before it is applied to the hand-curated sample.
-2. **Sociological Contrast**: Comparing the synthetic baseline with the hand-curated sample (`mode='real'`) shows **higher modularity ($Q = 0.6319$ vs. $0.5479$)** and **32.5% higher local clustering ($\langle C \rangle = 0.2704$ vs. $0.2041$)**. Those two differences describe this sample only. After shortest paths treat a stronger collaboration as a shorter step, the highest betweenness is Herbie Hancock, not a classical soloist.
+### What the synthetic graph can and cannot show
+
+The simulation plants eight `BRIDGE_Producer` nodes with known
+cross-community attachment rules. Recovering several of those nodes among the
+low-constraint, high-effective-size results is a useful implementation check.
+Because the simulation has 425 edges while the curated graph has 260, and
+because its community structure is built in by design, it is **not** a null
+model for testing whether the curated graph is unusually clustered or modular.
+
+### Degree-preserving null model
+
+`null_model_analysis.py` repeatedly randomises the observed topology with
+double-edge swaps, preserving every node's degree and the total edge count. It
+then randomly reassigns the observed weights so that the weight distribution is
+also preserved. The output reports the null mean, standard deviation, z-score,
+and a finite-sample empirical two-sided p-value for average clustering and
+weighted modularity.
+
+```powershell
+python null_model_analysis.py --repetitions 500 --seed 42
+```
+
+With seed 42, the saved 500-run analysis produced:
+
+| Metric | Observed | Null mean ± SD | z-score | Empirical two-sided p |
+|---|---:|---:|---:|---:|
+| Average clustering | 0.2704 | 0.0497 ± 0.0128 | 17.30 | 0.0020 |
+| Weighted modularity | 0.6319 | 0.4881 ± 0.0097 | 14.82 | 0.0020 |
+
+These results show that this **sample** is more clustered and modular than its degree- and weight-distribution-preserving randomisations. They do not establish a claim about the global music industry.
+
+This addresses structural comparison; it does not repair the missing
+provenance in the curated edge list.
 
 ---
 
@@ -152,6 +195,7 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
 # Install scientific dependencies
 pip install -r requirements.txt
+python -m unittest discover -s tests -v
 ```
 
 ### 6.2 Running the Dual-Pipeline Engine
@@ -171,7 +215,11 @@ pip install -r requirements.txt
        --csv output/music_network_metrics_simulation_v2.csv \
        --seed 42
    ```
-3. **Programmatic Import in Python / Jupyter**:
+3. **Run the degree-preserving null model:**
+   ```bash
+   python3 null_model_analysis.py --repetitions 500 --seed 42
+   ```
+4. **Programmatic Import in Python / Jupyter**:
    ```python
    from music_network_mining import main
 

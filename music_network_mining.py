@@ -10,16 +10,15 @@ Author: Portfolio Project for MSc in Social Computing Application (XJTLU)
 License: MIT
 
 Description:
-    An enterprise-grade graph mining and computational social science framework
-    designed to analyze intra-community cohesion and cross-genre brokerage in
-    digital music collaboration ecosystems.
+    An exploratory graph-analysis pipeline for a curated artist-collaboration
+    sample and a separately generated demonstration network.
 
     Key Architectural Features:
-    1. Dual-Pipeline Execution Engine (`mode='simulation'` vs. `mode='real'`):
-       - Simulation Mode: Generates a parameterized 120-node synthetic benchmark
+    1. Two execution modes (`mode='simulation'` vs. `mode='real'`):
+       - Simulation Mode: Generates a parameterized 120-node demonstration graph
          exhibiting small-world clustering and scale-free hub attachment across
          four musical macro-genres and eight dedicated cross-genre bridge nodes.
-       - Empirical Mode: Parses curated real-world artist collaboration records
+       - Curated-sample Mode: Parses manually recorded artist collaboration links
          from `data/real_artist_edgelist.csv` (120 recording artists, 260
          hand-curated links without album citations).
     2. Computational Social Science & Complex Network Metrics:
@@ -748,7 +747,7 @@ def write_gephi_gexf(G: Any, output_path: str) -> None:
 # ==============================================================================
 def build_simulation_benchmark_network(seed: int = 42) -> Any:
     """
-    Constructs a parameterized 120-node synthetic music collaboration benchmark
+    Constructs a parameterized 120-node synthetic music collaboration demonstration
     graph combining high intra-genre triadic closure (small-world property)
     with preferential hub attachment and 8 dedicated cross-genre bridge producers.
 
@@ -844,11 +843,11 @@ def build_simulation_benchmark_network(seed: int = 42) -> Any:
 
 
 # ==============================================================================
-# Pipeline 2: Empirical Artist Network Loader (mode='real')
+# Pipeline 2: Curated Artist Network Loader (mode='real')
 # ==============================================================================
 def load_empirical_artist_network(edgelist_path: str) -> Any:
     """
-    Constructs an empirical cross-genre collaboration network from a curated CSV
+    Constructs a cross-genre collaboration network from a curated CSV
     edge list (`Source,Target,Weight,Relation_Type`) and enriches nodes with
     genre and role classifications.
 
@@ -856,7 +855,7 @@ def load_empirical_artist_network(edgelist_path: str) -> Any:
         edgelist_path (str): Path to the empirical CSV file.
 
     Returns:
-        Graph: Populated undirected weighted empirical collaboration network.
+        Graph: Populated undirected weighted curated collaboration network.
     """
     path_obj = Path(edgelist_path)
     if not path_obj.exists():
