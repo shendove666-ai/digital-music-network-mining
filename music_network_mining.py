@@ -843,19 +843,81 @@ def build_simulation_benchmark_network(seed: int = 42) -> Any:
 
 
 # ==============================================================================
-# Pipeline 2: Curated Artist Network Loader (mode='real')
+# Pipeline 2: Empirical Artist Network Loader (mode='real')
 # ==============================================================================
-def load_empirical_artist_network(edgelist_path: str) -> Any:
+def _load_registry_metadata(
+    artist_registry_path: str,
+) -> Tuple[Dict[str, Tuple[str, str]], List[str]]:
+    """Return metadata and roster names from a manually confirmed registry.
+
+    MusicBrainz may use a canonical display name that differs from the legacy
+    name used in the original exploratory sample (for example, ``坂本龍一`` and
+    ``Ryuichi Sakamoto``).  The registry provides an explicit, reviewable link
+    between those names.  It is used only for display metadata; it never
+    changes the MusicBrainz IDs or recording-level evidence.
     """
-    Constructs a cross-genre collaboration network from a curated CSV
-    edge list (`Source,Target,Weight,Relation_Type`) and enriches nodes with
-    genre and role classifications.
+    path_obj = Path(artist_registry_path)
+    if not path_obj.exists():
+        raise FileNotFoundError(
+            f"Artist registry not found at '{artist_registry_path}'."
+        )
+
+    with path_obj.open(encoding="utf-8-sig", newline="") as handle:
+        reader = csv.DictReader(handle)
+        required_cols = {
+            "legacy_name", "canonical_name", "confirmation_status",
+        }
+        if reader.fieldnames is None or not required_cols.issubset(reader.fieldnames):
+            raise ValueError(
+                f"Invalid artist registry schema in {artist_registry_path}. "
+                f"Expected columns: {sorted(required_cols)}"
+            )
+
+        metadata: Dict[str, Tuple[str, str]] = {}
+        roster: List[str] = []
+        for row_idx, row in enumerate(reader, start=2):
+            status = row["confirmation_status"].strip().casefold()
+            if status != "confirmed":
+                continue
+            legacy_name = row["legacy_name"].strip()
+            canonical_name = row["canonical_name"].strip()
+            if not legacy_name or not canonical_name:
+                raise ValueError(
+                    f"Confirmed registry row {row_idx} needs legacy_name and canonical_name."
+                )
+            if canonical_name in metadata:
+                raise ValueError(
+                    f"Duplicate confirmed canonical_name in registry: {canonical_name}"
+                )
+            metadata[canonical_name] = EMPIRICAL_ARTIST_METADATA.get(
+                legacy_name, ("Cross-Genre / Other", "Artist")
+            )
+            roster.append(canonical_name)
+
+    if not roster:
+        raise ValueError(
+            f"Artist registry '{artist_registry_path}' has no confirmed artists."
+        )
+    return metadata, roster
+
+
+def load_empirical_artist_network(
+    edgelist_path: str, artist_registry_path: Optional[str] = None
+) -> Any:
+    """
+    Constructs a cross-genre collaboration network from an empirical CSV edge
+    list (``Source,Target,Weight,Relation_Type``) and enriches nodes with
+    genre and role classifications.  When a confirmed MusicBrainz registry is
+    supplied, all confirmed artists are included, including artists with no
+    verified co-credit in the retrieved data.
 
     Parameters:
         edgelist_path (str): Path to the empirical CSV file.
+        artist_registry_path (str | None): Optional manually confirmed
+            MusicBrainz registry used for canonical-name metadata and isolates.
 
     Returns:
-        Graph: Populated undirected weighted curated collaboration network.
+        Graph: Populated undirected weighted empirical collaboration network.
     """
     path_obj = Path(edgelist_path)
     if not path_obj.exists():
@@ -865,6 +927,18 @@ def load_empirical_artist_network(edgelist_path: str) -> Any:
         )
 
     G = nx.Graph() if HAS_NETWORKX else StandaloneGraph()
+    registry_metadata: Dict[str, Tuple[str, str]] = {}
+    confirmed_roster: List[str] = []
+    if artist_registry_path:
+        registry_metadata, confirmed_roster = _load_registry_metadata(
+            artist_registry_path
+        )
+
+    def metadata_for(artist: str) -> Tuple[str, str]:
+        return registry_metadata.get(
+            artist,
+            EMPIRICAL_ARTIST_METADATA.get(artist, ("Cross-Genre / Other", "Artist")),
+        )
 
     with open(path_obj, mode="r", encoding="utf-8-sig") as f:
         reader = csv.DictReader(f)
@@ -893,9 +967,7 @@ def load_empirical_artist_network(edgelist_path: str) -> Any:
             rel_type = row["Relation_Type"].strip() or "Cross-Genre Collab"
 
             for artist in (u, v):
-                genre, role = EMPIRICAL_ARTIST_METADATA.get(
-                    artist, ("Cross-Genre / Other", "Artist")
-                )
+                genre, role = metadata_for(artist)
                 G.add_node(artist, label=artist, genre=genre, role=role)
 
             G.add_edge(
@@ -904,6 +976,10 @@ def load_empirical_artist_network(edgelist_path: str) -> Any:
                 weight=int(weight) if weight.is_integer() else weight,
                 relation=rel_type,
             )
+
+    for artist in confirmed_roster:
+        genre, role = metadata_for(artist)
+        G.add_node(artist, label=artist, genre=genre, role=role)
 
     return G
 
@@ -1082,6 +1158,7 @@ def _print_top_table(title: str, rows: List[Dict[str, Any]]) -> None:
 def main(
     mode: str = "real",
     edgelist_path: str = "data/real_artist_edgelist.csv",
+    artist_registry_path: Optional[str] = None,
     gexf_output: str = "music_network_advanced.gexf",
     csv_output: str = "music_network_metrics_v2.csv",
     seed: int = 42,
@@ -1094,6 +1171,8 @@ def main(
     Parameters:
         mode (str): Execution mode ('real' or 'simulation').
         edgelist_path (str): Path to empirical edge list CSV when mode='real'.
+        artist_registry_path (str | None): Optional confirmed MusicBrainz
+            registry used when mode='real'.
         gexf_output (str): Output file path for the Gephi .gexf network file.
         csv_output (str): Output file path for the v2 node metrics CSV table.
         seed (int): Random seed for reproducibility.
@@ -1112,7 +1191,10 @@ def main(
         graph = build_simulation_benchmark_network(seed=seed)
     else:
         logger.info("Executing Empirical Streaming Collaboration Pipeline from '%s'...", edgelist_path)
-        graph = load_empirical_artist_network(edgelist_path=edgelist_path)
+        graph = load_empirical_artist_network(
+            edgelist_path=edgelist_path,
+            artist_registry_path=artist_registry_path,
+        )
 
     return analyze_and_export_network(
         G=graph,
@@ -1144,6 +1226,15 @@ if __name__ == "__main__":
         help="Path to the empirical edge list CSV file (used when --mode=real).",
     )
     parser.add_argument(
+        "--artist-registry",
+        type=str,
+        default=None,
+        help=(
+            "Optional confirmed MusicBrainz artist registry. Its confirmed "
+            "artists are included as nodes, even when they have no verified edge."
+        ),
+    )
+    parser.add_argument(
         "--gexf",
         type=str,
         default="music_network_advanced.gexf",
@@ -1167,6 +1258,7 @@ if __name__ == "__main__":
         main(
             mode=args.mode,
             edgelist_path=args.input,
+            artist_registry_path=args.artist_registry,
             gexf_output=args.gexf,
             csv_output=args.csv,
             seed=args.seed,

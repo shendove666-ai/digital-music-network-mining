@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Degree-preserving null-model analysis for the curated artist network.
+"""Degree-preserving null-model analysis for an empirical artist network.
 
 The original synthetic graph in ``music_network_mining.py`` is useful for
-checking whether the metrics recover deliberately planted bridge nodes.  It is
+checking whether the metrics recover deliberately planted bridge nodes. It is
 not a statistical null model because its density and construction differ from
-the curated graph.  This module provides the appropriate comparison: repeated
+the empirical graph. This module provides the appropriate comparison: repeated
 degree-preserving edge swaps on the observed topology, with the observed edge
 weights randomly reassigned after every swap.
 """
@@ -128,13 +128,18 @@ def write_csv(path: Path, rows: List[Dict[str, float]]) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--input", default="data/real_artist_edgelist.csv")
+    parser.add_argument(
+        "--artist-registry",
+        default=None,
+        help="Optional confirmed MusicBrainz registry to retain the full sampled roster.",
+    )
     parser.add_argument("--repetitions", type=int, default=500)
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--swaps-per-edge", type=int, default=10)
     parser.add_argument("--output-dir", default="output/null_model")
     args = parser.parse_args()
 
-    graph = load_empirical_artist_network(args.input)
+    graph = load_empirical_artist_network(args.input, args.artist_registry)
     runs, summary = run_null_model(
         graph,
         repetitions=args.repetitions,

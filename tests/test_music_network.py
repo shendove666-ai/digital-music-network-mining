@@ -18,6 +18,8 @@ from musicbrainz_provenance import prepare_registry, read_csv
 
 ROOT = Path(__file__).resolve().parents[1]
 EDGE_FILE = ROOT / "data" / "real_artist_edgelist.csv"
+VERIFIED_EDGE_FILE = ROOT / "data" / "musicbrainz" / "verified_artist_edgelist.csv"
+VERIFIED_REGISTRY = ROOT / "data" / "musicbrainz" / "artist_registry.csv"
 
 
 class ArtistDataTests(unittest.TestCase):
@@ -40,6 +42,15 @@ class ArtistDataTests(unittest.TestCase):
         graph = load_empirical_artist_network(str(EDGE_FILE))
         self.assertEqual(graph.number_of_nodes(), 120)
         self.assertEqual(graph.number_of_edges(), 260)
+
+    def test_verified_musicbrainz_roster_keeps_isolates_and_alias_metadata(self) -> None:
+        graph = load_empirical_artist_network(
+            str(VERIFIED_EDGE_FILE), str(VERIFIED_REGISTRY)
+        )
+        self.assertEqual(graph.number_of_nodes(), 40)
+        self.assertEqual(graph.number_of_edges(), 48)
+        self.assertEqual(graph.degree("Max Richter"), 0)
+        self.assertEqual(graph.nodes["坂本龍一"]["genre"], "Classical & Neo-Classical")
 
     def test_weight_is_converted_to_distance_for_betweenness(self) -> None:
         graph = nx.Graph()

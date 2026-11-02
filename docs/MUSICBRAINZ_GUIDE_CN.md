@@ -57,8 +57,19 @@ python musicbrainz_provenance.py collect
 ```powershell
 python music_network_mining.py --mode real `
   --input data/musicbrainz/verified_artist_edgelist.csv `
+  --artist-registry data/musicbrainz/artist_registry.csv `
   --gexf output/musicbrainz_verified_network.gexf `
   --csv output/musicbrainz_verified_metrics.csv
+```
+
+随后以保持每位艺术家连接数不变的随机网络作为基准：
+
+```powershell
+python null_model_analysis.py `
+  --input data/musicbrainz/verified_artist_edgelist.csv `
+  --artist-registry data/musicbrainz/artist_registry.csv `
+  --repetitions 500 `
+  --output-dir output/musicbrainz_null_model
 ```
 
 旧项目的120个节点、260条边及全部指标不能沿用。README、简历和个人陈述只能引用重建后的真实结果。

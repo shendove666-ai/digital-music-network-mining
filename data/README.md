@@ -1,36 +1,18 @@
-# Data provenance and schema
+# Data provenance
 
-`real_artist_edgelist.csv` is a hand-curated exploratory sample. It is not a
-complete discography and, in its current version, the rows do not yet contain
-source citations. Results derived from it must therefore be described as
-properties of this curated sample, not as claims about the global music
-industry.
+## Dataset used by the current analysis
 
-## Current columns
+`musicbrainz/` is the source-backed dataset used by the README's reported results.
 
-- `Source`, `Target`: recording artists or producers;
-- `Weight`: a positive collaboration-strength value;
-- `Relation_Type`: an intra-genre or cross-genre label derived from the
-  project's four broad genre groups.
+- `artist_registry.csv` records the 40 identity decisions. `confirmed` means a human reviewed the MusicBrainz candidate; `excluded` means an ambiguous candidate was deliberately not used.
+- `artist_candidates.csv` retains the ranked search candidates so that the identity decisions can be audited.
+- `recording_evidence.csv` has one row for each distinct artist-pair/recording-MBID observation. It includes artist and recording MBIDs, source URLs, release metadata, and a retrieval timestamp.
+- `verified_artist_edgelist.csv` aggregates the evidence. Its `Weight` is the number of distinct shared recording MBIDs for that artist pair.
 
-## Required provenance upgrade
+The data are retrieved from MusicBrainz. Its core data are released under [CC0](https://musicbrainz.org/doc/About/Data_License). The cache directory is intentionally excluded from version control because it is reproducible API-response material.
 
-Before this dataset is used for research claims, every row should add:
+## Legacy exploratory file
 
-- `Evidence_URL`: a stable MusicBrainz, Discogs, AllMusic, label, or official
-  release page that names both collaborators;
-- `Evidence_Title`: the release, track, or project supporting the tie;
-- `Evidence_Date`: release year or publication date;
-- `Retrieved_At`: date on which the source was checked;
-- `Weight_Definition`: the mechanical rule used to derive the weight.
+`real_artist_edgelist.csv` is retained solely as the project's original exploratory input. It contains 120 artists and 260 hand-curated links without row-level evidence and is **not** the basis for the current results, figures, CV claims, or personal-statement claims. It is used only to construct the manageable 40-name shortlist for the source-backed rebuild.
 
-If a reproducible weight cannot be derived, the defensible alternative is to
-analyse the network as unweighted. Empty evidence fields must never be filled
-with guessed or generated citations.
-
-## Rebuild workflow
-
-`musicbrainz_provenance.py` provides a stricter replacement workflow based on
-recording-level MusicBrainz artist credits. Identity matching is deliberately a
-human review step; the script never treats the highest-scoring name search as
-automatic confirmation. See `docs/MUSICBRAINZ_GUIDE_CN.md`.
+Do not add citations or weights to that legacy file by guesswork. If the verified sample is extended, repeat the documented MusicBrainz identity-review and recording-evidence workflow instead.
