@@ -1,0 +1,827 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-11-02">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="10" title="relation" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="genre" type="string" />
+      <attribute id="1" title="role" type="string" />
+      <attribute id="2" title="Degree" type="long" />
+      <attribute id="3" title="Degree_Centrality" type="double" />
+      <attribute id="4" title="Betweenness_Centrality" type="double" />
+      <attribute id="5" title="Closeness_Centrality" type="double" />
+      <attribute id="6" title="Clustering_Coefficient" type="double" />
+      <attribute id="7" title="Modularity_Class" type="long" />
+      <attribute id="8" title="Constraint" type="double" />
+      <attribute id="9" title="Effective_Size" type="double" />
+    </attributes>
+    <nodes>
+      <node id="Alva Noto" label="Alva Noto">
+        <attvalues>
+          <attvalue for="0" value="Electronic &amp; Ambient" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="0.0256" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.1976" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="3" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="坂本龍一" label="坂本龍一">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Bridge Producer" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="0.1026" />
+          <attvalue for="4" value="0.4008" />
+          <attvalue for="5" value="0.2533" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="3" />
+          <attvalue for="8" value="0.7775" />
+          <attvalue for="9" value="4.0" />
+        </attvalues>
+      </node>
+      <node id="Anderson .Paak" label="Anderson .Paak">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Bridge Producer" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="0.1282" />
+          <attvalue for="4" value="0.0283" />
+          <attvalue for="5" value="0.2132" />
+          <attvalue for="6" value="0.4" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.5069" />
+          <attvalue for="9" value="4.0943" />
+        </attvalues>
+      </node>
+      <node id="Flying Lotus" label="Flying Lotus">
+        <attvalues>
+          <attvalue for="0" value="Electronic &amp; Ambient" />
+          <attvalue for="1" value="Bridge Producer" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="0.0769" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.2102" />
+          <attvalue for="6" value="1.0" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.9682" />
+          <attvalue for="9" value="1.7597" />
+        </attvalues>
+      </node>
+      <node id="KAYTRANADA" label="KAYTRANADA">
+        <attvalues>
+          <attvalue for="0" value="Electronic &amp; Ambient" />
+          <attvalue for="1" value="Bridge Producer" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="0.1026" />
+          <attvalue for="4" value="0.0121" />
+          <attvalue for="5" value="0.2246" />
+          <attvalue for="6" value="0.5" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.3874" />
+          <attvalue for="9" value="3.6356" />
+        </attvalues>
+      </node>
+      <node id="David Bowie" label="David Bowie">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="0.0769" />
+          <attvalue for="4" value="0.3239" />
+          <attvalue for="5" value="0.2102" />
+          <attvalue for="6" value="0.3333" />
+          <attvalue for="7" value="1" />
+          <attvalue for="8" value="0.6636" />
+          <attvalue for="9" value="2.8361" />
+        </attvalues>
+      </node>
+      <node id="Brian Eno" label="Brian Eno">
+        <attvalues>
+          <attvalue for="0" value="Electronic &amp; Ambient" />
+          <attvalue for="1" value="Bridge Producer" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="0.0769" />
+          <attvalue for="4" value="0.2807" />
+          <attvalue for="5" value="0.1888" />
+          <attvalue for="6" value="0.3333" />
+          <attvalue for="7" value="1" />
+          <attvalue for="8" value="0.7432" />
+          <attvalue for="9" value="2.95" />
+        </attvalues>
+      </node>
+      <node id="Hildur Guðnadóttir" label="Hildur Guðnadóttir">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="0.0513" />
+          <attvalue for="4" value="0.3414" />
+          <attvalue for="5" value="0.2316" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="3" />
+          <attvalue for="8" value="0.5" />
+          <attvalue for="9" value="2.0" />
+        </attvalues>
+      </node>
+      <node id="Philip Glass" label="Philip Glass">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Genre Hub" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="0.0513" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.1796" />
+          <attvalue for="6" value="1.0" />
+          <attvalue for="7" value="1" />
+          <attvalue for="8" value="1.0511" />
+          <attvalue for="9" value="1.4265" />
+        </attvalues>
+      </node>
+      <node id="Disclosure" label="Disclosure">
+        <attvalues>
+          <attvalue for="0" value="Electronic &amp; Ambient" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="0.0513" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.1786" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.625" />
+          <attvalue for="9" value="2.0" />
+        </attvalues>
+      </node>
+      <node id="The Weeknd" label="The Weeknd">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Genre Hub" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="0.1026" />
+          <attvalue for="4" value="0.0931" />
+          <attvalue for="5" value="0.183" />
+          <attvalue for="6" value="0.1667" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.4393" />
+          <attvalue for="9" value="3.8206" />
+        </attvalues>
+      </node>
+      <node id="Esperanza Spalding" label="Esperanza Spalding">
+        <attvalues>
+          <attvalue for="0" value="Jazz &amp; Fusion" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="0.0513" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.1912" />
+          <attvalue for="6" value="1.0" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.7494" />
+          <attvalue for="9" value="1.5211" />
+        </attvalues>
+      </node>
+      <node id="Robert Glasper" label="Robert Glasper">
+        <attvalues>
+          <attvalue for="0" value="Jazz &amp; Fusion" />
+          <attvalue for="1" value="Bridge Producer" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="0.1282" />
+          <attvalue for="4" value="0.2915" />
+          <attvalue for="5" value="0.2298" />
+          <attvalue for="6" value="0.3" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.3201" />
+          <attvalue for="9" value="4.7383" />
+        </attvalues>
+      </node>
+      <node id="Four Tet" label="Four Tet">
+        <attvalues>
+          <attvalue for="0" value="Electronic &amp; Ambient" />
+          <attvalue for="1" value="Genre Hub" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="0.0513" />
+          <attvalue for="4" value="0.0445" />
+          <attvalue for="5" value="0.1136" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="2" />
+          <attvalue for="8" value="0.625" />
+          <attvalue for="9" value="2.0" />
+        </attvalues>
+      </node>
+      <node id="Bonobo" label="Bonobo">
+        <attvalues>
+          <attvalue for="0" value="Electronic &amp; Ambient" />
+          <attvalue for="1" value="Genre Hub" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="0.0513" />
+          <attvalue for="4" value="0.0864" />
+          <attvalue for="5" value="0.1289" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="2" />
+          <attvalue for="8" value="0.625" />
+          <attvalue for="9" value="2.0" />
+        </attvalues>
+      </node>
+      <node id="Floating Points" label="Floating Points">
+        <attvalues>
+          <attvalue for="0" value="Electronic &amp; Ambient" />
+          <attvalue for="1" value="Bridge Producer" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="0.0256" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.1008" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="2" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="Gautier Capuçon" label="Gautier Capuçon">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="0.0256" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.1418" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="4" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="John Williams" label="John Williams">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Genre Hub" />
+          <attvalue for="2" value="4" />
+          <attvalue for="3" value="0.1026" />
+          <attvalue for="4" value="0.1296" />
+          <attvalue for="5" value="0.1684" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="4" />
+          <attvalue for="8" value="0.887" />
+          <attvalue for="9" value="4.0" />
+        </attvalues>
+      </node>
+      <node id="Gustavo Dudamel" label="Gustavo Dudamel">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="0.0256" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.1418" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="4" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="Herbie Hancock" label="Herbie Hancock">
+        <attvalues>
+          <attvalue for="0" value="Jazz &amp; Fusion" />
+          <attvalue for="1" value="Genre Hub" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="0.1282" />
+          <attvalue for="4" value="0.2389" />
+          <attvalue for="5" value="0.1989" />
+          <attvalue for="6" value="0.1" />
+          <attvalue for="7" value="5" />
+          <attvalue for="8" value="0.6832" />
+          <attvalue for="9" value="4.9051" />
+        </attvalues>
+      </node>
+      <node id="Chick Corea" label="Chick Corea">
+        <attvalues>
+          <attvalue for="0" value="Jazz &amp; Fusion" />
+          <attvalue for="1" value="Genre Hub" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="0.0256" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.1629" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="5" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="Lang Lang" label="Lang Lang">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Genre Hub" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="0.0256" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.1629" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="5" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="Jacob Collier" label="Jacob Collier">
+        <attvalues>
+          <attvalue for="0" value="Jazz &amp; Fusion" />
+          <attvalue for="1" value="Bridge Producer" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="0.0256" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.1235" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="1" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="Coldplay" label="Coldplay">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Genre Hub" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="0.0513" />
+          <attvalue for="4" value="0.0445" />
+          <attvalue for="5" value="0.1432" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="1" />
+          <attvalue for="8" value="0.5556" />
+          <attvalue for="9" value="2.0" />
+        </attvalues>
+      </node>
+      <node id="Yo‐Yo Ma" label="Yo‐Yo Ma">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Genre Hub" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="0.0256" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.1418" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="4" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="Jon Hopkins" label="Jon Hopkins">
+        <attvalues>
+          <attvalue for="0" value="Electronic &amp; Ambient" />
+          <attvalue for="1" value="Genre Hub" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="0.0769" />
+          <attvalue for="4" value="0.2686" />
+          <attvalue for="5" value="0.1684" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="1" />
+          <attvalue for="8" value="0.8481" />
+          <attvalue for="9" value="3.0" />
+        </attvalues>
+      </node>
+      <node id="Ólafur Arnalds" label="Ólafur Arnalds">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Bridge Producer" />
+          <attvalue for="2" value="3" />
+          <attvalue for="3" value="0.0769" />
+          <attvalue for="4" value="0.166" />
+          <attvalue for="5" value="0.1475" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="2" />
+          <attvalue for="8" value="0.717" />
+          <attvalue for="9" value="3.0" />
+        </attvalues>
+      </node>
+      <node id="Kendrick Lamar" label="Kendrick Lamar">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Genre Hub" />
+          <attvalue for="2" value="6" />
+          <attvalue for="3" value="0.1538" />
+          <attvalue for="4" value="0.2443" />
+          <attvalue for="5" value="0.2164" />
+          <attvalue for="6" value="0.4" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.3858" />
+          <attvalue for="9" value="5.3234" />
+        </attvalues>
+      </node>
+      <node id="Hans Zimmer" label="Hans Zimmer">
+        <attvalues>
+          <attvalue for="0" value="Electronic &amp; Ambient" />
+          <attvalue for="1" value="Bridge Producer" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="0.0513" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.1764" />
+          <attvalue for="6" value="1.0" />
+          <attvalue for="7" value="6" />
+          <attvalue for="8" value="0.9835" />
+          <attvalue for="9" value="1.9384" />
+        </attvalues>
+      </node>
+      <node id="Pharrell Williams" label="Pharrell Williams">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Bridge Producer" />
+          <attvalue for="2" value="5" />
+          <attvalue for="3" value="0.1282" />
+          <attvalue for="4" value="0.0445" />
+          <attvalue for="5" value="0.2148" />
+          <attvalue for="6" value="0.4" />
+          <attvalue for="7" value="6" />
+          <attvalue for="8" value="0.8117" />
+          <attvalue for="9" value="4.8573" />
+        </attvalues>
+      </node>
+      <node id="ROSALÍA" label="ROSALÍA">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="0.0513" />
+          <attvalue for="4" value="0.0094" />
+          <attvalue for="5" value="0.1796" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.68" />
+          <attvalue for="9" value="2.0" />
+        </attvalues>
+      </node>
+      <node id="Arca" label="Arca">
+        <attvalues>
+          <attvalue for="0" value="Electronic &amp; Ambient" />
+          <attvalue for="1" value="Bridge Producer" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="0.0513" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.2044" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="3" />
+          <attvalue for="8" value="0.5" />
+          <attvalue for="9" value="2.0" />
+        </attvalues>
+      </node>
+      <node id="Kamasi Washington" label="Kamasi Washington">
+        <attvalues>
+          <attvalue for="0" value="Jazz &amp; Fusion" />
+          <attvalue for="1" value="Genre Hub" />
+          <attvalue for="2" value="2" />
+          <attvalue for="3" value="0.0513" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.2148" />
+          <attvalue for="6" value="1.0" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.6098" />
+          <attvalue for="9" value="1.7243" />
+        </attvalues>
+      </node>
+      <node id="Thundercat" label="Thundercat">
+        <attvalues>
+          <attvalue for="0" value="Jazz &amp; Fusion" />
+          <attvalue for="1" value="Bridge Producer" />
+          <attvalue for="2" value="8" />
+          <attvalue for="3" value="0.2051" />
+          <attvalue for="4" value="0.4804" />
+          <attvalue for="5" value="0.26" />
+          <attvalue for="6" value="0.2857" />
+          <attvalue for="7" value="0" />
+          <attvalue for="8" value="0.3875" />
+          <attvalue for="9" value="7.2014" />
+        </attvalues>
+      </node>
+      <node id="Nils Frahm" label="Nils Frahm">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Bridge Producer" />
+          <attvalue for="2" value="1" />
+          <attvalue for="3" value="0.0256" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.1267" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="2" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="Max Richter" label="Max Richter">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Genre Hub" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="10" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="Ludovico Einaudi" label="Ludovico Einaudi">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Genre Hub" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="9" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="SUGA" label="SUGA">
+        <attvalues>
+          <attvalue for="0" value="Popular Music" />
+          <attvalue for="1" value="Bridge Producer" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="11" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="Aphex Twin" label="Aphex Twin">
+        <attvalues>
+          <attvalue for="0" value="Electronic &amp; Ambient" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="7" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="HAUSER" label="HAUSER">
+        <attvalues>
+          <attvalue for="0" value="Classical &amp; Neo-Classical" />
+          <attvalue for="1" value="Artist" />
+          <attvalue for="2" value="0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="8" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="0.0" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Alva Noto" target="坂本龍一" id="0" weight="36">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="坂本龍一" target="Hildur Guðnadóttir" id="1" weight="1">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="坂本龍一" target="Thundercat" id="2" weight="3">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="坂本龍一" target="Arca" id="3" weight="1">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="Anderson .Paak" target="Flying Lotus" id="4" weight="1">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="Anderson .Paak" target="KAYTRANADA" id="5" weight="6">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="Anderson .Paak" target="Disclosure" id="6" weight="1">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="Anderson .Paak" target="Kendrick Lamar" id="7" weight="7">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="Anderson .Paak" target="Thundercat" id="8" weight="3">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="Flying Lotus" target="Kendrick Lamar" id="9" weight="3">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="Flying Lotus" target="Thundercat" id="10" weight="11">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="KAYTRANADA" target="Pharrell Williams" id="11" weight="2">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="KAYTRANADA" target="Robert Glasper" id="12" weight="8">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="KAYTRANADA" target="Thundercat" id="13" weight="2">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="David Bowie" target="Brian Eno" id="14" weight="5">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="David Bowie" target="Hildur Guðnadóttir" id="15" weight="1">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="David Bowie" target="Philip Glass" id="16" weight="1">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="Brian Eno" target="Jon Hopkins" id="17" weight="34">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="Brian Eno" target="Philip Glass" id="18" weight="1">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="Disclosure" target="The Weeknd" id="19" weight="3">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="The Weeknd" target="Kendrick Lamar" id="20" weight="12">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="The Weeknd" target="Pharrell Williams" id="21" weight="1">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="The Weeknd" target="ROSALÍA" id="22" weight="4">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="Esperanza Spalding" target="Robert Glasper" id="23" weight="5">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="Esperanza Spalding" target="Herbie Hancock" id="24" weight="2">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="Robert Glasper" target="Herbie Hancock" id="25" weight="5">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="Robert Glasper" target="Kamasi Washington" id="26" weight="1">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="Robert Glasper" target="Thundercat" id="27" weight="3">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="Four Tet" target="Bonobo" id="28" weight="1">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="Four Tet" target="Floating Points" id="29" weight="3">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="Bonobo" target="Ólafur Arnalds" id="30" weight="3">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="Gautier Capuçon" target="John Williams" id="31" weight="1">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="John Williams" target="Gustavo Dudamel" id="32" weight="1">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="John Williams" target="Herbie Hancock" id="33" weight="1">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="John Williams" target="Yo‐Yo Ma" id="34" weight="48">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="Herbie Hancock" target="Chick Corea" id="35" weight="44">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="Herbie Hancock" target="Lang Lang" id="36" weight="2">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="Jacob Collier" target="Coldplay" id="37" weight="2">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="Coldplay" target="Jon Hopkins" id="38" weight="1">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="Jon Hopkins" target="Ólafur Arnalds" id="39" weight="2">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="Ólafur Arnalds" target="Nils Frahm" id="40" weight="26">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="Kendrick Lamar" target="Hans Zimmer" id="41" weight="1">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="Kendrick Lamar" target="Pharrell Williams" id="42" weight="5">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="Kendrick Lamar" target="Thundercat" id="43" weight="17">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="Hans Zimmer" target="Pharrell Williams" id="44" weight="85">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="Pharrell Williams" target="Thundercat" id="45" weight="2">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="ROSALÍA" target="Arca" id="46" weight="1">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+      <edge source="Kamasi Washington" target="Thundercat" id="47" weight="1">
+        <attvalues>
+          <attvalue for="10" value="MusicBrainz recording co-credit" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

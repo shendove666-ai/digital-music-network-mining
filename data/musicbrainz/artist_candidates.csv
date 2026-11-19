@@ -1,0 +1,186 @@
+﻿legacy_name,legacy_degree,candidate_rank,score,artist_mbid,name,sort_name,type,country,disambiguation,musicbrainz_url
+Yo-Yo Ma,17,1,100,62fe877d-b7a5-43e8-952e-2610d7614bff,Yo‐Yo Ma,"Ma, Yo‐Yo",Person,FR,cellist,https://musicbrainz.org/artist/62fe877d-b7a5-43e8-952e-2610d7614bff
+Herbie Hancock,15,1,100,27613b78-1b9d-4ec3-9db5-fa0743465fdd,Herbie Hancock,"Hancock, Herbie",Person,US,"US jazz pianist, keyboardist, bandleader and composer",https://musicbrainz.org/artist/27613b78-1b9d-4ec3-9db5-fa0743465fdd
+Herbie Hancock,15,2,65,6ca9124f-3103-44c0-ad93-45bd8068ac7f,The Herbie Hancock Trio,"Hancock, Herbie, The, Trio",Group,,,https://musicbrainz.org/artist/6ca9124f-3103-44c0-ad93-45bd8068ac7f
+Herbie Hancock,15,3,62,bffe78b2-a291-484b-ba59-1803be1c7c27,The Herbie Hancock Quartet,"Hancock, Herbie, Quartet, The",Group,,,https://musicbrainz.org/artist/bffe78b2-a291-484b-ba59-1803be1c7c27
+Herbie Hancock,15,4,61,16e4ca35-5a74-4580-83de-4b999b1f310a,The Herbie Hancock Quintet,"Hancock, Herbie, The, Quintet",Group,,,https://musicbrainz.org/artist/16e4ca35-5a74-4580-83de-4b999b1f310a
+Herbie Hancock,15,5,61,9044bbac-14a0-42b6-bee3-136647146d29,The Herbie Hancock Sextet,The Herbie Hancock Sextet,Group,,,https://musicbrainz.org/artist/9044bbac-14a0-42b6-bee3-136647146d29
+Lang Lang,13,1,100,43e1570a-1a0d-479f-9c95-fba971aec91a,Lang Lang,"Lang, Lang",Person,CN,Chinese pianist,https://musicbrainz.org/artist/43e1570a-1a0d-479f-9c95-fba971aec91a
+Ryuichi Sakamoto,13,1,100,6edc70bb-c340-4ae6-bdd4-d5fb0c7411de,Alva Noto + Ryuichi Sakamoto,"Alva Noto + Sakamoto, Ryuichi",Group,,,https://musicbrainz.org/artist/6edc70bb-c340-4ae6-bdd4-d5fb0c7411de
+Ryuichi Sakamoto,13,2,86,130ef082-bdc1-4ec1-a1a9-f2783b0e28d5,Ryuichi Sakamoto & Hildur Guðnadóttir,Ryuichi Sakamoto and Hildur Guðnadóttir,Group,,,https://musicbrainz.org/artist/130ef082-bdc1-4ec1-a1a9-f2783b0e28d5
+Ryuichi Sakamoto,13,3,79,09e0a06e-e76d-4ffa-b4da-9b1f96bcaf2b,"Alva Noto, Ryuichi Sakamoto, and Hildur Guðnadóttir","Alva Noto, Ryuichi Sakamoto, and Hildur Guðnadóttir",Group,,,https://musicbrainz.org/artist/09e0a06e-e76d-4ffa-b4da-9b1f96bcaf2b
+Ryuichi Sakamoto,13,4,79,f9e27179-cdc7-4c05-b300-d779437d40f9,"Ryuichi Sakamoto, Alva Noto & Bryce Dessner","Ryuichi Sakamoto, Alva Noto and Bryce Dessner",Group,,,https://musicbrainz.org/artist/f9e27179-cdc7-4c05-b300-d779437d40f9
+Ryuichi Sakamoto,13,5,79,691ba3ee-551d-4bb1-9d06-bead35575495,"Ryuichi Sakamoto, Bryce Dessner, and Hildur Guðnadóttir","Ryuichi Sakamoto, Bryce Dessner, and Hildur Guðnadóttir",,,,https://musicbrainz.org/artist/691ba3ee-551d-4bb1-9d06-bead35575495
+Max Richter,12,1,100,509f20b2-5df3-4aec-9bbc-002131fb3f99,Max Richter,"Richter, Max",Person,GB,German pianist and score composer,https://musicbrainz.org/artist/509f20b2-5df3-4aec-9bbc-002131fb3f99
+Max Richter,12,2,66,92ac3b1b-17b7-447d-8e3d-0bdd635754f6,Max Richter Orchestra,Max Richter Orchestra,,,,https://musicbrainz.org/artist/92ac3b1b-17b7-447d-8e3d-0bdd635754f6
+Brian Eno,10,1,100,ff95eb47-41c4-4f7f-a104-cdc30f02e872,Brian Eno,"Eno, Brian",Person,GB,,https://musicbrainz.org/artist/ff95eb47-41c4-4f7f-a104-cdc30f02e872
+Brian Eno,10,2,65,3946b9a0-d0e6-4d70-8d87-ae6be939bd66,Brian Eno’s Ghost,Brian Eno’s Ghost,,,,https://musicbrainz.org/artist/3946b9a0-d0e6-4d70-8d87-ae6be939bd66
+Hans Zimmer,10,1,100,e6de1f3b-6484-491c-88dd-6d619f142abc,Hans Zimmer,"Zimmer, Hans",Person,US,German score composer,https://musicbrainz.org/artist/e6de1f3b-6484-491c-88dd-6d619f142abc
+Hans Zimmer,10,2,50,3fae4cdf-8680-461a-8b93-062d35d4cd67,The Music Of Hans Zimmer & Others,The Music Of Hans Zimmer & Others,Orchestra,,,https://musicbrainz.org/artist/3fae4cdf-8680-461a-8b93-062d35d4cd67
+Ólafur Arnalds,10,1,100,6655955b-1c1e-4bcb-84e4-81bcd9efab30,Ólafur Arnalds,"Arnalds, Ólafur",Person,IS,Icelandic multi‐instrumentalist and producer,https://musicbrainz.org/artist/6655955b-1c1e-4bcb-84e4-81bcd9efab30
+Nils Frahm,9,1,100,d03a54bc-6e07-4c04-a8d4-7fbf2bd07a01,Nils Frahm,"Frahm, Nils",Person,DE,German pianist and score composer,https://musicbrainz.org/artist/d03a54bc-6e07-4c04-a8d4-7fbf2bd07a01
+Robert Glasper,9,1,100,6e8f82ea-9e6d-4fdd-9b32-32feef13186b,Robert Glasper,"Glasper, Robert",Person,US,piano,https://musicbrainz.org/artist/6e8f82ea-9e6d-4fdd-9b32-32feef13186b
+Robert Glasper,9,2,90,0ec3c9dc-45e7-4bc1-9813-a866acaae772,Robert Glasper Experiment,"Glasper, Robert, Experiment",Group,US,,https://musicbrainz.org/artist/0ec3c9dc-45e7-4bc1-9813-a866acaae772
+Robert Glasper,9,3,86,0bc0734e-c6be-443b-8d26-9cc33b44c19f,Robert Glasper,"Glasper, Robert",Person,US,El Dorados,https://musicbrainz.org/artist/0bc0734e-c6be-443b-8d26-9cc33b44c19f
+Robert Glasper,9,4,77,df7ccfff-b64e-4bf0-b3e4-9cf7cc161998,The Robert Glasper Trio,"Glasper, Robert, The, Trio",Group,US,,https://musicbrainz.org/artist/df7ccfff-b64e-4bf0-b3e4-9cf7cc161998
+Robert Glasper,9,5,74,96c65027-2c3d-4e24-a780-d0e379117a06,Robert Glasper & Questlove,"Glasper, Robert, & Questlove",,,Sunday Jam group at Roots Picnic London 2026.,https://musicbrainz.org/artist/96c65027-2c3d-4e24-a780-d0e379117a06
+Ludovico Einaudi,8,1,100,fa34b363-79df-434f-a5b8-be4e6898543f,Ludovico Einaudi,"Einaudi, Ludovico",Person,IT,Italian composer and pianist,https://musicbrainz.org/artist/fa34b363-79df-434f-a5b8-be4e6898543f
+Coldplay,7,1,100,cc197bad-dc9c-440d-a5b5-d52ba2e14234,Coldplay,Coldplay,Group,GB,,https://musicbrainz.org/artist/cc197bad-dc9c-440d-a5b5-d52ba2e14234
+Coldplay,7,2,56,62c54a75-265f-4e13-ad0a-0fb001559a2e,Viva La Coldplay,Viva La Coldplay,Group,GB,Coldplay tribute band from the UK,https://musicbrainz.org/artist/62c54a75-265f-4e13-ad0a-0fb001559a2e
+Flying Lotus,7,1,100,fc7376fe-1a6f-4414-b4a7-83f50ed59c92,Flying Lotus,Flying Lotus,Person,US,,https://musicbrainz.org/artist/fc7376fe-1a6f-4414-b4a7-83f50ed59c92
+Jacob Collier,7,1,100,1df15ee0-b52b-4315-9cb9-bc5a27a685e9,Jacob Collier,"Collier, Jacob",Person,GB,,https://musicbrainz.org/artist/1df15ee0-b52b-4315-9cb9-bc5a27a685e9
+Kaytranada,7,1,100,e56aee57-d90e-40cf-a70d-beb70f6f3c69,KAYTRANADA,KAYTRANADA,Person,CA,,https://musicbrainz.org/artist/e56aee57-d90e-40cf-a70d-beb70f6f3c69
+Kendrick Lamar,7,1,100,381086ea-f511-4aba-bdf9-71c753dc5077,Kendrick Lamar,"Lamar, Kendrick",Person,US,,https://musicbrainz.org/artist/381086ea-f511-4aba-bdf9-71c753dc5077
+Kamasi Washington,6,1,100,c7a3e868-c6d8-4512-a5ef-f6cbe42899b0,Kamasi Washington,"Washington, Kamasi",Person,US,US jazz saxophonist,https://musicbrainz.org/artist/c7a3e868-c6d8-4512-a5ef-f6cbe42899b0
+Philip Glass,6,1,100,5ae54dee-4dba-49c0-802a-a3b3b3adfe9b,Philip Glass,"Glass, Philip",Person,US,US composer & pianist,https://musicbrainz.org/artist/5ae54dee-4dba-49c0-802a-a3b3b3adfe9b
+Philip Glass,6,2,69,05081f96-3bad-452e-8fed-c424593a9268,Philip Glass Ensemble,"Glass, Philip, Ensemble",Group,US,US musical group by composer Philip Glass,https://musicbrainz.org/artist/05081f96-3bad-452e-8fed-c424593a9268
+Philip Glass,6,3,64,4ff999bf-3e0b-4a52-8b8a-4cb74bb7521a,Behind Philip Glass,Behind Philip Glass,,,Apple Guild Battle of the Bands,https://musicbrainz.org/artist/4ff999bf-3e0b-4a52-8b8a-4cb74bb7521a
+Philip Glass,6,4,55,d7532268-5c97-44f9-8882-541442f562df,"Mickey Hart, Philip Glass and Kitaro","Hart, Philip Glass and Kitaro",Group,,,https://musicbrainz.org/artist/d7532268-5c97-44f9-8882-541442f562df
+SUGA,6,1,100,dba60855-62c2-4801-81cb-5450ac0ddbae,Suga Free,Suga Free,Person,,,https://musicbrainz.org/artist/dba60855-62c2-4801-81cb-5450ac0ddbae
+SUGA,6,2,97,b629da42-c668-49d2-be67-498605ee2a13,SUGA,SUGA,Person,KR,BTS,https://musicbrainz.org/artist/b629da42-c668-49d2-be67-498605ee2a13
+SUGA,6,3,97,7c688f64-932c-4b12-ace6-4bd641daa668,Suga Suga,Suga Suga,,,,https://musicbrainz.org/artist/7c688f64-932c-4b12-ace6-4bd641daa668
+SUGA,6,4,94,7cfac8e5-ff24-4f15-9e2d-af79259cf532,Suga,Suga,Person,US,US rapper Toi Jackson,https://musicbrainz.org/artist/7cfac8e5-ff24-4f15-9e2d-af79259cf532
+SUGA,6,5,92,980288e7-531b-44b3-927e-1c5b6383fa02,Suga,Suga,,,electronic producer and collaborator,https://musicbrainz.org/artist/980288e7-531b-44b3-927e-1c5b6383fa02
+SUGA,6,6,92,193e35b6-a778-44f6-8d99-170bd0c230eb,SUGA,SUGA,Person,,dustbox,https://musicbrainz.org/artist/193e35b6-a778-44f6-8d99-170bd0c230eb
+SUGA,6,7,92,bbb09724-8d26-4a7d-976a-ae57751aaef7,suga,suga,,,Japanese shoegaze and vocaloid,https://musicbrainz.org/artist/bbb09724-8d26-4a7d-976a-ae57751aaef7
+SUGA,6,8,90,11916d17-5076-4982-88e4-eeefd4a21312,Suga‐T,Suga‐T,Person,US,,https://musicbrainz.org/artist/11916d17-5076-4982-88e4-eeefd4a21312
+SUGA,6,9,89,3ae9afd1-eae6-4f4b-9229-fd09da831860,SUGA et SHARX,"SHARX, SUGA et",Other,,Techno Project by German YouTuber LeFloid,https://musicbrainz.org/artist/3ae9afd1-eae6-4f4b-9229-fd09da831860
+SUGA,6,10,88,58724813-6d8c-4d64-8a8a-5f864814fd0f,Suga Roy,Suga Roy,Person,,Reggae artist,https://musicbrainz.org/artist/58724813-6d8c-4d64-8a8a-5f864814fd0f
+SUGA,6,11,86,2d630e65-0928-421c-b3e2-ab6a3119f487,suga/es,suga les,Group,JP,,https://musicbrainz.org/artist/2d630e65-0928-421c-b3e2-ab6a3119f487
+SUGA,6,12,86,886cc0db-eedc-4b26-8096-6396ab623049,Suga Bear,Suga Bear,Person,US,,https://musicbrainz.org/artist/886cc0db-eedc-4b26-8096-6396ab623049
+SUGA,6,13,86,0455eba9-4e3e-4998-a5d1-b2934f4e68ed,Suga Fist,Suga Fist,Person,,,https://musicbrainz.org/artist/0455eba9-4e3e-4998-a5d1-b2934f4e68ed
+SUGA,6,14,85,1a131a6c-066b-4ed3-a33b-55429110de32,Suga Moss,Suga Moss,,,,https://musicbrainz.org/artist/1a131a6c-066b-4ed3-a33b-55429110de32
+SUGA,6,15,85,c1c04a87-6070-4dea-b552-64ffb144a919,Suga Candy,Suga Candy,,,on newspaper sampler,https://musicbrainz.org/artist/c1c04a87-6070-4dea-b552-64ffb144a919
+The Weeknd,6,1,100,c8b03190-306c-4120-bb0b-6f2ebfc06ea9,The Weeknd,"Weeknd, The",Person,CA,Canadian R&B singer,https://musicbrainz.org/artist/c8b03190-306c-4120-bb0b-6f2ebfc06ea9
+The Weeknd,6,2,64,b3258adb-41f6-4a99-bf3c-82e1d40cb5fa,The Weeknd's Hair,The Weeknd's Hair,,,,https://musicbrainz.org/artist/b3258adb-41f6-4a99-bf3c-82e1d40cb5fa
+Bonobo,5,1,100,9a709693-b4f8-4da9-8cc1-038c911a61be,Bonobo,Bonobo,Person,GB,UK electronic artist Simon Green,https://musicbrainz.org/artist/9a709693-b4f8-4da9-8cc1-038c911a61be
+Bonobo,5,2,78,6f7dea51-1d02-4be1-b138-92078518350c,Bonobo,Bonobo,Group,NL,Dutch breakbeat group,https://musicbrainz.org/artist/6f7dea51-1d02-4be1-b138-92078518350c
+Bonobo,5,3,77,eb366ad8-06e9-43c5-9d74-92b1bf7ad4de,Bonobo,Bonobo,Person,FR,Bonobo Sixième Densité,https://musicbrainz.org/artist/eb366ad8-06e9-43c5-9d74-92b1bf7ad4de
+Bonobo,5,4,77,ee2acc30-640d-4f28-857d-15a80a0b66ee,Bonobo,Bonobo,Person,FR,French rapper,https://musicbrainz.org/artist/ee2acc30-640d-4f28-857d-15a80a0b66ee
+Bonobo,5,5,72,4083ed27-96ff-4760-b326-9268baeb2511,Bonobo Circus,Bonobo Circus,Group,FR,,https://musicbrainz.org/artist/4083ed27-96ff-4760-b326-9268baeb2511
+Bonobo,5,6,70,d95cf393-8516-420c-9217-6328296764ef,Bonobo Project,Bonobo Project,Group,,,https://musicbrainz.org/artist/d95cf393-8516-420c-9217-6328296764ef
+Bonobo,5,7,69,d6e34705-1674-469d-acff-cce0b114cbae,Bonobo-trio,Bonobo-trio,,,,https://musicbrainz.org/artist/d6e34705-1674-469d-acff-cce0b114cbae
+Bonobo,5,8,69,5fc4e0b6-b378-4426-86e6-3cc0e0dda5cc,Queen Bonobo,Queen Bonobo,Person,,AKA Maya Goldblum,https://musicbrainz.org/artist/5fc4e0b6-b378-4426-86e6-3cc0e0dda5cc
+Bonobo,5,9,69,e080176e-904e-4fac-8c31-80560ddafba6,Bunny Bonobo,Bunny Bonobo,,,,https://musicbrainz.org/artist/e080176e-904e-4fac-8c31-80560ddafba6
+Bonobo,5,10,69,9c9e2fa2-0243-4a2f-848d-6c011982cf4b,Bonobo Gang,Bonobo Gang,,,,https://musicbrainz.org/artist/9c9e2fa2-0243-4a2f-848d-6c011982cf4b
+Bonobo,5,11,69,7dbec7da-1f75-40ef-8652-4a83b04713c1,Bonobo Backlash,Bonobo Backlash,Group,,,https://musicbrainz.org/artist/7dbec7da-1f75-40ef-8652-4a83b04713c1
+Bonobo,5,12,65,5dada156-8923-4d55-9b32-ab802e278616,The Bonobo Champions,"Bonobo Champions, The",Group,,"from Portland, Oregon",https://musicbrainz.org/artist/5dada156-8923-4d55-9b32-ab802e278616
+Bonobo,5,13,65,d901065e-1247-4c61-91e4-a827535484b8,Bonobo Secret Handshake,Bonobo Secret Handshake,Group,US,,https://musicbrainz.org/artist/d901065e-1247-4c61-91e4-a827535484b8
+Chick Corea,5,1,100,8446fcca-109e-4c6d-a2ff-5a269b32b4c2,Chick Corea,"Corea, Chick",Person,US,jazz pianist,https://musicbrainz.org/artist/8446fcca-109e-4c6d-a2ff-5a269b32b4c2
+Chick Corea,5,2,71,04759bda-d8ba-419d-9daf-279f25c8446c,Chick Corea Trio,"Corea, Chick, Trio",Group,,,https://musicbrainz.org/artist/04759bda-d8ba-419d-9daf-279f25c8446c
+Chick Corea,5,3,71,419c4478-1a5c-40e8-87e1-802cd7eb25c1,Chick Corea Elektric Band,"Corea, Chick Elektric Band",Group,US,,https://musicbrainz.org/artist/419c4478-1a5c-40e8-87e1-802cd7eb25c1
+Chick Corea,5,4,69,81fe165e-2cfe-4c52-9bf0-1853647bf489,Chick Corea Akoustic Band,"Corea, Chick, Akoustic Band",Group,,,https://musicbrainz.org/artist/81fe165e-2cfe-4c52-9bf0-1853647bf489
+Chick Corea,5,5,69,3b4840d3-99a9-4bb7-a1f5-dede45c449f7,Chick Corea Quartet,"Corea, Chick, Quartet",Group,,,https://musicbrainz.org/artist/3b4840d3-99a9-4bb7-a1f5-dede45c449f7
+Chick Corea,5,6,66,5b4a5d56-e955-4ed1-9e35-df2bf9fb50ef,Chick Corea Quintet,"Corea, Chick, Quintet",Group,,,https://musicbrainz.org/artist/5b4a5d56-e955-4ed1-9e35-df2bf9fb50ef
+Chick Corea,5,7,66,95464bfc-d620-45f1-92cd-55e26676de86,Chick Corea & Origin,"Corea, Chick & Origin",Group,US,,https://musicbrainz.org/artist/95464bfc-d620-45f1-92cd-55e26676de86
+Chick Corea,5,8,63,56777eaa-e071-4eed-ae16-5d94dfa0ca19,Chick Corea & Friends,"Corea, Chick & Friends",Group,,,https://musicbrainz.org/artist/56777eaa-e071-4eed-ae16-5d94dfa0ca19
+Chick Corea,5,9,62,840df570-aa21-4c06-a262-98f9982a1ef4,Chick Corea Freedom Band,"Corea, Chick Freedom Band",Group,,,https://musicbrainz.org/artist/840df570-aa21-4c06-a262-98f9982a1ef4
+Chick Corea,5,10,60,eb6bd4e7-e0a6-40c0-9957-58e0ebd57a25,Chick Corea Elektric Band II,"Corea, Chick Elektric Band II",Group,,,https://musicbrainz.org/artist/eb6bd4e7-e0a6-40c0-9957-58e0ebd57a25
+Chick Corea,5,11,60,4e95e9e0-07ea-4177-8bca-30391bd30443,The Chick Corea New Trio,"Corea, Chick, New Trio, The",Group,,,https://musicbrainz.org/artist/4e95e9e0-07ea-4177-8bca-30391bd30443
+Chick Corea,5,12,55,502ab12e-0090-4d90-a613-ee0c826f28cb,The Chick Corea + Steve Gadd Band,"Corea, Chick + Gadd, Steve, Band, The",Group,,,https://musicbrainz.org/artist/502ab12e-0090-4d90-a613-ee0c826f28cb
+Disclosure,5,1,100,ae65c507-d9a0-4d42-9a6c-2b1f82158b9f,Disclosure,Disclosure,Group,GB,UK electronic duo Guy & Howard Lawrence,https://musicbrainz.org/artist/ae65c507-d9a0-4d42-9a6c-2b1f82158b9f
+Disclosure,5,2,79,5b5aac7b-0c4b-47ad-b814-a513fac6fde1,Disclosure,Disclosure,,,Ben Arp project,https://musicbrainz.org/artist/5b5aac7b-0c4b-47ad-b814-a513fac6fde1
+Disclosure,5,3,77,b61c18dc-b6a8-457f-bc6a-cd7b184ae3b4,Disclosure,Disclosure,Person,,"Erik De Vries, hard trance",https://musicbrainz.org/artist/b61c18dc-b6a8-457f-bc6a-cd7b184ae3b4
+Disclosure,5,4,77,962419b3-51c6-464d-acd5-b43f88429d85,Disclosure,Disclosure,,,House music,https://musicbrainz.org/artist/962419b3-51c6-464d-acd5-b43f88429d85
+Disclosure,5,5,76,7a32b94c-f5f3-4c17-af1c-4210ecec4b3b,Disclosure,Disclosure,Group,,'Core music from DFW,https://musicbrainz.org/artist/7a32b94c-f5f3-4c17-af1c-4210ecec4b3b
+Disclosure,5,6,69,625746fd-89ee-4444-8e4b-d53089959f0d,Summer Disclosure,Summer Disclosure,,,house,https://musicbrainz.org/artist/625746fd-89ee-4444-8e4b-d53089959f0d
+Disclosure,5,7,69,8bdd534f-c7bd-424c-b0ae-555992e8fe5f,Sunset Disclosure,"Disclosure, Sunset",Group,,,https://musicbrainz.org/artist/8bdd534f-c7bd-424c-b0ae-555992e8fe5f
+Disclosure,5,8,66,243d2756-7f85-47d6-9e14-1609078e087c,The Disclosure Project,"Disclosure Project, The",Group,,Active internationally since 2006,https://musicbrainz.org/artist/243d2756-7f85-47d6-9e14-1609078e087c
+Disclosure,5,9,65,be9de925-06d3-4466-bdf1-e2996fa2cc03,Age Of Disclosure,Age Of Disclosure,Group,CH,,https://musicbrainz.org/artist/be9de925-06d3-4466-bdf1-e2996fa2cc03
+Floating Points,5,1,100,69d9c5ba-7bba-4cb7-ab32-8ccc48ad4f97,Floating Points,Floating Points,Person,GB,,https://musicbrainz.org/artist/69d9c5ba-7bba-4cb7-ab32-8ccc48ad4f97
+Floating Points,5,2,77,66069c17-d367-4ee4-b474-83bba1a6f5fd,Floating Points Ensemble,Floating Points Ensemble,Group,,,https://musicbrainz.org/artist/66069c17-d367-4ee4-b474-83bba1a6f5fd
+Four Tet,5,1,100,3bcff06f-675a-451f-9075-99e8657047e8,Four Tet,Four Tet,Person,GB,,https://musicbrainz.org/artist/3bcff06f-675a-451f-9075-99e8657047e8
+John Williams,5,1,100,53b106e7-0cc6-42cc-ac95-ed8d30a3a98e,John Williams,"Williams, John",Person,US,American score composer and conductor,https://musicbrainz.org/artist/53b106e7-0cc6-42cc-ac95-ed8d30a3a98e
+John Williams,5,2,82,8b8a38a9-a290-4560-84f6-3d4466e8d791,John Williams,"Williams, John",Person,AU,classical guitarist,https://musicbrainz.org/artist/8b8a38a9-a290-4560-84f6-3d4466e8d791
+John Williams,5,3,65,fb9719bf-c477-4223-b319-986eb4168a91,John Williams,"Williams, John",Person,US,acoustic blues guitarist,https://musicbrainz.org/artist/fb9719bf-c477-4223-b319-986eb4168a91
+John Williams,5,4,64,d08ce74d-f303-4311-9204-17805d494300,John Williams,"Williams, John",Person,US,accordion and concertina player,https://musicbrainz.org/artist/d08ce74d-f303-4311-9204-17805d494300
+John Williams,5,5,63,37a38c8d-46b3-4f27-b106-90a71375a7c8,John Williams,"Williams, John",Person,GB,"UK 60s psychedelic, lead vocalist of The Authentics",https://musicbrainz.org/artist/37a38c8d-46b3-4f27-b106-90a71375a7c8
+John Williams,5,6,62,2e1ff295-7882-4fe1-ad60-26e6e102f878,John Williams,"Williams, John",Person,,countertenor,https://musicbrainz.org/artist/2e1ff295-7882-4fe1-ad60-26e6e102f878
+John Williams,5,7,61,aec03c82-7e0f-41db-b624-640fb8e65d80,John Williams,"Williams, John",Person,GB,UK drum n bass DJ/producer aka Skyjack,https://musicbrainz.org/artist/aec03c82-7e0f-41db-b624-640fb8e65d80
+John Williams,5,8,60,cac3c47f-2f82-4964-878a-b027f259c390,John Williams,"Williams, John",Person,US,"funk & gospel musician, founder of Glass",https://musicbrainz.org/artist/cac3c47f-2f82-4964-878a-b027f259c390
+John Williams,5,9,60,df386fc6-666a-4a4b-ba94-c8fbe71bc85b,John Williams,"Williams, John",Person,US,American jazz pianist,https://musicbrainz.org/artist/df386fc6-666a-4a4b-ba94-c8fbe71bc85b
+John Williams,5,10,60,eca10e3b-daf8-4ea1-a50d-be71afb5ab77,John Williams,"Williams, John",Person,GB,oboist,https://musicbrainz.org/artist/eca10e3b-daf8-4ea1-a50d-be71afb5ab77
+John Williams,5,11,60,c35fceb6-b3fa-4e3e-be5f-37bf06c1541d,John Williams,"Williams, John",Person,,of The Tick Tocks,https://musicbrainz.org/artist/c35fceb6-b3fa-4e3e-be5f-37bf06c1541d
+John Williams,5,12,60,eb5d7680-0c00-4b0c-b6eb-9605ff77723d,John Williams,"Williams, John",Person,GB,"English A&R executive, producer, songwriter...",https://musicbrainz.org/artist/eb5d7680-0c00-4b0c-b6eb-9605ff77723d
+John Williams,5,13,59,8bc41d0d-ffff-4501-b356-a70c95b208c4,John Williams,"Williams, John",Person,,folk,https://musicbrainz.org/artist/8bc41d0d-ffff-4501-b356-a70c95b208c4
+John Williams,5,14,59,ee4b5928-26f1-4251-b53e-85e7fdc37711,John Williams,"Williams, John",Person,,venezolano?,https://musicbrainz.org/artist/ee4b5928-26f1-4251-b53e-85e7fdc37711
+John Williams,5,15,59,b95b1d39-82ed-4d6d-ad18-092bf26cb379,John Williams,"Williams, John",Person,,"associated with [s4s], (104) on Discogs",https://musicbrainz.org/artist/b95b1d39-82ed-4d6d-ad18-092bf26cb379
+Jon Hopkins,5,1,100,0b0c25f4-f31c-46a5-a4fb-ccbf53d663bd,Jon Hopkins,"Hopkins, Jon",Person,GB,,https://musicbrainz.org/artist/0b0c25f4-f31c-46a5-a4fb-ccbf53d663bd
+Jon Hopkins,5,2,59,b8937cef-72c6-4cf6-829c-e88331c16959,Jon Hopkins with Maddie Ashman & Leo Abrahams,"Hopkins, Jon with Maddie Ashman & Leo Abrahams",,,,https://musicbrainz.org/artist/b8937cef-72c6-4cf6-829c-e88331c16959
+Pharrell Williams,5,1,100,149f91ef-1287-46da-9a8e-87fee02f1471,Pharrell Williams,"Williams, Pharrell",Person,US,,https://musicbrainz.org/artist/149f91ef-1287-46da-9a8e-87fee02f1471
+Rosalía,5,1,100,25f3abd9-63b5-471a-bd25-feb9672dfa11,ROSALÍA,ROSALÍA,Person,ES,Spanish singer,https://musicbrainz.org/artist/25f3abd9-63b5-471a-bd25-feb9672dfa11
+Rosalía,5,2,84,ac0ee862-a6ca-4d39-a7a4-d8460534ba30,Rosalía,Rosalía,Person,ES,60s pop singer,https://musicbrainz.org/artist/ac0ee862-a6ca-4d39-a7a4-d8460534ba30
+Rosalía,5,3,83,2ffc92fa-e51e-45ed-8a90-fa494aab50de,Rosalía,Rosalía,Person,,"Not to be confused with ROSALÍA. Mexican actress, singer, songwriter and guitarist who came to fame in 2003 through La Academia, a musical reality show.",https://musicbrainz.org/artist/2ffc92fa-e51e-45ed-8a90-fa494aab50de
+Rosalía,5,4,83,3e666715-f92a-4b68-8314-cceb5cd98861,ROSALIA,ROSALIA,Group,JP,Japanese girl band,https://musicbrainz.org/artist/3e666715-f92a-4b68-8314-cceb5cd98861
+Rosalía,5,5,81,6c51e42b-3e64-4bbc-9c9d-c9d452d2870d,Rosalia de Souza,"Souza, Rosalia de",Person,BR,,https://musicbrainz.org/artist/6c51e42b-3e64-4bbc-9c9d-c9d452d2870d
+Rosalía,5,6,76,76adfc55-fdeb-4c6d-8db4-a6519d2bcc1e,Rosalía Sairem,"Sairem, Rosalía",Person,ES,,https://musicbrainz.org/artist/76adfc55-fdeb-4c6d-8db4-a6519d2bcc1e
+Rosalía,5,7,76,60e94296-88e5-4a65-9d90-d91068c13ec8,Rosalia Bertini,"Bertini, Rosalia",Person,ES,,https://musicbrainz.org/artist/60e94296-88e5-4a65-9d90-d91068c13ec8
+Rosalía,5,8,76,98863e4e-8785-4b36-aef6-a5bf779839e6,Rosalia Misseri,"Misseri, Rosalia",Person,,,https://musicbrainz.org/artist/98863e4e-8785-4b36-aef6-a5bf779839e6
+Rosalía,5,9,76,c6eb3cf9-8b9a-42f7-a5e9-f5690933deb8,Rosalia Jones,Rosalia Jones,,,,https://musicbrainz.org/artist/c6eb3cf9-8b9a-42f7-a5e9-f5690933deb8
+Rosalía,5,10,76,e743e480-5d85-4251-a039-c64d8b61d8f7,Rosalía León,"León, Rosalía",Person,,,https://musicbrainz.org/artist/e743e480-5d85-4251-a039-c64d8b61d8f7
+Rosalía,5,11,76,794c90cb-7c18-468e-be14-f8f22467de0f,Rosalia Pergudova,"Pergudova, Rosalia",Person,,,https://musicbrainz.org/artist/794c90cb-7c18-468e-be14-f8f22467de0f
+Rosalía,5,12,76,feb6cb6e-f2d4-4add-b3f3-ffdf339ca47d,Pat Rosalia,"Rosalia, Pat",Person,,,https://musicbrainz.org/artist/feb6cb6e-f2d4-4add-b3f3-ffdf339ca47d
+Rosalía,5,13,76,4b2538b1-3cec-4aec-a41e-3b2e1515582d,Rosalia Varvarà,"Varvarà, Rosalia",Person,,,https://musicbrainz.org/artist/4b2538b1-3cec-4aec-a41e-3b2e1515582d
+Rosalía,5,14,76,0e7002fb-d650-4bd7-b3ce-95505aadf966,Rosalia Eichinger,"Eichinger, Rosalia",Person,AT,,https://musicbrainz.org/artist/0e7002fb-d650-4bd7-b3ce-95505aadf966
+Rosalía,5,15,76,8bbe81c3-a0a5-4ed1-91bb-41a4dca71ebf,Rosalía Aguilera,"Aguilera, Rosalía",Person,,,https://musicbrainz.org/artist/8bbe81c3-a0a5-4ed1-91bb-41a4dca71ebf
+Thundercat,5,1,100,044fd265-79dd-43eb-afc4-8b20becf7e17,Thundercat,Thundercat,Person,US,US singer-songwriter & bassist,https://musicbrainz.org/artist/044fd265-79dd-43eb-afc4-8b20becf7e17
+Thundercat,5,2,75,14a8b77f-b03e-4cf5-86c9-ae0b5b581590,Cosmo Thundercat,Cosmo Thundercat,Group,AU,South Australian band,https://musicbrainz.org/artist/14a8b77f-b03e-4cf5-86c9-ae0b5b581590
+Thundercat,5,3,71,eff03ac2-557f-4274-82db-15bf3fc54bba,Lucius P. Thundercat,"Thundercat, Lucius P.",Person,,Independent Canadian hip-hop rapper and vocalist. Not affiliated with Thundercat (Stephen Bruner).,https://musicbrainz.org/artist/eff03ac2-557f-4274-82db-15bf3fc54bba
+Alva Noto,4,1,100,48ec4bb6-47a6-4e2c-8287-7617464eb193,Alva Noto,Alva Noto,Person,DE,,https://musicbrainz.org/artist/48ec4bb6-47a6-4e2c-8287-7617464eb193
+Alva Noto,4,2,76,6edc70bb-c340-4ae6-bdd4-d5fb0c7411de,Alva Noto + Ryuichi Sakamoto,"Alva Noto + Sakamoto, Ryuichi",Group,,,https://musicbrainz.org/artist/6edc70bb-c340-4ae6-bdd4-d5fb0c7411de
+Alva Noto,4,3,71,e7654b7e-e96f-4f22-b460-573d19734315,Alva Noto + Nilo,Alva Noto + Nilo,Group,,,https://musicbrainz.org/artist/e7654b7e-e96f-4f22-b460-573d19734315
+Alva Noto,4,4,66,b98685d9-46c9-4b86-8b05-4b7c625713d6,Alva Noto & Bryce Dessner,Alva Noto and Bryce Dessner,Group,,,https://musicbrainz.org/artist/b98685d9-46c9-4b86-8b05-4b7c625713d6
+Alva Noto,4,5,60,09e0a06e-e76d-4ffa-b4da-9b1f96bcaf2b,"Alva Noto, Ryuichi Sakamoto, and Hildur Guðnadóttir","Alva Noto, Ryuichi Sakamoto, and Hildur Guðnadóttir",Group,,,https://musicbrainz.org/artist/09e0a06e-e76d-4ffa-b4da-9b1f96bcaf2b
+Alva Noto,4,6,60,f9e27179-cdc7-4c05-b300-d779437d40f9,"Ryuichi Sakamoto, Alva Noto & Bryce Dessner","Ryuichi Sakamoto, Alva Noto and Bryce Dessner",Group,,,https://musicbrainz.org/artist/f9e27179-cdc7-4c05-b300-d779437d40f9
+Anderson .Paak,4,1,100,d02dd67e-f655-4600-bc47-f789f59e7367,Anderson .Paak,Anderson Paak,Person,US,American rapper and producer,https://musicbrainz.org/artist/d02dd67e-f655-4600-bc47-f789f59e7367
+Aphex Twin,4,1,100,f22942a1-6f70-4f48-866e-238cb2308fbd,Aphex Twin,Aphex Twin,Person,,,https://musicbrainz.org/artist/f22942a1-6f70-4f48-866e-238cb2308fbd
+Aphex Twin,4,2,74,1f7b4d15-cf9b-403e-bab8-87fc99aa08ef,Aphex Twin,Aphex Twin,,,appears on a KUSOMEN release,https://musicbrainz.org/artist/1f7b4d15-cf9b-403e-bab8-87fc99aa08ef
+Aphex Twin,4,3,74,65016d2c-b183-405b-91a4-275e6b7b5600,Aphex Twin,Aphex Twin,Person,,UK experimental electronic artist,https://musicbrainz.org/artist/65016d2c-b183-405b-91a4-275e6b7b5600
+Aphex Twin,4,4,69,384d611c-36e1-4639-bd04-d441b7d27c45,The Other Aphex Twin,"Other Aphex Twin, The",,,,https://musicbrainz.org/artist/384d611c-36e1-4639-bd04-d441b7d27c45
+Arca,4,1,100,f7625f34-1799-42a4-a1c6-22b5377c767b,Arca,Arca,Person,ES,Venezuelan producer & composer,https://musicbrainz.org/artist/f7625f34-1799-42a4-a1c6-22b5377c767b
+Arca,4,2,84,c58ea103-44c2-4ff3-a6a5-233b96081063,Arca,Arca,Group,FR,French band created by S. Chauveau and J. Cambon,https://musicbrainz.org/artist/c58ea103-44c2-4ff3-a6a5-233b96081063
+Arca,4,3,79,3f38d043-8033-48ac-a39e-3ddb9fed91b5,arca,arca,Group,JP,LUCA & haruka nakamura,https://musicbrainz.org/artist/3f38d043-8033-48ac-a39e-3ddb9fed91b5
+Arca,4,4,77,6f404ebb-82e2-41f3-abd9-0d02475d3b27,Arca,Arca,Group,,Romanian band from Timișoara,https://musicbrainz.org/artist/6f404ebb-82e2-41f3-abd9-0d02475d3b27
+Arca,4,5,77,ec318a6a-3349-42f4-b2bd-0a65e2c0c9d6,Arca,Arca,,,"trance, released First Impression",https://musicbrainz.org/artist/ec318a6a-3349-42f4-b2bd-0a65e2c0c9d6
+Arca,4,6,73,7a9694cb-f4c2-40c5-b3c2-57fd529a9547,Trazendo a Arca,Trazendo a Arca,Group,BR,,https://musicbrainz.org/artist/7a9694cb-f4c2-40c5-b3c2-57fd529a9547
+Arca,4,7,73,17225f01-d2a4-4433-bccb-9852dcb15122,Arca Progjet,Arca Progjet,Group,,,https://musicbrainz.org/artist/17225f01-d2a4-4433-bccb-9852dcb15122
+Arca,4,8,71,21593ce6-b36f-483e-9cf4-1a4dab7bb828,Arca Hadian,Arca Hadian,Group,,,https://musicbrainz.org/artist/21593ce6-b36f-483e-9cf4-1a4dab7bb828
+Arca,4,9,71,44c7d4aa-e666-442d-90f3-6cd462c2e7c3,Niaz Arca,"Arca, Niaz",Person,,,https://musicbrainz.org/artist/44c7d4aa-e666-442d-90f3-6cd462c2e7c3
+Arca,4,10,70,447e8e0e-ff97-446e-b6bd-93b033289e44,ARCA Music,ARCA Music,Person,,Psy / Electronic / Zenon,https://musicbrainz.org/artist/447e8e0e-ff97-446e-b6bd-93b033289e44
+Arca,4,11,70,00de8ee9-d59c-4d29-9eb8-0d43bb1ae91d,CK Arca,"Arca, CK",Person,PH,,https://musicbrainz.org/artist/00de8ee9-d59c-4d29-9eb8-0d43bb1ae91d
+Arca,4,12,70,cec410c3-d4b3-4c5f-838c-8cc6c664630e,Arca Felix,Arca Felix,,,Band from Glasgow,https://musicbrainz.org/artist/cec410c3-d4b3-4c5f-838c-8cc6c664630e
+Arca,4,13,70,4acf4e4f-d984-4540-8a4d-ab8b8c4a78a6,Paolo Arcà,"Arcà, Paolo",Person,IT,,https://musicbrainz.org/artist/4acf4e4f-d984-4540-8a4d-ab8b8c4a78a6
+Arca,4,14,70,abf67c68-e826-4844-bb00-c7deb50eaae3,Francesco Arca,"Arca, Francesco",Person,IT,actor,https://musicbrainz.org/artist/abf67c68-e826-4844-bb00-c7deb50eaae3
+Arca,4,15,70,68f0c264-6bba-41a5-9eea-a75a3b4023d3,Maurizio Arca,"Arca, Maurizio",Person,,,https://musicbrainz.org/artist/68f0c264-6bba-41a5-9eea-a75a3b4023d3
+David Bowie,4,1,100,5441c29d-3602-4898-b1a1-b77fa23b8e50,David Bowie,"Bowie, David",Person,,English singer‐songwriter,https://musicbrainz.org/artist/5441c29d-3602-4898-b1a1-b77fa23b8e50
+David Bowie,4,2,57,de84f0ca-98d8-4cb3-bbcd-87b35defdeaa,David Bowie Band,David Bowie Band,Group,,,https://musicbrainz.org/artist/de84f0ca-98d8-4cb3-bbcd-87b35defdeaa
+David Bowie,4,3,56,e24bd35b-2eb7-48d0-938d-32cac1aca952,Celebrating David Bowie,Celebrating David Bowie,Group,,,https://musicbrainz.org/artist/e24bd35b-2eb7-48d0-938d-32cac1aca952
+David Bowie,4,4,54,4f74991f-0156-427a-88db-9b2ac293dd42,The David Bowie Knives,"David Bowie Knives, The",Group,HK,,https://musicbrainz.org/artist/4f74991f-0156-427a-88db-9b2ac293dd42
+David Bowie,4,5,51,2010f1f2-344e-49ed-baf2-455226deb3df,David Bowie & The Buzz,"Bowie, David & Buzz, The",Group,,60s group lead by David Bowie,https://musicbrainz.org/artist/2010f1f2-344e-49ed-baf2-455226deb3df
+David Bowie,4,6,50,2c0ac0c6-15a5-4423-bc30-b91322c869ad,David Bowie & The Hype,David Bowie & The Hype,Group,,,https://musicbrainz.org/artist/2c0ac0c6-15a5-4423-bc30-b91322c869ad
+David Bowie,4,7,49,63f52bdb-5a3b-4ff9-a066-b7e47fe7ed07,The Sensational David Bowie Tribute Band,"Sensational David Bowie Tribute Band, The",Group,,,https://musicbrainz.org/artist/63f52bdb-5a3b-4ff9-a066-b7e47fe7ed07
+David Bowie,4,8,47,cc6fe5d1-bce1-4640-b342-0c3ea232f0a0,Starman – The Dutch David Bowie Tribute,Starman,Group,NL,,https://musicbrainz.org/artist/cc6fe5d1-bce1-4640-b342-0c3ea232f0a0
+Esperanza Spalding,4,1,100,5c12b265-5e59-44e0-b657-5cf4169f7316,Esperanza Spalding,"Spalding, Esperanza",Person,US,,https://musicbrainz.org/artist/5c12b265-5e59-44e0-b657-5cf4169f7316
+Esperanza Spalding,4,2,62,bca901dd-ac3e-456d-bfaf-c568b22f5846,Esperanza Spalding Presents: Emily’s D+Evolution,Esperanza Spalding Presents: Emily’s D+Evolution,Group,US,,https://musicbrainz.org/artist/bca901dd-ac3e-456d-bfaf-c568b22f5846
+Gautier Capuçon,4,1,100,03ebaa38-5d45-4347-93a5-1b31e9e7a44c,Gautier Capuçon,"Capuçon, Gautier",Person,FR,cellist,https://musicbrainz.org/artist/03ebaa38-5d45-4347-93a5-1b31e9e7a44c
+Gustavo Dudamel,4,1,100,4c8702d6-86f9-4ef0-a9ee-08042481c542,Gustavo Dudamel,"Dudamel, Gustavo",Person,VE,conductor and violinist,https://musicbrainz.org/artist/4c8702d6-86f9-4ef0-a9ee-08042481c542
+HAUSER,4,1,100,92b280eb-b466-4db4-a0b7-30a5dc5f1bd0,HAUSER,hauser,Person,,,https://musicbrainz.org/artist/92b280eb-b466-4db4-a0b7-30a5dc5f1bd0
+HAUSER,4,2,94,67c8d1b9-1486-4bac-91d6-6c2bffb811e8,Dominik Hauser,"Hauser, Dominik",Person,,,https://musicbrainz.org/artist/67c8d1b9-1486-4bac-91d6-6c2bffb811e8
+HAUSER,4,3,94,337b4326-c22e-4b20-bd70-fa7120c9923e,Fritz Hauser,"Hauser, Fritz",Person,CH,,https://musicbrainz.org/artist/337b4326-c22e-4b20-bd70-fa7120c9923e
+HAUSER,4,4,91,b39a8b0b-00e2-45aa-9519-a68ccdd47c86,Häuser,Häuser,Group,,Northern Virginia Garage Rock,https://musicbrainz.org/artist/b39a8b0b-00e2-45aa-9519-a68ccdd47c86
+HAUSER,4,5,89,376b7ed8-3fce-49b5-ab51-2bf5fc4d4bd2,hauser orkater,hauser orkater,,,,https://musicbrainz.org/artist/376b7ed8-3fce-49b5-ab51-2bf5fc4d4bd2
+HAUSER,4,6,88,0ba79c5a-c952-440d-9357-ff873cecb721,Jean Marie Hauser,"Hauser, Jean Marie",Person,,,https://musicbrainz.org/artist/0ba79c5a-c952-440d-9357-ff873cecb721
+HAUSER,4,7,86,e37c0dfa-e945-42e9-82ce-e2c83e329ba6,Mark Hauser,"Hauser, Mark",Person,CH,Swiss jazz saxophonist,https://musicbrainz.org/artist/e37c0dfa-e945-42e9-82ce-e2c83e329ba6
+HAUSER,4,8,86,6fbb482c-528a-4138-aaed-27abc777ed7a,Stjepan Hauser,"Hauser, Stjepan",Person,HR,,https://musicbrainz.org/artist/6fbb482c-528a-4138-aaed-27abc777ed7a
+HAUSER,4,9,86,3e0a4b01-05e3-4fb2-83e4-446d8e2c1d15,Tim Hauser,"Hauser, Tim",Person,US,,https://musicbrainz.org/artist/3e0a4b01-05e3-4fb2-83e4-446d8e2c1d15
+HAUSER,4,10,85,d6c48973-30fe-4d3a-9fa8-6a6b55278659,Maxwell Hauser,Maxwell Hauser,Group,,,https://musicbrainz.org/artist/d6c48973-30fe-4d3a-9fa8-6a6b55278659
+HAUSER,4,11,85,9cb49c57-b49e-4668-a74f-1cd3a5c60311,Christie Hauser,"Hauser, Christie",Person,,,https://musicbrainz.org/artist/9cb49c57-b49e-4668-a74f-1cd3a5c60311
+HAUSER,4,12,85,bdf8a13c-c64d-4150-965a-cec45d9cd483,Zu Hauser,Zu Hauser,Group,,,https://musicbrainz.org/artist/bdf8a13c-c64d-4150-965a-cec45d9cd483
+HAUSER,4,13,84,dfca6e13-66e5-4714-b357-da69428e2507,Sigrid Hauser,"Hauser, Sigrid",Person,AT,Musical Theatre Singer,https://musicbrainz.org/artist/dfca6e13-66e5-4714-b357-da69428e2507
+HAUSER,4,14,84,ef95f36f-7c48-423a-a1fa-0c7906f3220b,Kaspar Hauser,Kaspar Hauser,,,,https://musicbrainz.org/artist/ef95f36f-7c48-423a-a1fa-0c7906f3220b
+HAUSER,4,15,84,174d4595-28ae-4216-9d0e-f837315bd950,Greg Hauser,"Hauser, Greg",Person,,,https://musicbrainz.org/artist/174d4595-28ae-4216-9d0e-f837315bd950
+Hildur Guðnadóttir,4,1,100,8a399a51-6b93-448e-82c0-f86c83602605,Hildur Guðnadóttir,Hildur Guðnadóttir,Person,IS,Icelandic musician and score composer,https://musicbrainz.org/artist/8a399a51-6b93-448e-82c0-f86c83602605
+Hildur Guðnadóttir,4,2,67,130ef082-bdc1-4ec1-a1a9-f2783b0e28d5,Ryuichi Sakamoto & Hildur Guðnadóttir,Ryuichi Sakamoto and Hildur Guðnadóttir,Group,,,https://musicbrainz.org/artist/130ef082-bdc1-4ec1-a1a9-f2783b0e28d5
+Hildur Guðnadóttir,4,3,61,691ba3ee-551d-4bb1-9d06-bead35575495,"Ryuichi Sakamoto, Bryce Dessner, and Hildur Guðnadóttir","Ryuichi Sakamoto, Bryce Dessner, and Hildur Guðnadóttir",,,,https://musicbrainz.org/artist/691ba3ee-551d-4bb1-9d06-bead35575495
+Hildur Guðnadóttir,4,4,61,09e0a06e-e76d-4ffa-b4da-9b1f96bcaf2b,"Alva Noto, Ryuichi Sakamoto, and Hildur Guðnadóttir","Alva Noto, Ryuichi Sakamoto, and Hildur Guðnadóttir",Group,,,https://musicbrainz.org/artist/09e0a06e-e76d-4ffa-b4da-9b1f96bcaf2b
+Hildur Guðnadóttir,4,5,58,f7413aaf-fb2a-42b8-809d-4a5f9fc32718,Christian Fennesz & Hildur Guðnadóttir & Stephen O’Malley,"Fennesz, Christian & Guðnadóttir, Hildur & O’Malley, Stephen",Group,,,https://musicbrainz.org/artist/f7413aaf-fb2a-42b8-809d-4a5f9fc32718

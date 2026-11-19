@@ -1,0 +1,49 @@
+﻿Source,Target,Weight,Relation_Type,Source_MBID,Target_MBID,Weight_Definition
+Alva Noto,坂本龍一,36,MusicBrainz recording co-credit,48ec4bb6-47a6-4e2c-8287-7617464eb193,a7f7df4a-77d8-4f12-8acd-5c60c93f4de8,count of distinct co-credited MusicBrainz recording MBIDs
+Anderson .Paak,Flying Lotus,1,MusicBrainz recording co-credit,d02dd67e-f655-4600-bc47-f789f59e7367,fc7376fe-1a6f-4414-b4a7-83f50ed59c92,count of distinct co-credited MusicBrainz recording MBIDs
+Anderson .Paak,KAYTRANADA,6,MusicBrainz recording co-credit,d02dd67e-f655-4600-bc47-f789f59e7367,e56aee57-d90e-40cf-a70d-beb70f6f3c69,count of distinct co-credited MusicBrainz recording MBIDs
+David Bowie,Brian Eno,5,MusicBrainz recording co-credit,5441c29d-3602-4898-b1a1-b77fa23b8e50,ff95eb47-41c4-4f7f-a104-cdc30f02e872,count of distinct co-credited MusicBrainz recording MBIDs
+David Bowie,Hildur Guðnadóttir,1,MusicBrainz recording co-credit,5441c29d-3602-4898-b1a1-b77fa23b8e50,8a399a51-6b93-448e-82c0-f86c83602605,count of distinct co-credited MusicBrainz recording MBIDs
+David Bowie,Philip Glass,1,MusicBrainz recording co-credit,5441c29d-3602-4898-b1a1-b77fa23b8e50,5ae54dee-4dba-49c0-802a-a3b3b3adfe9b,count of distinct co-credited MusicBrainz recording MBIDs
+Disclosure,Anderson .Paak,1,MusicBrainz recording co-credit,ae65c507-d9a0-4d42-9a6c-2b1f82158b9f,d02dd67e-f655-4600-bc47-f789f59e7367,count of distinct co-credited MusicBrainz recording MBIDs
+Disclosure,The Weeknd,3,MusicBrainz recording co-credit,ae65c507-d9a0-4d42-9a6c-2b1f82158b9f,c8b03190-306c-4120-bb0b-6f2ebfc06ea9,count of distinct co-credited MusicBrainz recording MBIDs
+Esperanza Spalding,Robert Glasper,5,MusicBrainz recording co-credit,5c12b265-5e59-44e0-b657-5cf4169f7316,6e8f82ea-9e6d-4fdd-9b32-32feef13186b,count of distinct co-credited MusicBrainz recording MBIDs
+Four Tet,Bonobo,1,MusicBrainz recording co-credit,3bcff06f-675a-451f-9075-99e8657047e8,9a709693-b4f8-4da9-8cc1-038c911a61be,count of distinct co-credited MusicBrainz recording MBIDs
+Four Tet,Floating Points,3,MusicBrainz recording co-credit,3bcff06f-675a-451f-9075-99e8657047e8,69d9c5ba-7bba-4cb7-ab32-8ccc48ad4f97,count of distinct co-credited MusicBrainz recording MBIDs
+Gautier Capuçon,John Williams,1,MusicBrainz recording co-credit,03ebaa38-5d45-4347-93a5-1b31e9e7a44c,53b106e7-0cc6-42cc-ac95-ed8d30a3a98e,count of distinct co-credited MusicBrainz recording MBIDs
+Gustavo Dudamel,John Williams,1,MusicBrainz recording co-credit,4c8702d6-86f9-4ef0-a9ee-08042481c542,53b106e7-0cc6-42cc-ac95-ed8d30a3a98e,count of distinct co-credited MusicBrainz recording MBIDs
+Herbie Hancock,Chick Corea,44,MusicBrainz recording co-credit,27613b78-1b9d-4ec3-9db5-fa0743465fdd,8446fcca-109e-4c6d-a2ff-5a269b32b4c2,count of distinct co-credited MusicBrainz recording MBIDs
+Herbie Hancock,Esperanza Spalding,2,MusicBrainz recording co-credit,27613b78-1b9d-4ec3-9db5-fa0743465fdd,5c12b265-5e59-44e0-b657-5cf4169f7316,count of distinct co-credited MusicBrainz recording MBIDs
+Herbie Hancock,John Williams,1,MusicBrainz recording co-credit,27613b78-1b9d-4ec3-9db5-fa0743465fdd,53b106e7-0cc6-42cc-ac95-ed8d30a3a98e,count of distinct co-credited MusicBrainz recording MBIDs
+Herbie Hancock,Lang Lang,2,MusicBrainz recording co-credit,27613b78-1b9d-4ec3-9db5-fa0743465fdd,43e1570a-1a0d-479f-9c95-fba971aec91a,count of distinct co-credited MusicBrainz recording MBIDs
+Herbie Hancock,Robert Glasper,5,MusicBrainz recording co-credit,27613b78-1b9d-4ec3-9db5-fa0743465fdd,6e8f82ea-9e6d-4fdd-9b32-32feef13186b,count of distinct co-credited MusicBrainz recording MBIDs
+Hildur Guðnadóttir,坂本龍一,1,MusicBrainz recording co-credit,8a399a51-6b93-448e-82c0-f86c83602605,a7f7df4a-77d8-4f12-8acd-5c60c93f4de8,count of distinct co-credited MusicBrainz recording MBIDs
+Jacob Collier,Coldplay,2,MusicBrainz recording co-credit,1df15ee0-b52b-4315-9cb9-bc5a27a685e9,cc197bad-dc9c-440d-a5b5-d52ba2e14234,count of distinct co-credited MusicBrainz recording MBIDs
+John Williams,Yo‐Yo Ma,48,MusicBrainz recording co-credit,53b106e7-0cc6-42cc-ac95-ed8d30a3a98e,62fe877d-b7a5-43e8-952e-2610d7614bff,count of distinct co-credited MusicBrainz recording MBIDs
+Jon Hopkins,Brian Eno,34,MusicBrainz recording co-credit,0b0c25f4-f31c-46a5-a4fb-ccbf53d663bd,ff95eb47-41c4-4f7f-a104-cdc30f02e872,count of distinct co-credited MusicBrainz recording MBIDs
+Jon Hopkins,Coldplay,1,MusicBrainz recording co-credit,0b0c25f4-f31c-46a5-a4fb-ccbf53d663bd,cc197bad-dc9c-440d-a5b5-d52ba2e14234,count of distinct co-credited MusicBrainz recording MBIDs
+Jon Hopkins,Ólafur Arnalds,2,MusicBrainz recording co-credit,0b0c25f4-f31c-46a5-a4fb-ccbf53d663bd,6655955b-1c1e-4bcb-84e4-81bcd9efab30,count of distinct co-credited MusicBrainz recording MBIDs
+Kendrick Lamar,Anderson .Paak,7,MusicBrainz recording co-credit,381086ea-f511-4aba-bdf9-71c753dc5077,d02dd67e-f655-4600-bc47-f789f59e7367,count of distinct co-credited MusicBrainz recording MBIDs
+Kendrick Lamar,Flying Lotus,3,MusicBrainz recording co-credit,381086ea-f511-4aba-bdf9-71c753dc5077,fc7376fe-1a6f-4414-b4a7-83f50ed59c92,count of distinct co-credited MusicBrainz recording MBIDs
+Kendrick Lamar,Hans Zimmer,1,MusicBrainz recording co-credit,381086ea-f511-4aba-bdf9-71c753dc5077,e6de1f3b-6484-491c-88dd-6d619f142abc,count of distinct co-credited MusicBrainz recording MBIDs
+Kendrick Lamar,The Weeknd,12,MusicBrainz recording co-credit,381086ea-f511-4aba-bdf9-71c753dc5077,c8b03190-306c-4120-bb0b-6f2ebfc06ea9,count of distinct co-credited MusicBrainz recording MBIDs
+Pharrell Williams,Hans Zimmer,85,MusicBrainz recording co-credit,149f91ef-1287-46da-9a8e-87fee02f1471,e6de1f3b-6484-491c-88dd-6d619f142abc,count of distinct co-credited MusicBrainz recording MBIDs
+Pharrell Williams,KAYTRANADA,2,MusicBrainz recording co-credit,149f91ef-1287-46da-9a8e-87fee02f1471,e56aee57-d90e-40cf-a70d-beb70f6f3c69,count of distinct co-credited MusicBrainz recording MBIDs
+Pharrell Williams,Kendrick Lamar,5,MusicBrainz recording co-credit,149f91ef-1287-46da-9a8e-87fee02f1471,381086ea-f511-4aba-bdf9-71c753dc5077,count of distinct co-credited MusicBrainz recording MBIDs
+Pharrell Williams,The Weeknd,1,MusicBrainz recording co-credit,149f91ef-1287-46da-9a8e-87fee02f1471,c8b03190-306c-4120-bb0b-6f2ebfc06ea9,count of distinct co-credited MusicBrainz recording MBIDs
+Philip Glass,Brian Eno,1,MusicBrainz recording co-credit,5ae54dee-4dba-49c0-802a-a3b3b3adfe9b,ff95eb47-41c4-4f7f-a104-cdc30f02e872,count of distinct co-credited MusicBrainz recording MBIDs
+ROSALÍA,Arca,1,MusicBrainz recording co-credit,25f3abd9-63b5-471a-bd25-feb9672dfa11,f7625f34-1799-42a4-a1c6-22b5377c767b,count of distinct co-credited MusicBrainz recording MBIDs
+ROSALÍA,The Weeknd,4,MusicBrainz recording co-credit,25f3abd9-63b5-471a-bd25-feb9672dfa11,c8b03190-306c-4120-bb0b-6f2ebfc06ea9,count of distinct co-credited MusicBrainz recording MBIDs
+Robert Glasper,KAYTRANADA,8,MusicBrainz recording co-credit,6e8f82ea-9e6d-4fdd-9b32-32feef13186b,e56aee57-d90e-40cf-a70d-beb70f6f3c69,count of distinct co-credited MusicBrainz recording MBIDs
+Robert Glasper,Kamasi Washington,1,MusicBrainz recording co-credit,6e8f82ea-9e6d-4fdd-9b32-32feef13186b,c7a3e868-c6d8-4512-a5ef-f6cbe42899b0,count of distinct co-credited MusicBrainz recording MBIDs
+Thundercat,Anderson .Paak,3,MusicBrainz recording co-credit,044fd265-79dd-43eb-afc4-8b20becf7e17,d02dd67e-f655-4600-bc47-f789f59e7367,count of distinct co-credited MusicBrainz recording MBIDs
+Thundercat,Flying Lotus,11,MusicBrainz recording co-credit,044fd265-79dd-43eb-afc4-8b20becf7e17,fc7376fe-1a6f-4414-b4a7-83f50ed59c92,count of distinct co-credited MusicBrainz recording MBIDs
+Thundercat,KAYTRANADA,2,MusicBrainz recording co-credit,044fd265-79dd-43eb-afc4-8b20becf7e17,e56aee57-d90e-40cf-a70d-beb70f6f3c69,count of distinct co-credited MusicBrainz recording MBIDs
+Thundercat,Kamasi Washington,1,MusicBrainz recording co-credit,044fd265-79dd-43eb-afc4-8b20becf7e17,c7a3e868-c6d8-4512-a5ef-f6cbe42899b0,count of distinct co-credited MusicBrainz recording MBIDs
+Thundercat,Kendrick Lamar,17,MusicBrainz recording co-credit,044fd265-79dd-43eb-afc4-8b20becf7e17,381086ea-f511-4aba-bdf9-71c753dc5077,count of distinct co-credited MusicBrainz recording MBIDs
+Thundercat,Pharrell Williams,2,MusicBrainz recording co-credit,044fd265-79dd-43eb-afc4-8b20becf7e17,149f91ef-1287-46da-9a8e-87fee02f1471,count of distinct co-credited MusicBrainz recording MBIDs
+Thundercat,Robert Glasper,3,MusicBrainz recording co-credit,044fd265-79dd-43eb-afc4-8b20becf7e17,6e8f82ea-9e6d-4fdd-9b32-32feef13186b,count of distinct co-credited MusicBrainz recording MBIDs
+Thundercat,坂本龍一,3,MusicBrainz recording co-credit,044fd265-79dd-43eb-afc4-8b20becf7e17,a7f7df4a-77d8-4f12-8acd-5c60c93f4de8,count of distinct co-credited MusicBrainz recording MBIDs
+Ólafur Arnalds,Bonobo,3,MusicBrainz recording co-credit,6655955b-1c1e-4bcb-84e4-81bcd9efab30,9a709693-b4f8-4da9-8cc1-038c911a61be,count of distinct co-credited MusicBrainz recording MBIDs
+Ólafur Arnalds,Nils Frahm,26,MusicBrainz recording co-credit,6655955b-1c1e-4bcb-84e4-81bcd9efab30,d03a54bc-6e07-4c04-a8d4-7fbf2bd07a01,count of distinct co-credited MusicBrainz recording MBIDs
+坂本龍一,Arca,1,MusicBrainz recording co-credit,a7f7df4a-77d8-4f12-8acd-5c60c93f4de8,f7625f34-1799-42a4-a1c6-22b5377c767b,count of distinct co-credited MusicBrainz recording MBIDs

@@ -1,0 +1,41 @@
+Artist_ID,Genre_Group,Role,Degree,Degree_Centrality,Betweenness_Centrality,Closeness_Centrality,Clustering_Coefficient,Modularity_Class,Constraint,Effective_Size
+Alva Noto,Electronic & Ambient,Artist,1,0.0256,0.0,0.1976,0.0,3,1.0,1.0
+坂本龍一,Classical & Neo-Classical,Bridge Producer,4,0.1026,0.4008,0.2533,0.0,3,0.7775,4.0
+Anderson .Paak,Popular Music,Bridge Producer,5,0.1282,0.0283,0.2132,0.4,0,0.5069,4.0943
+Flying Lotus,Electronic & Ambient,Bridge Producer,3,0.0769,0.0,0.2102,1.0,0,0.9682,1.7597
+KAYTRANADA,Electronic & Ambient,Bridge Producer,4,0.1026,0.0121,0.2246,0.5,0,0.3874,3.6356
+David Bowie,Popular Music,Artist,3,0.0769,0.3239,0.2102,0.3333,1,0.6636,2.8361
+Brian Eno,Electronic & Ambient,Bridge Producer,3,0.0769,0.2807,0.1888,0.3333,1,0.7432,2.95
+Hildur Guðnadóttir,Classical & Neo-Classical,Artist,2,0.0513,0.3414,0.2316,0.0,3,0.5,2.0
+Philip Glass,Classical & Neo-Classical,Genre Hub,2,0.0513,0.0,0.1796,1.0,1,1.0511,1.4265
+Disclosure,Electronic & Ambient,Artist,2,0.0513,0.0,0.1786,0.0,0,0.625,2.0
+The Weeknd,Popular Music,Genre Hub,4,0.1026,0.0931,0.183,0.1667,0,0.4393,3.8206
+Esperanza Spalding,Jazz & Fusion,Artist,2,0.0513,0.0,0.1912,1.0,0,0.7494,1.5211
+Robert Glasper,Jazz & Fusion,Bridge Producer,5,0.1282,0.2915,0.2298,0.3,0,0.3201,4.7383
+Four Tet,Electronic & Ambient,Genre Hub,2,0.0513,0.0445,0.1136,0.0,2,0.625,2.0
+Bonobo,Electronic & Ambient,Genre Hub,2,0.0513,0.0864,0.1289,0.0,2,0.625,2.0
+Floating Points,Electronic & Ambient,Bridge Producer,1,0.0256,0.0,0.1008,0.0,2,1.0,1.0
+Gautier Capuçon,Classical & Neo-Classical,Artist,1,0.0256,0.0,0.1418,0.0,4,1.0,1.0
+John Williams,Classical & Neo-Classical,Genre Hub,4,0.1026,0.1296,0.1684,0.0,4,0.887,4.0
+Gustavo Dudamel,Classical & Neo-Classical,Artist,1,0.0256,0.0,0.1418,0.0,4,1.0,1.0
+Herbie Hancock,Jazz & Fusion,Genre Hub,5,0.1282,0.2389,0.1989,0.1,5,0.6832,4.9051
+Chick Corea,Jazz & Fusion,Genre Hub,1,0.0256,0.0,0.1629,0.0,5,1.0,1.0
+Lang Lang,Classical & Neo-Classical,Genre Hub,1,0.0256,0.0,0.1629,0.0,5,1.0,1.0
+Jacob Collier,Jazz & Fusion,Bridge Producer,1,0.0256,0.0,0.1235,0.0,1,1.0,1.0
+Coldplay,Popular Music,Genre Hub,2,0.0513,0.0445,0.1432,0.0,1,0.5556,2.0
+Yo‐Yo Ma,Classical & Neo-Classical,Genre Hub,1,0.0256,0.0,0.1418,0.0,4,1.0,1.0
+Jon Hopkins,Electronic & Ambient,Genre Hub,3,0.0769,0.2686,0.1684,0.0,1,0.8481,3.0
+Ólafur Arnalds,Classical & Neo-Classical,Bridge Producer,3,0.0769,0.166,0.1475,0.0,2,0.717,3.0
+Kendrick Lamar,Popular Music,Genre Hub,6,0.1538,0.2443,0.2164,0.4,0,0.3858,5.3234
+Hans Zimmer,Electronic & Ambient,Bridge Producer,2,0.0513,0.0,0.1764,1.0,6,0.9835,1.9384
+Pharrell Williams,Popular Music,Bridge Producer,5,0.1282,0.0445,0.2148,0.4,6,0.8117,4.8573
+ROSALÍA,Popular Music,Artist,2,0.0513,0.0094,0.1796,0.0,0,0.68,2.0
+Arca,Electronic & Ambient,Bridge Producer,2,0.0513,0.0,0.2044,0.0,3,0.5,2.0
+Kamasi Washington,Jazz & Fusion,Genre Hub,2,0.0513,0.0,0.2148,1.0,0,0.6098,1.7243
+Thundercat,Jazz & Fusion,Bridge Producer,8,0.2051,0.4804,0.26,0.2857,0,0.3875,7.2014
+Nils Frahm,Classical & Neo-Classical,Bridge Producer,1,0.0256,0.0,0.1267,0.0,2,1.0,1.0
+Max Richter,Classical & Neo-Classical,Genre Hub,0,0.0,0.0,0.0,0.0,10,0.0,0.0
+Ludovico Einaudi,Classical & Neo-Classical,Genre Hub,0,0.0,0.0,0.0,0.0,9,0.0,0.0
+SUGA,Popular Music,Bridge Producer,0,0.0,0.0,0.0,0.0,11,0.0,0.0
+Aphex Twin,Electronic & Ambient,Artist,0,0.0,0.0,0.0,0.0,7,0.0,0.0
+HAUSER,Classical & Neo-Classical,Artist,0,0.0,0.0,0.0,0.0,8,0.0,0.0
