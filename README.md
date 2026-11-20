@@ -1,12 +1,12 @@
 # Source-backed Music Collaboration Network Analysis
 
-An exploratory Python/NetworkX study of a small, verifiable artist-collaboration sample. It asks how recording-level co-credits form local clusters and potential brokerage positions. It does **not** claim to map the global music industry or any artist's complete discography.
+An exploratory Python/NetworkX study of a small, verifiable artist-collaboration sample. Who recorded with whom, and are the resulting collaboration circles tighter than we would expect from the number of partners each artist has? It does **not** claim to map the global music industry or any artist's complete discography.
 
 The analysis was rebuilt from MusicBrainz rather than relying on the original hand-curated edge list. Every displayed edge can be traced to recording-level evidence in this repository.
 
 ## Portfolio snapshot
 
-This project demonstrates how to define a music collaboration edge from traceable recording credits, then test whether the resulting network structure differs from a degree-preserving reference. In the selected 40-artist sample, 410 recording-level evidence rows support 48 artist-pair edges. Observed clustering exceeds the 500-network null distribution (0.2055 versus 0.0585 on average; empirical two-sided p = 0.0060). These are sample-specific findings, with source and coverage limits documented below.
+This project demonstrates how to define a music collaboration edge from traceable recording credits, then test whether the resulting network structure differs from a degree-preserving reference. In the selected 40-artist sample, 410 recording-level evidence rows support 48 artist-pair edges. In this 40-artist sample, collaborators were more interconnected than in 500 rewired networks that kept each artist’s collaborator count fixed. Average clustering was 0.2055 in the observed network and 0.0585 across the comparison networks (empirical two-sided p = 0.0060). These are sample-specific findings, with source and coverage limits documented below.
 
 ## What the current dataset contains
 
@@ -102,8 +102,9 @@ output/
 
 ## Reproduce the verified analysis
 
-Run the commands from the repository root. The default real-mode input is the
-legacy exploratory edge list. Pass the verified edge list and registry
+To reproduce the results above, run the commands below from the repository root
+with both verified input files. Running `--mode real` alone uses the legacy
+exploratory edge list. Pass the verified edge list and registry
 explicitly to reproduce the results above. Use separate output locations for
 different datasets or collection runs, and create parent directories for
 custom export paths before running. Evidence and edge tables are written in
