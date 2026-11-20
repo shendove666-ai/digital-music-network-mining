@@ -6,7 +6,7 @@ The analysis was rebuilt from MusicBrainz rather than relying on the original ha
 
 ## Portfolio snapshot
 
-This project demonstrates how to define a music collaboration edge from traceable recording credits, then test whether the resulting network structure differs from a degree-preserving reference. In the selected 40-artist sample, 410 recording-level evidence rows support 48 artist-pair edges. In this 40-artist sample, collaborators were more interconnected than in 500 rewired networks that kept each artist’s collaborator count fixed. Average clustering was 0.2055 in the observed network and 0.0585 across the comparison networks (empirical two-sided p = 0.0060). These are sample-specific findings, with source and coverage limits documented below.
+The MusicBrainz sample contains 40 manually confirmed artists, including five isolates, and 48 weighted artist-pair edges supported by 410 pair–recording observations across 404 distinct recording MBIDs. Compared with 500 degree-preserving rewires that shuffle the observed edge weights, mean unweighted clustering was 0.2055 versus a null mean of 0.0585 (two-sided empirical p = 0.0060), and weighted modularity was 0.7706 versus 0.6875 (p = 0.0978). These comparisons are conditional on the selected roster, MusicBrainz credit coverage, and the specified null model.
 
 ## What the current dataset contains
 
